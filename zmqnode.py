@@ -5,6 +5,7 @@ from queue import Queue
 import argparse
 import time
 
+
 def get_parameters():
     """ Parse command line parameters """
     parser = argparse.ArgumentParser()
@@ -17,6 +18,7 @@ def get_parameters():
     parser.add_argument("--ncon", action="store_false", help="Disable console task")
 
     return parser.parse_args()
+
 
 def threaded(fn):
     def wrapper(*args, **kwargs):
@@ -211,7 +213,7 @@ class CspZmqNode(object):
         sock = _ctx.socket(zmq.SUB)
         sock.setsockopt(zmq.SUBSCRIBE, chr(int(node)).encode('ascii') if node is not None else b'')
         sock.setsockopt(zmq.RCVTIMEO, 1000)
-        sock.connect('tcp://{}:{}'.format(ip, port))
+        sock.connect('ipc:///tmp/zmqipcin')
         print("Reader started!")
 
         while self._run:
@@ -256,7 +258,7 @@ class CspZmqNode(object):
         """
         _ctx = ctx if ctx is not None else zmq.Context(1)
         sock = _ctx.socket(zmq.PUB)
-        sock.connect('tcp://{}:{}'.format(ip, port))
+        sock.connect('ipc:///tmp/zmqipcout')
         print("Writer started!")
         while self._run:
             try:
@@ -344,17 +346,20 @@ class CspZmqNode(object):
 
 
 if __name__ == "__main__":
+    # Get arguments
     args = get_parameters()
-    dest = "1"
-    port = "10"
-    cmds_list = ["help", "help", "help", "help"]
+    print(args)
+
+    prompt = "<node> <port> <message>: "
+
     node = CspZmqNode(int(args.node), args.ip, args.in_port, args.out_port, args.nmon, args.ncon)
+    node.read_message = lambda msg, hdr: print(msg, hdr)
     node.start()
 
-    for msg in cmds_list:
-        print("node send:", msg)
-        hdr = CspHeader(src_node=int(args.node), dst_node=int(dest), dst_port=int(port), src_port=55)
-        node.send_message(msg, hdr)
-        time.sleep(1)
-
-    node.stop()
+    try:
+        while True:
+            dest, port, msg = input(prompt).split(" ", 2)
+            hdr = CspHeader(src_node=int(args.node), dst_node=int(dest), dst_port=int(port), src_port=55)
+            node.send_message(msg, hdr)
+    except KeyboardInterrupt:
+        node.stop()
