@@ -1,0 +1,87 @@
+com_ping, 1, % d
+com_send_rpt, 2, % d, % s
+com_send_cmd, 2, % d, % n
+com_send_tc, 2, % d, % n
+com_send_data, 1, % p
+com_debug, 0
+com_set_node, 1, % d
+com_get_node, 0
+com_reset_wdt, 1, % d
+com_get_config, 1, % s
+com_set_config, 2, % s, % s
+com_update_status, 0
+test, 1, % s
+help, 0
+drp_ebf, 1, % d
+drp_get_vars, 0
+drp_set_var, 2, % d, % d
+drp_add_hrs_alive, 1, % d
+drp_clear_gnd_wdt, 0
+drp_test_system_vars, 0
+drp_set_deployed, 1, % d
+eps_hard_reset, 0
+eps_get_hk, 0
+eps_get_config, 0
+eps_set_heater, 2, % d, % d
+eps_update_status, 0
+fp_set_cmd, 10, % d, % d, % d, % d, % d, % d, % d, % d, % s, % n
+fp_set_cmd_unix, 5, % d, % d, % d, % s, % n
+fp_set_cmd_dt, 5, % d, % d, % d, % s, % n
+fp_del_cmd, 6, % d, % d, % d, % d, % d, % d
+fp_del_cmd_unix, 1, % d
+fp_show, 0
+fp_reset, 0
+fp_test_params, 3, % d, % s, % d
+gssb_pwr, 2, % d, % d
+gssb_select, 1, % i
+gssb_scan, 2, % i, % i
+gssb_fss_get_sun, 0
+gssb_fss_get_temp, 0
+gssb_fss_set_config, 1, % d
+gssb_fss_commit_config, 0
+gssb_set_addr, 1, % i
+gssb_commit_addr, 0
+gssb_get_version, 0
+gssb_get_uuid, 0
+gssb_get_model, 0
+gssb_get_temp, 0
+gssb_msp_get_temp, 0
+gssb_msp_cal_temp, 2, % d, % d
+gssb_get_temp_int, 0
+gssb_burn, 0
+gssb_get_sun, 0
+gssb_get_burn_config, 0
+gssb_set_burn_config, 7, % d, % d, % d, % d, % d, % d, % d
+gssb_arm_auto, 1, % d
+gssb_arm_manual, 1, % d
+gssb_unlock_config, 1, % d
+gssb_reset, 0
+gssb_get_status, 0
+gssb_update_status, 0
+gssb_antenna_release, 4, % d, % d, % d, % d
+obc_ident, 0
+obc_debug, 1, % d
+obc_get_mem, 0
+obc_get_time, 1, % d
+obc_reset_wdt, 0
+obc_set_pwm_duty, 2, % d, % d
+obc_set_pwm_freq, 2, % d, % f
+obc_pwm_pwr, 1, % d
+obc_get_sensors, 0
+obc_update_status, 0
+obc_get_tle, 0
+obc_set_tle, 2, % d, % n
+obc_update_tle, 0
+obc_prop_tle, 1, % ld
+rw_get_speed, 0
+rw_get_current, 0
+rw_set_speed, 2, % d, % d
+set_state, 3, % u, % u, % d
+init_dummy_sensor, 0
+tm_parse_status, 0
+tm_get_last, 1, % u
+tm_send_status, 1, % d
+tm_send_last, 2, % u, % u
+tm_send_all, 2, % u, % u
+tm_send_from, 3, % u, % u, % u
+tm_set_ack, 2, % u, % u

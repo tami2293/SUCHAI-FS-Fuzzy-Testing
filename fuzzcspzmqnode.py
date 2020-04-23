@@ -2,7 +2,7 @@ from zmqnode import *
 
 
 class FuzzCspZmqNode(CspZmqNode):
-    def __init__(self, node, hub_ip='localhost', in_port="8001", out_port="8002", monitor=True, console=False):
+    def __init__(self, node, hub_ip='localhost', in_port="8001", out_port="8002", reader=True, writer=True, proto="tcp"):
         """
         :param node:
         :param hub_ip:
@@ -11,8 +11,9 @@ class FuzzCspZmqNode(CspZmqNode):
         :param monitor:
         :param console:
         """
-        CspZmqNode.__init__(self, node, hub_ip, in_port, out_port, monitor, console)
-        self.messages_queue = Queue()
+        CspZmqNode.__init__(self, node, hub_ip, in_port, out_port, reader, writer, proto)
+        self.all_messages_queue = Queue()
+        self.init_ready_queue = Queue()
         self.messages_list = []
 
     def read_message(self, message, header=None):
@@ -23,15 +24,18 @@ class FuzzCspZmqNode(CspZmqNode):
         :return:
         """
         """ This method is called from the _reader thread"""
-        self.messages_queue.put([message.decode('ASCII', 'ignore')])
+        """print(message, header)
+        if header.dst_port == 14:  
+            self.init_ready_queue.put([message.decode('ASCII', 'ignore')])"""
+        self.all_messages_queue.put([message.decode('ASCII', 'ignore')])
 
     def messages_queue_to_list(self):
         """
         Save in list all the messages from the messages queue.
         :return:
         """
-        while not self.messages_queue.empty():
-            self.messages_list.extend(self.messages_queue.get())
+        while not self.all_messages_queue.empty():
+            self.messages_list.extend(self.all_messages_queue.get())
 
     def print_messages(self):
         """
@@ -43,7 +47,7 @@ class FuzzCspZmqNode(CspZmqNode):
 
     def filter_cmds_names(self):
         """
-        Choose messages indicating that a command is being run and save its name.
+        Filter messages indicating that a command is being run and save its name.
         :return: Names of the command list.
         """
         if not self.messages_list:
@@ -57,7 +61,7 @@ class FuzzCspZmqNode(CspZmqNode):
 
     def filter_results(self):
         """
-        Choose messages indicating a command result and save it.
+        Filter messages indicating a command result and save it.
         :return: List. Results of the commands sent.
         """
         if not self.messages_list:
@@ -70,6 +74,10 @@ class FuzzCspZmqNode(CspZmqNode):
         return results
 
     def filter_cmds_exec_time(self):
+        """
+        Filter messages indicating execution time of the commands and save it.
+        :return: List. Commands time execution.
+        """
         if not self.messages_list:
             self.messages_queue_to_list()
 
@@ -78,3 +86,7 @@ class FuzzCspZmqNode(CspZmqNode):
         print(cmds_time)  # For debugging purposes
 
         return cmds_time
+
+    """def wait_init_ready(self):
+        msg = self.init_ready_queue.get()
+        print("WAIT INIT:", msg)"""

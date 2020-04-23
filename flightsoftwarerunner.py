@@ -2,6 +2,13 @@ from fuzzingbook.Fuzzer import Runner
 from subprocess import Popen, PIPE
 from fuzzcspzmqnode import *
 from proc_info import *
+import time
+
+SCH_TRX_PORT_TM = 9               # ///< Telemetry port
+SCH_TRX_PORT_TC = 10               # ///< Telecommands port
+SCH_TRX_PORT_RPT = 11               # ///< Digirepeater port (resend packets)
+SCH_TRX_PORT_CMD = 12               # ///< Commands port (execute console commands)
+SCH_TRX_PORT_DBG = 13               # ///< Debug port, logs output
 
 
 class FlightSoftwareRunner(Runner):
@@ -18,25 +25,33 @@ class FlightSoftwareRunner(Runner):
         # Each element of params_list matches with a command from the commands list
         assert len(cmds_list) == len(params_list), "Each sequence of parameters must match with a command"
 
+        # Send commands to the flight software through zmq
+        dest = "1"
+        addr = "9"
+        port = str(SCH_TRX_PORT_CMD)
+        node = FuzzCspZmqNode(addr, hub_ip="/tmp/suchaifs", proto="ipc")
+        node.start()
+
         # Execute flight software
         time.sleep(1)
         init_time = time.time()  # Start measuring execution time of the sequence
         suchai_process = Popen([self.exec_cmd], stdin=PIPE)
-        time.sleep(1)
+        time.sleep(3)
 
-        # Send commands to the flight software through zmq
-        args = get_parameters()
-        dest = "1"
-        port = "10"
-        node = FuzzCspZmqNode(int(args.node), args.ip, args.in_port, args.out_port, args.nmon, args.ncon)
-        node.start()
+        # node.wait_init_ready()
 
+        # Clean database
+        print("node send: drp_ebf 1010")  # For debugging purposes
+        header = CspHeader(src_node=int(addr), dst_node=int(dest), dst_port=int(port), src_port=55)
+        node.send_message("drp_ebf 1010", header)
+
+        # Start sendind random commands
         for i in range(0, len(cmds_list)):
-            time.sleep(0.5)  # Give some time to zmqnode threads (writer and reader)
+            # time.sleep(0.5)  # Give some time to zmqnode threads (writer and reader)
             cmd = cmds_list[i]
             params = params_list[i]
             print("node send:", cmd + " " + params)  # For debugging purposes
-            header = CspHeader(src_node=int(args.node), dst_node=int(dest), dst_port=int(port), src_port=55)
+            header = CspHeader(src_node=int(addr), dst_node=int(dest), dst_port=int(port), src_port=55)
             node.send_message(cmd + " " + params, header)
 
         # Get memory usage of the SUCHAI process
@@ -44,7 +59,7 @@ class FlightSoftwareRunner(Runner):
         vm, rm = get_mem_info(proc_pid)
 
         # Exit SUCHAI process
-        hdr = CspHeader(src_node=int(args.node), dst_node=int(dest), dst_port=int(port), src_port=55)
+        hdr = CspHeader(src_node=int(addr), dst_node=int(dest), dst_port=int(port), src_port=56)
         node.send_message("obc_reset", hdr)
 
         # Get SUCHAI process return code
@@ -60,15 +75,3 @@ class FlightSoftwareRunner(Runner):
 
         node.stop()
         return cmds_list, params_list, executed_cmds, results, cmds_time, return_code, total_exec_time, rm, vm
-
-    def run(self, cmds_list=[], params_list=[]):
-        result = self.run_process(cmds_list, params_list)
-
-        if result[5] == 0:
-            outcome = self.PASS
-        elif result[5] < 0:
-            outcome = self.FAIL
-        else:
-            outcome = self.UNRESOLVED
-
-        return result, outcome

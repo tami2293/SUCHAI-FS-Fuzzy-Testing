@@ -1,23 +1,8 @@
 import re
 import zmq
+import argparse
 from threading import Thread
 from queue import Queue
-import argparse
-import time
-
-
-def get_parameters():
-    """ Parse command line parameters """
-    parser = argparse.ArgumentParser()
-
-    parser.add_argument("-n", "--node", default=9, help="Node address")
-    parser.add_argument("-d", "--ip", default="localhost", help="Hub IP address")
-    parser.add_argument("-i", "--in_port", default="8001", help="Input port")
-    parser.add_argument("-o", "--out_port", default="8002", help="Output port")
-    parser.add_argument("--nmon", action="store_false", help="Disable monitor task")
-    parser.add_argument("--ncon", action="store_false", help="Disable console task")
-
-    return parser.parse_args()
 
 
 def threaded(fn):
@@ -25,7 +10,6 @@ def threaded(fn):
         thread = Thread(target=fn, args=args, kwargs=kwargs)
         thread.start()
         return thread
-
     return wrapper
 
 
@@ -34,6 +18,8 @@ class StopedException(Exception):
 
 
 class CspHeader(object):
+    next_port = 0
+
     def __init__(self, src_node=None, dst_node=None, src_port=None, dst_port=None, prio=2, hdr_bytes=None):
         """
         Represents a CSP header
@@ -44,6 +30,10 @@ class CspHeader(object):
         :param prio: Int.
         :param hdr_bytes: Bytes.
         """
+        if src_port is None:
+            src_port = CspHeader.next_port % 16 + 48
+            CspHeader.next_port += 1
+
         self.src_node = src_node
         self.dst_node = dst_node
         self.src_port = src_port
@@ -53,7 +43,7 @@ class CspHeader(object):
         self.xtea = False
         self.rdp = False
         self.crc32 = False
-
+        
         self.mac_node = dst_node
 
         self.__bytes = None
@@ -139,8 +129,10 @@ class CspHeader(object):
         dst_port = self.dst_port
         self.dst_port = self.src_port
         self.src_port = dst_port
-
+        
         self.mac_node = self.dst_node
+
+        return self
 
     def __parse(self, hdr_int):
         self.src_node = (hdr_int >> 25) & 0x1f
@@ -152,7 +144,7 @@ class CspHeader(object):
         self.xtea = True if ((hdr_int >> 2) & 0x01) else False
         self.rdp = True if ((hdr_int >> 1) & 0x01) else False
         self.crc32 = True if ((hdr_int >> 0) & 0x01) else False
-
+        
         self.mac_node = self.dst_node
 
     def __dump(self):
@@ -167,7 +159,7 @@ class CspHeader(object):
 
 class CspZmqNode(object):
 
-    def __init__(self, node, hub_ip='localhost', in_port="8001", out_port="8002", monitor=True, console=False):
+    def __init__(self, node, hub_ip='localhost', in_port="8001", out_port="8002", reader=True, writer=False, proto="tcp"):
         """
         CSP ZMQ NODE
         Is a PUB-SUB node connected to other nodes via the XSUB-XPUB hub
@@ -177,8 +169,8 @@ class CspZmqNode(object):
         :param hub_ip: Str. Hub node IP address
         :param in_port: Str. Input port, SUB socket. (Should match hub output port, XPUB sockets)
         :param out_port: Str. Output port, PUB socket. (Should match hub input port, XSUB sockets)
-        :param monitor: Bool. Activate reader.
-        :param console: Bool. Activate writer.
+        :param reader: Bool. Activate reader.
+        :param writer: Bool. Activate writer.
 
         >>> import time
         >>> node_1 = CspZmqNode(10)
@@ -191,16 +183,17 @@ class CspZmqNode(object):
         self.hub_ip = hub_ip
         self.out_port = out_port
         self.in_port = in_port
-        self.monitor = monitor
-        self.console = console
+        self.monitor = reader
+        self.console = writer
         self._context = None
         self._queue = Queue()
         self._writer_th = None
         self._reader_th = None
         self._run = True
+        self._proto = proto
 
     @threaded
-    def _reader(self, node=None, port="8001", ip="localhost", ctx=None):
+    def _reader(self, node=None, port="8001", ip="localhost", proto="tcp", ctx=None):
         """
         Thread to read messages
         :param node: Int. Node to subscribe, usually self.node, use None to subscribe to all node messages.
@@ -213,7 +206,7 @@ class CspZmqNode(object):
         sock = _ctx.socket(zmq.SUB)
         sock.setsockopt(zmq.SUBSCRIBE, chr(int(node)).encode('ascii') if node is not None else b'')
         sock.setsockopt(zmq.RCVTIMEO, 1000)
-        sock.connect('ipc:///tmp/zmqipcin')
+        sock.connect('{}://{}:{}'.format(proto, ip, port))
         print("Reader started!")
 
         while self._run:
@@ -247,7 +240,7 @@ class CspZmqNode(object):
         print("Reader stopped!")
 
     @threaded
-    def _writer(self, origin, port="8002", ip="localhost", ctx=None):
+    def _writer(self, node=None, port="8002", ip="localhost", proto="tcp", ctx=None):
         """
         Thread to send messages
         :param origin: Int. Node of origin, usually self.node.
@@ -258,13 +251,13 @@ class CspZmqNode(object):
         """
         _ctx = ctx if ctx is not None else zmq.Context(1)
         sock = _ctx.socket(zmq.PUB)
-        sock.connect('ipc:///tmp/zmqipcout')
+        sock.connect('{}://{}:{}'.format(proto, ip, port))
         print("Writer started!")
         while self._run:
             try:
                 # dnode, dport, sport, data = self._queue.get()
                 data, csp_header = self._queue.get()
-                # print("W:", csp_header, data)
+                #print("W:", csp_header, data)
                 if len(data) > 0:
                     # Get CSP header and data
                     hdr = csp_header.to_bytes()
@@ -272,7 +265,7 @@ class CspZmqNode(object):
                     # print("con:", msg)
                     sock.send(msg)
             except Exception as e:
-                print("Writer:", e)
+                print(e)
                 break
 
         sock.setsockopt(zmq.LINGER, 0)
@@ -305,7 +298,7 @@ class CspZmqNode(object):
         :param header: CspHeader. CSP header object
         :return: None
 
-        >>> node_1 = CspZmqNode(10, console=True)
+        >>> node_1 = CspZmqNode(10, writer=True)
         >>> node_1.start()
         >>> header = CspHeader(src_node=10, dst_node=11, dst_port=47, src_port=1)
         >>> node_1.send_message("hello_world", header)
@@ -323,9 +316,9 @@ class CspZmqNode(object):
         """
         self._context = zmq.Context()
         if self.monitor:
-            self._reader_th = self._reader(self.node, self.in_port, self.hub_ip, self._context)
+            self._reader_th = self._reader(self.node, self.in_port, self.hub_ip, self._proto, self._context)
         if self.console:
-            self._writer_th = self._writer(self.node, self.out_port, self.hub_ip, self._context)
+            self._writer_th = self._writer(self.node, self.out_port, self.hub_ip, self._proto, self._context)
 
     def join(self):
         """
@@ -340,9 +333,24 @@ class CspZmqNode(object):
 
     def stop(self):
         self._run = False
-        self._queue.put(("", ""))
+        self._queue.put(("", "", ""))
         self.join()
         self._context.term()
+
+
+def get_parameters():
+    """ Parse command line parameters """
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("-n", "--node", default=9, help="Node address")
+    parser.add_argument("-d", "--ip", default="localhost", help="Hub IP address")
+    parser.add_argument("-i", "--in_port", default="8001", help="Input port")
+    parser.add_argument("-o", "--out_port", default="8002", help="Output port")
+    parser.add_argument("-p", "--proto", default="tcp", help="Output port")
+    parser.add_argument("--nr", action="store_false", help="Disable monitor task")
+    parser.add_argument("--nw", action="store_false", help="Disable console task")
+
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
@@ -352,14 +360,14 @@ if __name__ == "__main__":
 
     prompt = "<node> <port> <message>: "
 
-    node = CspZmqNode(int(args.node), args.ip, args.in_port, args.out_port, args.nmon, args.ncon)
+    node = CspZmqNode(int(args.node), args.ip, args.in_port, args.out_port, args.nr, args.nw, args.proto)
     node.read_message = lambda msg, hdr: print(msg, hdr)
     node.start()
 
     try:
         while True:
             dest, port, msg = input(prompt).split(" ", 2)
-            hdr = CspHeader(src_node=int(args.node), dst_node=int(dest), dst_port=int(port), src_port=55)
+            hdr = CspHeader(src_node=int(args.node), dst_node=int(dest), dst_port=int(port))
             node.send_message(msg, hdr)
     except KeyboardInterrupt:
         node.stop()
