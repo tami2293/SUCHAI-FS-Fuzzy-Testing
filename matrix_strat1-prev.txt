@@ -1,0 +1,16 @@
+10 iterations and 5 commands: 0.0% of failure, 10992.0 kB of max. real memory used
+100 iterations and 5 commands: 2.0% of failure, 11044.0 kB of max. real memory used
+500 iterations and 5 commands: 6.4% of failure, 11044.0 kB of max. real memory used
+1000 iterations and 5 commands: 5.2% of failure, 11080.0 kB of max. real memory used
+10 iterations and 10 commands: 0.0% of failure, 11036.0 kB of max. real memory used
+100 iterations and 10 commands: 12.0% of failure, 11056.0 kB of max. real memory used
+500 iterations and 10 commands: 10.6% of failure, 11080.0 kB of max. real memory used
+1000 iterations and 10 commands: 11.799999999999999% of failure, 11084.0 kB of max. real memory used
+10 iterations and 50 commands: 60.0% of failure, 11008.0 kB of max. real memory used
+100 iterations and 50 commands: 41.0% of failure, 11048.0 kB of max. real memory used
+500 iterations and 50 commands: 42.199999999999996% of failure, 11084.0 kB of max. real memory used
+1000 iterations and 50 commands: 42.6% of failure, 11080.0 kB of max. real memory used
+10 iterations and 100 commands: 60.0% of failure, 10928.0 kB of max. real memory used
+100 iterations and 100 commands: 63.0% of failure, 10992.0 kB of max. real memory used
+500 iterations and 100 commands: 68.8% of failure, 11008.0 kB of max. real memory used
+1000 iterations and 100 commands: 67.0% of failure, 11028.0 kB of max. real memory used

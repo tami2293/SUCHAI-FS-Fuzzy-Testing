@@ -1,0 +1,338 @@
+Command,Parameters,Command.1,Parameters.1,Command.2,Parameters.2,Command.3,Parameters.3,Command.4,Parameters.4,Exit Code,Total Time
+tm_get_last,'6986860594156623354',gssb_get_burn_config,'',fp_set_cmd_unix,"'-780855119 316375947 -795116737 M/?EMO_DY jy8uK,Oz?U'",gssb_set_burn_config,'-1617775097 -1514528519 -333546364 -304274083 1622455964 -599171289 -1116573191',gssb_antenna_release,'-1356579414 -559769787 -321435981 -569102195',-6,6.332918643951416
+gssb_get_temp,'',help,'',fp_del_cmd_unix,'1490185656',obc_update_status,'',obc_reset_wdt,'',-6,6.394622802734375
+obc_update_status,'',gssb_unlock_config,'-1743244216',fp_show,'',com_reset_wdt,'1627568681',fp_set_cmd,'-643500757 155162253 141882488 -1754207843 1403525139 1867630653 -601218975 1717385229 73\{!-] LdeS*',-11,6.48177981376648
+fp_test_params,'1996107666 +cxo)@9 2043271269',obc_ident,'',fp_test_params,'-1685133891 JS 1478142052',fp_del_cmd_unix,'-1524722665',com_send_rpt,'2074525298 9',-6,6.7795958518981925
+obc_set_pwm_freq,'-352441868 225595695910227005741404827662760833309',gssb_msp_get_temp,'',com_send_tc,'634422985 6SnN`a',com_send_cmd,'-57451788 !7L87:N>',drp_add_hrs_alive,'-1666157423',-6,7.416072130203247
+fp_del_cmd,'639980511 -1231574309 1348437812 -133334427 652019175 -1688020909',obc_pwm_pwr,'-454097327',gssb_fss_commit_config,'',eps_get_hk,'',com_set_config,'`# r'j>',-11,6.254069566726685
+obc_set_tle,'305342643 u7Mr$UQ',fp_del_cmd_unix,'-2112592601',rw_get_current,'',rw_get_current,'',gssb_arm_auto,'199258414',-6,6.448223352432251
+fp_set_cmd_dt,"'203085530 738406255 -1353907319 AGP yfR""e\x%OA'",obc_set_tle,'-1059704848 Sl^trli',gssb_scan,'384914104 1123244606',drp_add_hrs_alive,'1378330270',obc_set_pwm_freq,'1451579227 310399490928571800425822448672705014085',-6,6.293149709701537
+com_get_node,'',obc_get_sensors,'',drp_clear_gnd_wdt,'',fp_reset,'',fp_del_cmd_unix,'1664887616',-6,6.53737735748291
+fp_set_cmd_unix,'-649181736 -705056672 1823778529 {3\l\K3 *ed$!C~Y',rw_get_current,'',gssb_reset,'',gssb_unlock_config,'-1290318528',gssb_get_burn_config,'',-6,6.423320293426514
+eps_hard_reset,'',com_send_tc,'-1871046533 2g0`SGyR<)',gssb_set_addr,'1254044826',drp_set_var,'-1419186352 -614812369',obc_set_tle,'-669154638 jxce'',-6,7.292828798294067
+com_send_tc,'-1028883449 2hzN^|u'&',set_state,'10038449553138029046 2436719765298582954 -1413080529',set_state,'11493043852946320452 11505848927845685425 -2029675465',obc_get_time,'201046200',eps_update_status,'',-6,7.295004844665527
+gssb_get_sun,'',drp_test_system_vars,'',fp_show,'',gssb_burn,'',fp_del_cmd,'1250071352 -306616152 -838344265 1503543284 1193162724 -341090049',-6,9.955172061920166
+tm_send_all,'18039623267985162008 401514694009574059',tm_send_status,'-714000951',fp_set_cmd_dt,'2118551134 1820821889 1044184796 Mr5=p_m^\w g.=',drp_set_var,'922586541 -299872239',obc_get_mem,'',-6,6.422513246536255
+fp_set_cmd_dt,"'1710400103 -1838784421 1308553305 ;VTV,w AlNA8'",com_reset_wdt,'21404837',obc_set_pwm_freq,'72979426 102013788800448488613622515242958390720',drp_clear_gnd_wdt,'',gssb_burn,'',-6,6.238330364227295
+obc_get_tle,'',drp_get_vars,'',gssb_fss_set_config,'1646573428',fp_set_cmd_dt,'-1759514095 2083090921 -1330795567 nDy2DBl 8T0i',tm_send_status,'443019521',-6,6.582515001296997
+fp_set_cmd_dt,'849666954 -1782123969 -2001401758 jOR_Yh)r rlB[-n',gssb_antenna_release,'-1037866598 1392241569 308661789 -110331395',com_send_rpt,'1818146455 TFX-EQ;/0'',drp_get_vars,'',gssb_arm_manual,'-412354116',-6,6.294676780700684
+tm_set_ack,'9302426438004694007 7371047025678580582',drp_test_system_vars,'',fp_test_params,'-1178309038 ' -1599336888',tm_set_ack,'15505794549709239844 15359257719465636958',fp_del_cmd_unix,'405580189',-6,10.102478504180908
+fp_del_cmd,'2131528536 1886881581 -1355819131 1365577540 -541359318 1276636512',fp_set_cmd,"'553261676 1957826289 1726292216 -1314512903 1234479013 -361544944 1322223944 -1065421830 ""==-$CO `K+<'",tm_set_ack,'16234775609339929638 14061108437129197909',eps_hard_reset,'',fp_set_cmd,'309709995 1057848700 1997504724 -1326902808 -984788307 1010678764 435232517 1672206457 m ',-6,6.25269889831543
+gssb_set_addr,'-2015954513',tm_send_status,'551876274',test,"'""F@'",gssb_get_sun,'',com_send_data,'lR(7Hqu',-6,6.469803333282472
+obc_reset_wdt,'',fp_set_cmd_dt,'-88063717 630736205 -178779080 02BW>t_tu `UZYD)$',obc_reset_wdt,'',drp_set_deployed,'-431981711',com_set_config,'% /(',-6,6.28111720085144
+gssb_get_temp,'',drp_clear_gnd_wdt,'',gssb_msp_cal_temp,'1363972749 604747930',gssb_commit_addr,'',fp_set_cmd,"'1895195371 2101275338 1722502429 -2045116496 269522783 -1664566929 1976911999 75696973 K`[Ye~(lD e""b)Zl'",-11,6.5052664279937735
+com_get_node,'',fp_set_cmd_unix,"'-1314823369 1824767595 -102110362 nRLP4JC $,~{M'",com_set_node,'-1480715343',com_get_node,'',gssb_fss_commit_config,'',-6,6.291456460952759
+gssb_scan,'-493173170 1762114156',tm_send_all,'3891853987079391613 9388915944212370679',obc_pwm_pwr,'-336004227',tm_send_status,'-1029280490',rw_get_current,'',-6,6.483815670013428
+fp_del_cmd,'10001903 775477104 -1303348156 -1156110389 1773767778 324427414',gssb_fss_set_config,'-1781049767',tm_send_last,'13593698442858351913 152317533603785379',fp_show,'',fp_reset,'',-6,6.388525724411012
+obc_ident,'',gssb_get_uuid,'',com_send_tc,'-1233544286 @[xTy??',com_get_config,"'%\""l|+'",rw_get_speed,'',-6,7.391626834869385
+obc_ident,'',fp_set_cmd,'-360564569 1848723070 501129916 50250035 1873905295 -846127508 -498579284 753464509 53_ Q3!6RvQmTS',gssb_get_burn_config,'',drp_set_var,'-2075312082 -359107098',set_state,'16748862993583910815 2873813764143448046 33624798',-11,6.246085166931152
+fp_set_cmd_dt,'147924625 -983632984 -1298517251 X d^',obc_set_tle,'1428079891 }7%#',gssb_set_addr,'-1299894165',gssb_set_addr,'-958700304',gssb_get_sun,'',-6,6.171184062957764
+com_send_data,'dQ$0Z',com_get_config,'@M96}0om=',com_ping,'2058212435',fp_del_cmd_unix,'-2021161469',obc_debug,'1410744209',-6,10.365679502487184
+gssb_reset,'',gssb_get_uuid,'',com_set_config,'vk[s /j',obc_get_time,'-1367139367',fp_set_cmd_dt,'1487585178 -718459656 -1930927498 :y-!a&Q &Cj',-6,6.504335165023804
+com_send_tc,'-1860118796 ',gssb_scan,'-1675851087 309236555',gssb_scan,'-1101733875 326953864',gssb_scan,'755835884 1437447123',com_send_cmd,'1674718038 `<7W',-6,7.365736722946168
+com_get_config,'f'$;$',obc_set_pwm_freq,'1173180476 -136562086612943793658912905087181559125',drp_clear_gnd_wdt,'',obc_prop_tle,'8084557939362648992',com_send_tc,'-1481981288 b<Unj/(',-6,7.663433313369751
+gssb_get_burn_config,'',fp_set_cmd,"'-384559827 -1385522929 -497490763 1891383840 -2121748324 292772583 1724598347 1441260682 sxqCj\^ ,AHwmZq'",fp_set_cmd,'-1667255309 -1820869356 1979891444 -607840087 -8467396 -1623134389 -1463313447 -2125176280 `W HQv2pv3|uS',gssb_update_status,'',gssb_burn,'',-6,6.406872510910034
+obc_get_tle,'',com_send_rpt,'858919418 Zs5anbR',drp_add_hrs_alive,'1712906412',com_send_rpt,'-147278652 ',fp_del_cmd_unix,'-624999050',-6,6.578292846679688
+gssb_get_temp_int,'',fp_del_cmd_unix,'1420185384',rw_get_speed,'',fp_set_cmd,'-1276032115 -475770310 1955767877 1252376917 -957060755 -1871317188 -1572503609 -1682414571 D] ]dWYa7',gssb_commit_addr,'',-6,6.361860752105713
+gssb_get_burn_config,'',fp_set_cmd_unix,'-1159861442 -1251771908 1695673328 tKpL [uBQ@4:',gssb_fss_commit_config,'',com_send_tc,'985000388 V=(L'Y<W',drp_ebf,'-47837764',-6,6.493379831314088
+tm_send_from,'15769805142825264950 15667740635137876322 14078279637703990261',com_send_data,'v)]?:M4O',eps_get_hk,'',tm_send_status,'-127354077',obc_update_tle,'',-6,7.639397144317628
+obc_get_sensors,'',fp_set_cmd,'-451574680 -1853282663 -768081366 -787820941 -932031660 -1265399446 -651939405 943243967  KY/',gssb_update_status,'',fp_show,'',fp_del_cmd,'-1961561173 72345672 1405864759 1996866825 -1240992412 -415437670',-11,6.5074923038482675
+com_get_config,'',fp_set_cmd_unix,'1615454398 1538820320 1976700283 E'-Q ',fp_reset,'',com_debug,'',gssb_fss_set_config,'854880678',-6,6.2973153591156015
+tm_send_all,'7714384653727843269 1052722382310023686',com_send_cmd,'1025334530 ('*'m9WqP',rw_get_current,'',com_debug,'',com_send_tc,'1712320675 S#R:g0',-6,8.240097999572754
+gssb_antenna_release,'59829084 2099883310 212637469 -1094374981',tm_send_status,'1819794532',obc_ident,'',drp_ebf,'1648956990',gssb_update_status,'',-6,6.460211992263794
+tm_send_status,'1445843886',rw_get_speed,'',fp_show,'',obc_set_tle,'-1019069707 U5~S',gssb_get_model,'',-6,6.496011972427367
+gssb_get_model,'',gssb_fss_get_sun,'',help,'',obc_prop_tle,'-6674680042588020557',tm_send_status,'743484900',-6,6.720892906188965
+rw_get_speed,'',drp_ebf,'-1043530636',help,'',fp_del_cmd_unix,'1211557638',fp_set_cmd_dt,'-1988619134 1631015687 94308604 h/ VeI',-6,6.380406618118286
+tm_send_status,'559629423',gssb_select,'-815325599',test,'}%mo31p+l',help,'',obc_get_tle,'',-6,6.494821786880492
+gssb_fss_commit_config,'',fp_del_cmd_unix,'647828457',gssb_fss_get_temp,'',gssb_antenna_release,'-1904303833 -955754579 -800980251 -1413570952',gssb_fss_get_temp,'',-6,6.276545524597168
+fp_reset,'',fp_del_cmd_unix,'-645424384',com_set_node,'-1954881594',com_set_node,'1750588557',com_get_node,'',-6,6.315305948257446
+drp_set_deployed,'-1534929638',tm_send_last,'17481523631109755666 12719012633972280531',gssb_burn,'',eps_update_status,'',fp_del_cmd,'97198458 -1927666496 1947343002 -1667081595 2089657670 1080196386',-11,6.53211522102356
+obc_get_tle,'',tm_send_status,'-739832444',drp_set_var,'408207076 -1986913702',eps_hard_reset,'',rw_set_speed,'1888842832 1391868679',-6,6.605751037597656
+init_dummy_sensor,'',gssb_get_temp,'',tm_get_last,'10902965682496638181',fp_set_cmd,'1581941348 -1548929485 1064606096 332843113 1593692591 1618800636 1401438031 1363038306 ]S-FG>! S]9?z0',obc_prop_tle,'1583979497859929851',-11,6.4067208766937265
+tm_send_status,'-1383394560',drp_add_hrs_alive,'-1278514864',gssb_fss_get_sun,'',obc_pwm_pwr,'2067576633',rw_get_speed,'',-6,6.508193492889403
+tm_send_status,'1361595692',fp_set_cmd,"'-1120334580 1462532849 1644981829 -1124380241 -1109755853 -1675052325 -1895649952 389964922 Wp L&eZ""'",gssb_msp_get_temp,'',gssb_fss_get_sun,'',obc_reset_wdt,'',-6,6.267887592315674
+gssb_set_burn_config,'811802088 930868825 -280511875 1898634430 148676970 -1859351014 527575305',obc_ident,'',tm_get_last,'9217403712329936020',gssb_get_uuid,'',com_send_tc,'1208082358 wSU#8y',-6,7.4447569847106925
+tm_send_from,'16661314880697868323 921851497832909541 2249723498767940674',obc_set_pwm_freq,'759594637 -272343634280178887138872223433439898303',fp_set_cmd_unix,'1420226076 1679516747 -1743262378 EZ|1 <WA+/6',obc_reset_wdt,'',obc_debug,'-1926317326',-6,6.527750015258789
+drp_ebf,'-565919446',help,'',gssb_msp_cal_temp,'1710184050 -382370065',com_send_tc,'1841807313 _Sca',fp_set_cmd_dt,'-1847689568 360142560 -1259158048 MJ&%7& sYA;',-6,7.361119747161865
+obc_update_tle,'',obc_get_time,'-392045954',gssb_arm_auto,'1602733220',fp_set_cmd,"'-504468133 -2087084281 760895681 -1575013401 -738144066 557678995 600925491 -1527756645 ""{J<! %Th!""'",obc_prop_tle,'-1667012582833652784',-11,6.436124563217162
+fp_set_cmd_unix,"'324212956 2061535289 -1377186922 B*Yt I.V,y<=Ro'",fp_set_cmd,"'-1120091280 -1160699886 505347520 1060801308 -1667457835 -979173940 -516917580 -1121748376 *P, J'",gssb_fss_commit_config,'',eps_get_config,'',com_debug,'',-6,6.260016679763794
+com_ping,'-1428037150',obc_get_sensors,'',com_send_tc,"'365764866 aG,3txJ'",com_set_config,'10# tr[}}\;',com_reset_wdt,'731623151',-6,10.497859239578249
+obc_prop_tle,'4901141078536994585',fp_del_cmd_unix,'699009243',obc_ident,'',gssb_get_temp_int,'',gssb_arm_auto,'428388109',-6,6.38736367225647
+drp_test_system_vars,'',fp_set_cmd,'1644019690 1856427693 -991781344 -548768416 -612088142 -1807467648 -425564108 -488585118 q)/&K isJm.',obc_ident,'',tm_parse_status,'',tm_send_all,'7084619320774347571 15080196772043091058',-6,9.94750165939331
+gssb_antenna_release,'-1951756828 1480306851 175610831 -2070021458',drp_set_var,'1545702638 -471841942',tm_send_all,'16255900070260194294 7606195097385743623',fp_set_cmd_unix,'-905614098 -1041798779 1863093080 +BJ/2h>k~ HIa(t',help,'',-6,6.4441869258880615
+fp_set_cmd_unix,'1137331297 -1886077839 -77717941 (E4 !cd|7',init_dummy_sensor,'',obc_get_time,'2034091622',obc_update_status,'',com_debug,'',-6,6.216449022293091
+gssb_get_temp_int,'',fp_set_cmd_dt,'848634045 806103914 1486923650 .x_ZZB S',fp_set_cmd_unix,'-521237194 -255739118 -1920978306 k6[ hr]S[?e>A',gssb_fss_get_sun,'',drp_clear_gnd_wdt,'',-6,6.250853061676025
+com_send_tc,'340364134 ',rw_get_current,'',gssb_msp_cal_temp,'-122057877 -1921163164',gssb_arm_manual,'1036397121',gssb_get_sun,'',-6,7.243530750274657
+eps_get_config,'',fp_set_cmd,"'979888141 -19917904 -630740250 1232800593 495308516 1569859748 1786877786 1973466637 3#""z'$-s |wBY>Byw['",gssb_msp_cal_temp,'-626281822 -386157152',gssb_get_model,'',obc_update_status,'',-6,6.2597525119781485
+gssb_msp_cal_temp,'-1040100324 -407137900',obc_update_status,'',fp_del_cmd,'1253965782 1251148224 -120946325 861096040 1190604356 766204782',fp_del_cmd,'763657155 277063977 832176728 -611034217 675899144 972598072',gssb_msp_cal_temp,'1770116774 287169453',-6,6.516885280609131
+eps_hard_reset,'',gssb_msp_get_temp,'',gssb_get_temp_int,'',com_set_node,'2060306688',fp_set_cmd_unix,'-1428340745 841038801 -1863108105 $W^4bk5gB ',-6,6.51042366027832
+obc_set_tle,'90072491 ~$',gssb_get_temp_int,'',drp_get_vars,'',tm_send_status,'-1439881862',tm_send_status,'290553305',-6,6.539428949356079
+obc_get_tle,'',gssb_reset,'',fp_del_cmd_unix,'-275365635',com_debug,'',rw_set_speed,'2006500775 -1142782095',-6,6.326825141906737
+eps_hard_reset,'',gssb_unlock_config,'1473732421',obc_get_tle,'',obc_debug,'1727028165',fp_set_cmd,'851418723 1597969670 -1411414162 -1840934913 -348550733 1445886295 1028035875 -758163760  (#yK8T\W',-6,6.502512454986572
+com_update_status,'',com_set_node,'1741681995',fp_del_cmd_unix,'-269685306',gssb_fss_get_temp,'',rw_get_speed,'',-6,6.561847448348999
+fp_set_cmd_dt,'842691925 2009778835 150755823 xI~)$w*%+u ~A',eps_get_config,'',gssb_burn,'',obc_reset_wdt,'',fp_del_cmd_unix,'-1520954428',-6,6.25437593460083
+com_update_status,'',tm_send_last,'2908604573584717892 2657449371504841256',obc_update_status,'',fp_set_cmd_unix,'2083437573 959447791 -495707336  FfBzp)ES',eps_get_hk,'',-6,6.432468891143799
+obc_get_sensors,'',obc_get_mem,'',fp_set_cmd_dt,'577702848 -964601695 -1975690443 M=fyMj# j+~',obc_get_sensors,'',drp_ebf,'94824877',-6,6.5805418491363525
+gssb_reset,'',gssb_antenna_release,'-2106385685 1232747359 -1317230352 -1548890722',com_set_node,'-2094372399',gssb_fss_get_sun,'',tm_send_status,'-1882430769',-6,6.51030707359314
+fp_set_cmd_unix,'690276491 1385677031 -1844449132 8{wJ>M e'ap',gssb_set_addr,'-835920362',obc_get_time,'-1008367188',gssb_get_sun,'',gssb_get_uuid,'',-6,6.188642501831055
+fp_del_cmd_unix,'-1836704173',obc_get_time,'1504048953',obc_debug,'-631212801',gssb_commit_addr,'',gssb_get_version,'',-6,6.196604490280151
+obc_get_time,'-943377942',fp_del_cmd_unix,'1751464421',obc_update_status,'',gssb_fss_get_sun,'',gssb_update_status,'',-6,6.2773804664611825
+obc_pwm_pwr,'-665531047',fp_set_cmd,"'1061494189 1992289809 -308228260 -1742129218 1730570090 550569952 -793836659 -2069741157 }\WAP""+x7s $srFy'",obc_set_pwm_duty,'-1218309702 757346477',fp_reset,'',gssb_pwr,'2124106413 -150624038',-6,6.307351112365723
+gssb_commit_addr,'',com_ping,'354775050',tm_send_status,'-1088499057',tm_parse_status,'',drp_ebf,'-1921422735',-6,9.275188446044922
+fp_set_cmd,"'-62014572 1360956962 938620310 286506249 -1804975374 93068304 1366310003 1626485425  &4]$,wY5'",drp_ebf,'-159535651',fp_test_params,'-553628283 [inb -1890232466',gssb_set_burn_config,'-456360296 -1905485367 -202164335 -851846294 1398454819 -1554411643 -551575282',gssb_get_model,'',-11,6.456920862197876
+com_get_node,'',tm_parse_status,'',fp_del_cmd_unix,'-845906150',obc_pwm_pwr,'-756212787',gssb_fss_commit_config,'',-6,6.3467352390289316
+gssb_get_sun,'',eps_get_config,'',obc_pwm_pwr,'983290452',test,'(Zmz}rtq_6',fp_set_cmd_unix,'-2122152999 -1680632830 177272216 [q*=Rk;!R kB',-6,6.512733697891235
+tm_send_status,'1209142454',gssb_get_uuid,'',obc_prop_tle,'8347920075641669685',com_debug,'',gssb_burn,'',-6,6.485550403594972
+fp_set_cmd_unix,'-1070982942 -827325765 -178112381 0qkD#?f= Wjktqb',eps_get_hk,'',test,'L+Yiugz%Z1',obc_update_tle,'',rw_set_speed,'1324628777 -1284104565',-6,6.2839622497558585
+tm_send_status,'1646911075',obc_ident,'',obc_set_tle,'-74556395 }V6%YsG',tm_send_last,'6469460485099724929 8607365748694621918',gssb_arm_auto,'-371064630',-6,6.5221824645996085
+gssb_select,'1844051212',com_set_node,'-1426786690',com_reset_wdt,'-708016760',fp_set_cmd_unix,'-948935517 -1169039741 1281482285 ;=~BCb(L ho!I~',eps_set_heater,'1167837076 2059806682',-6,6.4448018074035645
+gssb_get_temp,'',gssb_commit_addr,'',fp_set_cmd_dt,"'-410716660 -1804597510 231750038 L7[{#Q""TPS v3'",tm_send_status,'-948763297',gssb_get_sun,'',-6,6.405372381210327
+drp_add_hrs_alive,'-72622027',gssb_get_sun,'',fp_reset,'',com_send_tc,'-40493894 vXvrI',tm_send_last,'12295997945703870377 5551528197650186527',-6,7.606762886047362
+gssb_fss_get_temp,'',obc_get_mem,'',tm_send_status,'605936116',gssb_fss_set_config,'501222877',rw_set_speed,'-439500153 1236982396',-6,6.44441032409668
+tm_send_last,'7424802229872655232 5035172762333168378',rw_get_current,'',com_send_cmd,'680538049 lQP#jt]}Nm',obc_reset_wdt,'',com_send_tc,'-1473500020 AOcky4o',-6,8.314111709594728
+gssb_fss_set_config,'617482862',fp_show,'',eps_get_hk,'',fp_set_cmd,'764245536 959552231 -743665081 1476844736 -1268611594 1871241125 1868658387 -915247532 #>.bt8[WU* ',drp_add_hrs_alive,'-746596608',-6,6.386115074157715
+fp_show,'',com_debug,'',fp_del_cmd,'-417690042 1772551317 -1231519955 -1263727715 -1425328102 1304362405',obc_prop_tle,'7009762833422547332',obc_get_time,'1788430724',-6,6.404784679412843
+obc_set_pwm_freq,'384106554 294651909223304916572873711039279094505',set_state,'10402124512312948887 3522230882500284803 -256340025',fp_set_cmd_unix,'-1342810089 -1323603443 607564543 age46%u! ;Y',gssb_commit_addr,'',obc_update_status,'',-6,6.376212596893311
+com_send_tc,'-839393523 ;@0(N<nNEr',obc_update_tle,'',eps_get_config,'',eps_update_status,'',tm_parse_status,'',-6,7.573096513748169
+drp_clear_gnd_wdt,'',fp_del_cmd_unix,'-542333337',com_get_node,'',gssb_antenna_release,'1396413225 -2048212407 1344200895 349075538',gssb_arm_manual,'-2100626156',-6,6.410055875778197
+gssb_set_addr,'190075655',fp_del_cmd,'-117350968 32506705 1517055223 -1025901679 -730514197 68028116',gssb_get_temp_int,'',com_ping,'1721645207',obc_get_mem,'',-11,6.25553560256958
+gssb_msp_get_temp,'',obc_get_mem,'',fp_set_cmd,'-1994248035 175787477 -2142000484 976881674 -928511379 -507333012 874888894 1802017297  F*r{X{',rw_set_speed,'-121635330 141082486',gssb_select,'-1646005219',-6,6.38360071182251
+fp_set_cmd_dt,'-21427831 428275483 -454559141 ^ 1@<',rw_get_speed,'',com_send_tc,"'-894759439 ,h6-O+UGXT'",drp_test_system_vars,'',com_reset_wdt,'-1043103971',-6,6.510714769363402
+tm_send_status,'1127511831',help,'',gssb_set_burn_config,'2126212422 456685171 563978225 1747955018 -102375626 -712112508 -1590972216',gssb_get_sun,'',com_send_tc,'527570705 7QB',-6,6.513368368148804
+obc_get_mem,'',obc_set_tle,'1484196964 R8@T',tm_send_status,'1181144823',tm_parse_status,'',gssb_fss_commit_config,'',-6,6.450736284255981
+fp_set_cmd_unix,'1073539037 -287508971 1016986930 gR> 6n`ep5B\u6',obc_update_tle,'',gssb_scan,'1640246896 141215568',obc_get_time,'-1472742555',rw_get_speed,'',-6,6.393057584762572
+help,'',tm_send_status,'1265010697',gssb_set_addr,'-1012233281',com_debug,'',com_get_config,'mS',-6,6.517775535583496
+tm_send_all,'16615109450259996068 14371384444572467294',gssb_antenna_release,'-2065869653 715589023 -77728261 1713015905',fp_del_cmd_unix,'-18983752',com_reset_wdt,'-660134703',obc_get_tle,'',-6,6.373488664627075
+fp_set_cmd_unix,'-2101194981 991706671 -114282673 eg;!-*Ci xi',com_get_node,'',gssb_fss_commit_config,'',gssb_arm_manual,'-689517640',gssb_select,'180243069',-6,6.157056093215942
+tm_get_last,'3524615859211449990',rw_get_speed,'',tm_send_status,'-1679911540',obc_get_time,'-475674047',gssb_burn,'',-6,6.426070690155028
+test,'8RT]Y:h',fp_show,'',gssb_pwr,'1811696225 -980970241',com_send_tc,'2136986745 8R<6Pb',obc_ident,'',-6,7.403303623199463
+fp_set_cmd,'-670754780 -668182586 716343163 -1342543293 2086371186 -223375820 -780417225 -2078305600 z<vgV^. OR',gssb_fss_get_temp,'',fp_del_cmd,'90830892 880229364 1665333451 1881675495 1191862947 266771576',gssb_antenna_release,'1258602073 -928748107 -1170616903 -957117838',gssb_get_uuid,'',-11,6.339737415313722
+set_state,'2999204031409136268 1748717178985019418 1016538166',gssb_select,'1781581582',fp_del_cmd,'-804986794 -749636972 -733342350 -1222141780 -1165342406 1946165092',fp_show,'',obc_update_status,'',-6,6.312572240829468
+fp_set_cmd,'737890290 -1465400075 -27076102 1544868679 1275485683 -456672088 -2060354756 -1417030929 @G w`eM&;)*'=',obc_pwm_pwr,'1726188198',gssb_msp_get_temp,'',gssb_msp_get_temp,'',gssb_set_addr,'-1472650751',-6,6.216878414154053
+drp_clear_gnd_wdt,'',fp_set_cmd_unix,'-114029836 -1837062200 710947547 m ',obc_update_tle,'',obc_get_mem,'',drp_set_deployed,'243653181',-11,6.4649789333343515
+obc_debug,'359212294',com_send_data,'W5ePt<',fp_del_cmd_unix,'-115550473',eps_update_status,'',drp_add_hrs_alive,'1682346664',-6,7.31092381477356
+gssb_fss_get_sun,'',gssb_fss_set_config,'-1011746887',fp_set_cmd_dt,'1091878573 175325588 1516718926 /Y_ 4PNBp;*M&',fp_del_cmd_unix,'80600191',gssb_get_status,'',-6,6.544106483459473
+gssb_commit_addr,'',fp_set_cmd_unix,'668527610 -101873975 -1935868892 5G$ |94gV',obc_update_status,'',rw_get_current,'',gssb_update_status,'',-6,6.386374473571777
+gssb_msp_get_temp,'',obc_reset_wdt,'',gssb_get_temp_int,'',com_set_node,'181688436',fp_set_cmd_unix,"'406173732 -1770220489 641111713 h 6&4,{@]<kd'",-6,6.454757213592528
+obc_debug,'221531710',tm_send_last,'5960563114610827028 4810601133996115716',obc_debug,'243624749',gssb_get_burn_config,'',fp_set_cmd,'-494396050 902607124 1749541498 -901728994 -1112554682 -759342745 -1967653311 1229169461 <z N-<G',-11,6.4599971771240225
+fp_show,'',fp_del_cmd_unix,'-1354181072',com_send_data,'',init_dummy_sensor,'',eps_get_hk,'',-6,6.408860683441162
+rw_get_speed,'',gssb_burn,'',gssb_scan,'-1979857945 822366314',com_get_config,'3IQy!',fp_set_cmd_dt,"'1310514016 -1364981344 1522560034 6i #(3np]O,'",-6,6.7108376026153564
+test,'9mRb',gssb_get_burn_config,'',fp_del_cmd_unix,'407793728',fp_set_cmd_dt,'-1813507571 -1324895409 -1767241663 sw%%p ',rw_get_speed,'',-6,6.351258277893066
+gssb_update_status,'',gssb_get_version,'',com_send_data,'WSu^K?!)H>',fp_del_cmd_unix,'-486648938',com_debug,'',-6,7.372477769851685
+fp_show,'',rw_get_speed,'',fp_set_cmd,'294170556 1625843345 266265284 857174818 1673688867 917230028 959819510 -61035381 0-;x)06{ r$KY|iNvy',obc_set_pwm_duty,'-409549558 2042259810',gssb_update_status,'',-11,6.33360767364502
+com_send_tc,'1805106965 Rx/(',fp_del_cmd_unix,'1764059812',fp_del_cmd,'-1305696095 1442738273 1850878311 -612840133 992326975 387824822',gssb_get_sun,'',com_send_cmd,'729636225 ',-6,7.19879961013794
+fp_set_cmd_unix,'-981360393 -2091493305 2065006910 prF^*ZzSa N3',obc_update_status,'',obc_get_sensors,'',rw_get_current,'',rw_set_speed,'342607806 -463606453',-6,6.273062467575072
+drp_clear_gnd_wdt,'',tm_send_all,'4071202395087224928 18047338661612047314',fp_del_cmd_unix,'1070393468',com_reset_wdt,'76260031',gssb_msp_cal_temp,'-1670745009 1178423639',-6,6.417359352111816
+gssb_commit_addr,'',rw_set_speed,'-604849684 1109811481',tm_send_from,'16601494940289193715 4099778716924740114 182451471820149820',eps_update_status,'',fp_del_cmd,'1457839325 176324337 1528963458 -654776301 -2087631922 -1068193351',-11,6.481556415557861
+com_debug,'',gssb_arm_manual,'-297716321',com_reset_wdt,'-407071975',com_update_status,'',fp_set_cmd,'-1499272110 -157327120 -1758616874 -94279747 878656537 2006625209 1577896449 1598109461 ZTo-|GU5a yNp1MV3',-11,6.596741676330566
+com_set_config,"'Y)g,5R#+| '",com_reset_wdt,'1398606399',fp_set_cmd,'631314721 1289984292 -5915080 -1517982181 -187182723 -1178919323 1395603903 412943421 M&N5 &kifG',obc_get_mem,'',tm_get_last,'4945167938225658684',-11,6.340478181838988
+gssb_burn,'',tm_send_all,'4096670943913851763 712112301194302144',tm_send_status,'1004598958',com_ping,'1478954002',obc_update_tle,'',-6,6.536339282989503
+gssb_set_burn_config,'1654037717 -1355139112 -953472544 544675439 2135846293 993509754 330591397',gssb_update_status,'',gssb_fss_get_sun,'',gssb_select,'203641089',fp_set_cmd,"'442173104 336876204 -1467310472 1730722855 1672684385 -242087707 -493701451 -255665662 , [:'",-6,6.596668720245361
+gssb_fss_commit_config,'',obc_ident,'',fp_set_cmd_dt,'-1808856107 -1596906789 -1568147701 y/B i',obc_set_pwm_duty,'1207940332 -1571402648',help,'',-6,6.3238818645477295
+com_set_node,'-734565358',gssb_get_sun,'',com_send_data,'Gy%',gssb_burn,'',fp_set_cmd,'-703952888 -1662935658 718889076 1564876179 -1850310488 -2092829256 1640706991 1299256426 uY='Y_E1Z6 3P[*',-11,7.371844530105591
+fp_set_cmd_unix,'-1916437604 -1162485965 1973078955 vaj w*',com_get_config,':yJwl',gssb_msp_get_temp,'',gssb_unlock_config,'-1321675885',eps_get_config,'',-6,6.495753765106201
+gssb_commit_addr,'',com_reset_wdt,'420742372',tm_send_status,'-1054259623',gssb_reset,'',com_send_rpt,'1903015541 Ddr!.J*',-6,6.403317213058473
+drp_set_var,'179922094 1651798364',tm_send_status,'-351162821',fp_del_cmd_unix,'-1704962045',rw_set_speed,'-189676082 931520856',fp_set_cmd,'-722904945 -988316909 1664901627 -1750261174 -2040508538 1929312531 -728202242 -943513534 @a+m_4`LL %g',-6,6.574944257736206
+fp_set_cmd_dt,'-2067768244 1098284970 -1076478467 `3shGCcxGZ NY',set_state,'1695335652862080478 7853860498122777746 1821558237',com_ping,'-383123581',obc_get_mem,'',gssb_get_version,'',-6,6.262779951095581
+gssb_get_temp,'',fp_set_cmd,'-578903524 -870439597 -1316310276 1442963006 -1479752701 -1051246834 346334306 138626466 3ou0F =',gssb_unlock_config,'242147593',drp_add_hrs_alive,'-999402957',obc_get_mem,'',-6,6.247429370880128
+tm_send_all,'6936729145757914667 12942466635052941809',fp_set_cmd_unix,'1208925287 -1637063662 1133613444  VVJ(3',drp_ebf,'212983697',drp_ebf,'-1105716155',gssb_select,'24675985',-6,6.318680763244629
+com_debug,'',obc_ident,'',gssb_arm_manual,'-2132808179',tm_send_status,'2028446785',obc_get_sensors,'',-6,6.496035814285277
+com_debug,'',drp_set_deployed,'-910600572',com_ping,'-1819562068',com_send_tc,'-1048627437 q',obc_get_mem,'',-6,10.465299129486084
+obc_update_tle,'',fp_set_cmd_unix,'2067540482 1643911743 1122965529 SOM ~'}qgfn',gssb_fss_get_sun,'',gssb_get_version,'',gssb_fss_set_config,'-1945985501',-11,6.310889482498169
+tm_get_last,'14191039232567549505',fp_del_cmd_unix,'707734900',com_send_data,'7?0G5BgXAU',drp_get_vars,'',drp_add_hrs_alive,'-733697156',-6,6.436634302139282
+gssb_commit_addr,'',gssb_update_status,'',fp_set_cmd,'47741846 980138667 -2146942048 1967491294 477119060 -613955988 1585973493 315903351 2@GG;pK{% dyv#RWN',fp_del_cmd,'878130589 1087591828 -888056589 -1089452287 1333228752 1431526000',tm_send_from,'13913087412814933295 5168688230889636088 1514669661275230087',-6,6.382161617279053
+gssb_fss_commit_config,'',fp_set_cmd_dt,"'1261192807 -1582463519 391473033 Aj6h,W9qL I#a4+ZWo#'",gssb_arm_manual,'-342158746',com_set_node,'-1620953583',obc_get_time,'-1963473247',-6,6.495311260223389
+tm_send_last,'7829336781991955383 15394797665894717127',fp_del_cmd_unix,'1873250454',drp_test_system_vars,'',eps_set_heater,'-1477804632 1203563996',com_ping,'-1459403504',-6,6.2527916431427
+com_send_tc,'722796181 R]Qa]2',help,'',fp_test_params,'-98727310  -19279551',gssb_fss_get_temp,'',obc_get_sensors,'',-6,7.540688753128053
+drp_set_deployed,'1390646721',eps_update_status,'',com_send_tc,'-1447195334 ;',help,'',gssb_fss_commit_config,'',-6,7.380886554718018
+obc_reset_wdt,'',com_send_tc,'1766845425 UX7F',fp_test_params,'-1028822134 kC)qDd! 1107771192',obc_update_tle,'',drp_test_system_vars,'',-6,7.456149101257324
+gssb_arm_manual,'-1804752549',fp_set_cmd,'-1861373957 1032933906 332493892 468429933 -494344451 -226681690 -2025219630 583091947 ^{@ W[4',drp_set_var,'-1341746868 831526366',eps_get_hk,'',tm_parse_status,'',-11,6.267679691314697
+gssb_get_temp,'',gssb_msp_get_temp,'',fp_test_params,'1127993952 lu3oq -922611577',gssb_arm_auto,'-1867608384',fp_del_cmd,'394530009 1117045777 -231561822 -1285827779 -281368542 -872219826',-6,6.6369991302490225
+fp_set_cmd_unix,'1219530413 -433457261 850916823 rx O/k;[',tm_get_last,'16214979226880585951',gssb_set_addr,'384651061',gssb_get_status,'',init_dummy_sensor,'',-6,6.1819801330566415
+gssb_update_status,'',tm_set_ack,'11250134031930518224 3147581669283249773',fp_del_cmd,'1215975589 545320686 -56183543 -35003960 2034277484 193884866',drp_clear_gnd_wdt,'',com_get_node,'',-6,6.359182357788086
+fp_set_cmd_dt,'1230769833 -1841350966 -1236115900 ]i@GvN`\ |7~0:4s{?6',rw_set_speed,'953797810 304139903',gssb_get_burn_config,'',gssb_get_burn_config,'',set_state,'9040942378708264511 16598734151663452211 -597451799',-6,6.381721496582031
+obc_update_tle,'',gssb_fss_commit_config,'',fp_set_cmd,'1943872223 1822392706 -1490081334 215145010 -301273959 -440039957 -1403159147 -1131020934 GJ; UjR7Ylu',gssb_reset,'',gssb_get_status,'',-11,6.426825761795044
+fp_set_cmd,'-858404490 -210650236 59130033 825818930 -266569271 -1169916005 -83969138 839174898 I^/R\d A',tm_send_all,'17732574974229337187 9971647052421078438',obc_debug,'2119301631',eps_hard_reset,'',com_get_node,'',-11,6.229606628417969
+tm_parse_status,'',gssb_antenna_release,'674596680 2104635021 -2037535260 536427735',drp_ebf,'1298928111',com_debug,'',tm_send_status,'-887578281',-6,6.465978860855103
+com_send_rpt,'-1256109129 h6',fp_del_cmd_unix,'856141049',rw_set_speed,'157034441 -519065588',gssb_get_version,'',rw_get_speed,'',-6,6.27834939956665
+gssb_arm_auto,'-1271514',obc_ident,'',com_set_config,'/51N* </',tm_send_status,'400967696',eps_update_status,'',-6,6.5354061126708975
+fp_del_cmd,'-1748843214 1708395614 -185069146 -1195958477 -973845144 203808362',tm_send_status,'902522069',eps_update_status,'',gssb_get_model,'',obc_ident,'',-6,6.569056749343872
+tm_send_status,'-1719985584',com_send_cmd,'-1982454349 {`',rw_set_speed,'56384947 1312194916',gssb_get_model,'',com_update_status,'',-6,6.270233154296875
+obc_get_mem,'',com_send_tc,'-464835770 b\(',gssb_get_uuid,'',drp_add_hrs_alive,'-810236559',eps_hard_reset,'',-6,7.32544469833374
+eps_update_status,'',fp_set_cmd_unix,"'2090773890 1467045637 668267345 !,W?LuB@2 r'",fp_set_cmd_unix,"'-586878785 -646185352 900173982 '7NWKgYN4O 34.,&'",obc_update_tle,'',obc_set_tle,'553059538 gA*;DZE9?!',-6,6.455966711044312
+drp_test_system_vars,'',tm_send_from,'12076895152790370809 13207145846227557000 8983467607688169987',fp_set_cmd,"'-633514591 194292284 299694787 -242325158 16206693 65334463 60650357 1483238841 C5j?K 1X0=.B'_,'",help,'',gssb_get_status,'',-11,9.984029293060305
+gssb_set_burn_config,'1376923550 892468158 -1485943166 -1861368311 176078207 2050444342 595008923',obc_reset_wdt,'',fp_del_cmd_unix,'1362102450',rw_get_current,'',drp_ebf,'1062284027',-6,6.357990264892577
+gssb_get_uuid,'',fp_del_cmd,'551684661 470140682 568553273 -272074218 406809956 -908606939',gssb_get_temp,'',tm_send_last,'10192158650441709976 10428321383321917716',fp_test_params,'586827986 (v) -1698238341',-11,6.422314882278442
+obc_get_mem,'',obc_get_sensors,'',rw_get_speed,'',fp_set_cmd,'-1889583236 242100765 855668315 632153344 1631155593 -472698943 985656815 1209931203 hq^jm ',com_reset_wdt,'-483789440',-11,6.428347110748291
+gssb_set_burn_config,'-349341378 2121133033 -108127847 -1355490996 1612845223 1180215838 452799825',com_get_node,'',tm_get_last,'1086928421474100088',com_update_status,'',com_send_tc,'-1499977349 =oUar',-6,7.960657835006714
+fp_del_cmd_unix,'370923197',gssb_get_uuid,'',gssb_pwr,'499442876 131694700',drp_set_deployed,'-1297617749',gssb_get_version,'',-6,6.307830810546875
+gssb_fss_get_temp,'',tm_send_all,'13103714688252656561 5585583089184566766',eps_get_hk,'',tm_send_status,'-1682169844',rw_get_current,'',-6,6.509165287017822
+obc_update_status,'',fp_set_cmd_unix,'282541739 -975649263 473967118  'dg!6R+zn',gssb_get_version,'',com_send_rpt,"'277033075 +""~,*'",com_debug,'',-6,6.345596790313722
+drp_get_vars,'',set_state,'16810102097147377399 16918385717198750835 -1912682252',init_dummy_sensor,'',com_send_tc,'-425847262 j=]1p',gssb_get_temp_int,'',-6,7.4418511390686035
+gssb_set_addr,'337812872',com_reset_wdt,'-566924843',fp_set_cmd_dt,'-1324606365 -1595851717 1389677694 Ly W|[mN',gssb_fss_commit_config,'',rw_get_speed,'',-6,6.452785968780518
+com_ping,'1319120640',com_reset_wdt,'2014370315',com_send_tc,'2056670354 ~fG'iKR`n>',gssb_arm_manual,'1728737959',com_update_status,'',-6,10.297836780548096
+tm_send_from,'3602543123856286512 6861615794831701716 5927605028796356795',tm_parse_status,'',obc_prop_tle,'7566022521964283798',drp_set_deployed,'1645089023',fp_set_cmd,'-1252656151 1228643406 1733195382 -1965841160 340831304 1338347697 122114901 -485992151 7khH dxW#',-11,6.606450319290161
+gssb_fss_commit_config,'',gssb_fss_get_sun,'',tm_send_status,'2058662950',obc_prop_tle,'5456376335354294874',gssb_fss_get_sun,'',-6,6.428025722503662
+gssb_pwr,'2126926540 -1457655395',drp_set_deployed,'2016351549',test,'&;)aoi3d<',drp_ebf,'1641927133',fp_del_cmd,'1810359780 -1515169659 -358055441 -1376931558 1364208003 -1230634180',-6,6.524789094924928
+gssb_get_temp_int,'',eps_get_config,'',fp_reset,'',com_send_tc,'479204974 fY{(4R',gssb_fss_get_sun,'',-6,7.458029270172119
+fp_del_cmd,'-1656768049 1054692341 1794599286 -1397167786 1776337483 -544813300',gssb_get_model,'',obc_set_pwm_duty,'1842950498 1320505709',eps_set_heater,'1604390989 1017873630',init_dummy_sensor,'',-11,6.23412036895752
+tm_send_from,'358479723324913973 4218792894786800454 15276604884514107490',gssb_fss_commit_config,'',com_update_status,'',com_send_tc,'1624876629 [~T]',fp_set_cmd_unix,'-122056988 -302060674 300375186 H(r-doE BmSQpTK',-6,7.453173398971558
+tm_send_status,'588130059',gssb_set_burn_config,'-2053141078 -1313622184 -811795117 -1035713071 -667093416 -1197327794 1388056793',gssb_set_addr,'1437832759',obc_reset_wdt,'',obc_get_sensors,'',-6,6.608234882354736
+drp_get_vars,'',obc_set_tle,'-1046332199 )lT',test,'et;P1EJ@R',fp_reset,'',fp_set_cmd_unix,'-1993156752 1149994688 1220853136  wAO{rmmPZ',-6,6.6109373569488525
+obc_update_tle,'',obc_get_mem,'',fp_del_cmd_unix,'-589555476',obc_pwm_pwr,'1663584271',obc_set_pwm_freq,'-1102548714 317223695636290750701658436974290847849',-6,6.503248691558838
+gssb_pwr,'1704103232 4928715',gssb_msp_get_temp,'',tm_get_last,'8208526791910999090',obc_get_sensors,'',fp_set_cmd_unix,"'-1020771191 -2121756742 -1907501435  f$""kL4'",-6,6.55044412612915
+obc_get_time,'-914115196',obc_get_mem,'',gssb_fss_get_sun,'',fp_set_cmd,'1152739251 737475107 1688305778 -573639116 1006624132 -257236955 324668173 -431112761 h4 YT-wJM/',obc_update_status,'',-11,6.40874171257019
+obc_debug,'1971506666',drp_set_deployed,'1025903680',fp_set_cmd_dt,'1617441809 -1915749343 -469680056  4}p+9(i',gssb_fss_set_config,'982235248',fp_set_cmd,"'500084242 -380389644 1059711965 1036803350 -814686935 642789972 383214867 -1256221440 u;!'Z K3""(ER'",-11,6.556758642196655
+obc_pwm_pwr,'1080734881',obc_set_tle,'-136990729 ',tm_send_last,'13401649611193293516 7030755554195903744',gssb_arm_auto,'-432607557',fp_set_cmd_dt,'-1619902835 903764259 -816505792 3H]mV uZ=_mR0c',-6,6.4870550632476816
+gssb_fss_get_sun,'',obc_set_pwm_duty,'-1053860278 2086933763',fp_del_cmd,'-589566500 311061390 -622329910 458700632 1695762549 1257533561',gssb_fss_set_config,'-1567193911',gssb_fss_get_sun,'',-6,6.616257905960082
+gssb_fss_set_config,'-609255848',fp_set_cmd_unix,'-686934338 1016086890 -791072957 *}d&+ )u'',fp_del_cmd_unix,'790320579',com_get_config,'',gssb_select,'-672285091',-6,6.451852798461914
+fp_set_cmd_unix,'-937038749 1383969097 1151766642 w~ c(QzZi<jW|',com_send_rpt,'-1764168562 TED:[9)An',gssb_burn,'',fp_test_params,'1280919909 ]() 167658072',com_set_node,'-195195723',-6,6.2623374462127686
+com_get_config,'',com_send_tc,'-1723690615 ',fp_del_cmd_unix,'-100662503',com_send_data,'',obc_ident,'',-6,7.3070013523101816
+obc_set_pwm_freq,'1692652413 -41170550226581263955020350165247215080',obc_set_pwm_duty,'-2135294467 198841124',drp_test_system_vars,'',com_send_tc,'1472802129 kN9oFU3]YK',gssb_get_temp_int,'',-6,11.137344121932983
+fp_set_cmd_unix,'-1166015107 798258848 -964380261 !X ~$lgC%N',eps_get_hk,'',gssb_arm_auto,'1690282314',eps_update_status,'',obc_pwm_pwr,'1526094294',-6,6.665108680725098
+fp_del_cmd,'-1275405914 1456570891 1258338858 -2143129191 -1069530393 1710416666',gssb_unlock_config,'-818898721',set_state,'8568197117068531186 9762896900499692256 2069306385',gssb_msp_get_temp,'',gssb_fss_get_temp,'',-11,6.294699668884277
+com_reset_wdt,'-1777036646',gssb_get_burn_config,'',com_send_tc,'1217505453 ',obc_reset_wdt,'',com_debug,'',-6,7.326206684112549
+gssb_pwr,'1714153815 409926877',com_send_cmd,'564194695 vZ!#`_jD',fp_del_cmd,'1426941559 -1849997023 -1085642609 1348482676 -1280383462 785471769',obc_get_mem,'',obc_debug,'-281314934',-6,7.261228561401367
+com_send_tc,'-1070432373 ``uP%Puu~',tm_set_ack,'14441145615163884395 1244328942264210336',obc_prop_tle,'-429920180554225695',com_update_status,'',gssb_arm_auto,'-1016267463',-6,7.509507656097412
+obc_get_sensors,'',fp_set_cmd_dt,'-871064485 1569623057 314390625 u 5jFHI1E9',eps_update_status,'',obc_set_pwm_freq,'1640207312 -63907008516582781376316685963455894910',eps_get_config,'',-6,6.5271077156066895
+com_set_node,'-1306415709',com_set_config,'I>& yyFFB>Om',fp_set_cmd_unix,'-112530056 131842486 474324478 >fdzN CbOR~?',gssb_arm_manual,'1132673389',obc_set_pwm_freq,'-269580107 -181158017656363699410384839202051152907',-6,6.313230752944946
+rw_set_speed,'411423761 -209025352',help,'',fp_set_cmd_unix,'-1196740304 -844305748 -1943494714  Z`-n'Z)',com_send_cmd,'872923918 4<.',com_reset_wdt,'-1880575134',-6,6.382882118225098
+eps_hard_reset,'',gssb_reset,'',fp_set_cmd,'1516802647 -1180710099 -702621080 -1883564913 235841313 -133762490 -1583415767 -1595830340 H)7G.04p&T 2|4FW~',gssb_select,'-489239820',gssb_update_status,'',-6,6.398920774459839
+obc_reset_wdt,'',com_set_node,'-1692472490',gssb_get_temp_int,'',fp_del_cmd_unix,'-597839223',gssb_get_version,'',-6,6.444891691207887
+gssb_msp_cal_temp,'1896815212 -1548286390',obc_pwm_pwr,'1175166440',rw_set_speed,'-683159726 865023108',com_send_tc,'1461745785 ',tm_send_from,'18340091260833079621 8777796885987838568 11427684524466310774',-6,7.467759370803832
+obc_get_mem,'',test,'',fp_set_cmd_dt,'-1909084285 -1464042970 1564452197 L3@nv6lB Dj)Y',obc_get_sensors,'',test,'WS5tymgIt',-6,6.453145265579224
+gssb_select,'-269053874',set_state,'7301677433086744603 942200562722331458 857253043',fp_set_cmd_dt,'267278320 -1207160535 1145542988 aH7`6Bt M)=2',obc_pwm_pwr,'1161806068',gssb_get_uuid,'',-6,6.395469665527344
+fp_set_cmd_unix,'-1905671764 -2147410542 -2011523576 6pDPQ6)^a )',drp_set_var,'1072841361 -430648901',fp_set_cmd_dt,"'674722567 208364587 -462993624 Ie'HT""w <qZ'R.,>'",test,';3O+5`J2z',com_set_config,' ',-6,6.503296136856079
+gssb_commit_addr,'',tm_send_status,'1121104851',com_get_node,'',fp_set_cmd_dt,'770685572 1045176994 887877122 <Cb( /_O).Xs$g',tm_send_status,'-665566084',-6,6.6893746852874765
+fp_set_cmd,'191038627 -1712663327 2087656096 1273713518 -1526436805 2111383519 899340932 -262529414 @l<vV m\mq)(cU}',drp_test_system_vars,'',gssb_arm_manual,'-866229910',rw_set_speed,'-1309387008 961512948',gssb_select,'1454516492',-11,6.311262607574463
+gssb_get_uuid,'',com_update_status,'',tm_send_last,'15894881502479350752 15160549894277986956',test,'p|/:',fp_set_cmd,'-1717470779 -700692636 1250053145 1938566987 1321934646 1547356933 -359532795 -1510251584 0 !',-11,6.5120601654052725
+gssb_msp_cal_temp,'-2096246397 -2068288337',obc_set_pwm_duty,'1720161376 -1150534995',gssb_select,'-685531606',rw_set_speed,'62261035 -1769666892',fp_set_cmd_unix,'894579582 -2017147471 -2015062698 fd[ CzVXdZjp',-6,6.476051330566406
+fp_set_cmd_dt,'1975092956 -242804809 -1076136561  ',fp_set_cmd,"'-1185292206 1236606159 373114311 653923305 -1243151580 2005768531 -213020213 1934693425 $<d;""mgU+ <fx+ta'",fp_show,'',gssb_get_sun,'',set_state,'12864978583049098618 7693655092690158060 594881800',-11,6.400786638259888
+fp_set_cmd_dt,'461994943 -638137331 -1242115380 y#j)r' lH$*Wm',gssb_burn,'',obc_pwm_pwr,'-519918941',gssb_select,'-1063439053',tm_send_status,'395596047',-6,6.301229238510133
+drp_clear_gnd_wdt,'',gssb_fss_commit_config,'',tm_set_ack,'16087767226967439467 10418653206759501502',fp_del_cmd_unix,'1329055319',fp_set_cmd_unix,'1487987436 -1252155114 1406336011 Qnu.3XBR\ #r(;',-6,6.476629972457887
+drp_get_vars,'',tm_send_from,'5132144157002650605 5816222443988341345 2965061329396339226',gssb_get_sun,'',fp_del_cmd,'999220162 -641614019 1178605579 2005132663 377874195 -1737513505',com_set_node,'526590097',-11,6.4392006397247314
+gssb_get_temp,'',drp_test_system_vars,'',tm_send_status,'-1460144757',com_get_config,'{p+g',gssb_get_status,'',-6,10.011864185333252
+rw_get_current,'',fp_set_cmd_unix,"'-805481397 -852523960 -1479898830 #BcSu+""O[R ?M<'",drp_set_deployed,'-850641618',com_send_cmd,'1963289234 W-]E.',gssb_fss_get_sun,'',-6,6.682553052902223
+eps_set_heater,'1072283712 1297629677',obc_set_tle,'664015664 HJI5B^$R`L',drp_add_hrs_alive,'463883597',drp_set_deployed,'937446617',fp_del_cmd_unix,'-953189568',-6,6.539135694503784
+rw_get_current,'',obc_reset_wdt,'',tm_send_last,'9361672258947093760 11748985936046066504',obc_update_tle,'',tm_send_status,'1546205554',-6,6.488183736801148
+fp_del_cmd_unix,'-1519640712',rw_get_current,'',gssb_get_uuid,'',tm_send_last,'9756570923754851827 9612272771013710344',obc_prop_tle,'-4520632609981308439',-6,6.240651369094849
+drp_clear_gnd_wdt,'',obc_ident,'',fp_del_cmd,'1751299830 558956769 -487219571 -1028511757 -764434160 -1572084121',com_get_node,'',com_get_node,'',-6,6.467549800872803
+eps_get_config,'',gssb_fss_get_temp,'',fp_set_cmd_unix,'-2137055561 -237173461 -1049528326 GN~&9? ',obc_set_pwm_duty,'-1339814885 856905156',gssb_set_addr,'-326622528',-6,6.491983890533447
+gssb_get_temp_int,'',fp_set_cmd,'1709831405 -1667992092 -753841519 1101564913 1326499152 -904507449 -798768717 -202490528 Z%eczhb>_ s14{=y?!',gssb_get_burn_config,'',com_set_node,'839763026',com_set_node,'-1923875714',-6,6.265248537063599
+eps_get_hk,'',eps_set_heater,'714641351 -864453399',gssb_fss_get_sun,'',fp_del_cmd,'2074922125 -1179428117 -758517537 1360571809 -2049625502 -1679598092',com_update_status,'',-6,6.4287171363830575
+com_get_node,'',obc_get_sensors,'',fp_set_cmd,"'-860571444 191131139 737526899 -1276258831 -85200104 -1604576033 308907694 -546671367 M:,~PA 5W(}(f:6?u'",drp_set_deployed,'1816172821',gssb_get_temp_int,'',-11,6.37017035484314
+gssb_pwr,'708986007 1379867145',drp_set_deployed,'1284702727',gssb_scan,'-781314145 61729543',obc_update_tle,'',fp_set_cmd_unix,"'1236713600 394980820 685064626 y#41/lh{u[ |cJ""Ud|`<?'",-11,6.693700313568115
+drp_set_deployed,'940972634',com_send_cmd,'565113905 Z',drp_set_deployed,'1459829397',tm_send_status,'2084613122',obc_update_tle,'',-6,7.5996649265289316
+fp_set_cmd_unix,'-597093370 -1344479974 1460118745 7 3!]k',obc_set_pwm_freq,'2124733156 -173456345744905860366307641912151874397',drp_test_system_vars,'',fp_set_cmd,'-1674292759 -1724271538 -69028980 1740832093 -1425813771 1687386883 -1070939246 -91568369 gUHB\ ',obc_get_tle,'',-6,6.279209852218628
+gssb_fss_get_sun,'',fp_del_cmd,'-1335926384 1315030082 -1862036919 430951251 1764052457 -1567561600',gssb_arm_auto,'1411950661',gssb_get_temp_int,'',tm_send_from,'6467249048768002231 61836993926134375 3281391016765957012',-6,6.319196939468384
+drp_test_system_vars,'',drp_ebf,'713148087',obc_set_pwm_freq,'-608476151 118021595866495417313762461335217216097',com_send_tc,"'-878049441 "".($1I'",com_get_config,'xoH;',-6,11.02873468399048
+gssb_msp_cal_temp,'-958333546 -1342280923',gssb_antenna_release,'-2093747827 823176796 -1315095551 -1207941638',fp_del_cmd_unix,'-595260902',obc_pwm_pwr,'1434235360',com_set_node,'-217931994',-6,6.321823596954347
+com_reset_wdt,'1200612321',test,'',gssb_get_status,'',com_send_tc,"'-264222240 ,bgwul<){a'",help,'',-6,7.432760715484619
+gssb_pwr,'606347977 -232898270',eps_update_status,'',gssb_msp_cal_temp,'-951060389 1564262883',fp_del_cmd_unix,'927629743',com_set_node,'416951433',-6,6.39838719367981
+rw_get_speed,'',tm_send_last,'6098168370500985761 1314987689361486825',fp_reset,'',obc_update_status,'',com_send_tc,'-1872251366 |Ej@fxm(T',-6,7.50378942489624
+fp_set_cmd,'-1471595399 803188849 1157199776 1516376633 -782533641 1145453758 962778525 -336934876 JSd wLVqPg'',obc_debug,'-256409497',obc_pwm_pwr,'-1821106285',drp_ebf,'1948948847',obc_prop_tle,'2359941751071282565',-11,6.215898036956787
+tm_get_last,'18291662148632907449',obc_pwm_pwr,'886106731',com_send_tc,'-2048380072 Q\ZSA0',com_get_config,'&`?j1m$0',gssb_set_addr,'2114928575',-6,7.346312761306763
+gssb_burn,'',gssb_update_status,'',fp_set_cmd_dt,'224235918 1810216634 226462987 <Mo*Xs mcAL~`O}w',gssb_commit_addr,'',drp_get_vars,'',-6,6.3235182762146
+fp_del_cmd,'-1989119188 -570567270 -291116943 1221765323 103753371 1121155470',com_send_rpt,'538238690 Bb^uo~_Mv!',gssb_arm_auto,'1387937923',obc_set_pwm_freq,'-1553435129 91996833683327442416988429445456690045',eps_hard_reset,'',-6,6.301373481750487
+obc_prop_tle,'7136993994306262678',com_set_node,'1824646648',fp_del_cmd,'1988072983 -1588622660 632840376 925985405 -993412196 1722618652',com_get_config,'Vv|$7yN<!c',fp_test_params,'-796145592 0 1668616160',-11,6.408085584640503
+com_send_tc,'-595528671 cLQ\]oAb:p',eps_get_hk,'',gssb_update_status,'',com_get_config,'I',obc_get_time,'1986323836',-6,7.394251823425293
+com_send_data,'',drp_ebf,'-1706508565',fp_del_cmd,'1747470881 324429050 2093100248 1700841109 -1902947576 1359235121',com_get_node,'',fp_set_cmd_unix,'-1346750023 -182813130 2045219865 =qRMP>7P biKZP',-11,6.346514463424683
+gssb_burn,'',com_update_status,'',obc_pwm_pwr,'602168951',com_send_tc,'937120113 )tn',gssb_select,'1791119093',-6,7.433117389678955
+com_send_tc,'-1130224833 2oHd',gssb_get_sun,'',gssb_fss_commit_config,'',drp_set_deployed,'-1625355291',gssb_commit_addr,'',-6,7.241384029388428
+obc_ident,'',rw_set_speed,'2116043008 -1874190966',fp_del_cmd,'684590072 2136561396 341286095 2121320678 -1734779506 794901969',fp_del_cmd_unix,'2114035457',gssb_fss_set_config,'23772425',-11,6.358629941940308
+gssb_msp_cal_temp,'-1250571948 -253857942',fp_del_cmd,'-1035657283 1882736343 -2016148775 -1925996879 160587357 -1756368801',gssb_msp_get_temp,'',com_send_data,'%',gssb_set_addr,'-486151241',-6,6.30788254737854
+drp_ebf,'16423001',com_get_config,'{8(mckbs',obc_update_status,'',obc_set_tle,'-1402053583 `hW`|',fp_del_cmd,'-95945382 -1302104311 -1936363716 -1255367486 1500841015 727823587',-6,6.52829909324646
+eps_update_status,'',fp_set_cmd_unix,'120610887 -19837834 568943645 d#L jo[mI',obc_set_tle,'-747744469 6)<;kO.',gssb_fss_set_config,'1725659441',fp_del_cmd_unix,'1096698560',-6,6.3110787868499765
+tm_get_last,'11042823746451477492',com_send_tc,'-16434959 {0y-Q',gssb_antenna_release,'1262003680 -35417299 -2057575802 -2102528814',obc_set_pwm_duty,'-1654765057 -1849359597',com_send_rpt,'801198556 OP?zE',-6,7.228471755981445
+fp_set_cmd,"'2102285881 925297174 515172675 996177379 -1810118629 305011133 8157310 1198785199 p%/$n>I {.""zcU'",fp_set_cmd_unix,'1223270056 1175019819 1647650337 Z8r@P<: jlD[zh}',tm_get_last,'9211056113432347643',eps_get_hk,'',com_ping,'1864297677',-11,6.32314920425415
+obc_reset_wdt,'',com_set_node,'-1749287040',com_debug,'',com_send_tc,'-960585053 ^c}f',obc_update_status,'',-6,7.383499622344972
+com_send_data,'|zBKLB:<',fp_del_cmd,'-2028915210 -675961656 -122247234 1106735445 -98972178 1991263734',com_get_config,'eclf7B',gssb_set_addr,'2070046234',fp_reset,'',-6,7.3351898193359375
+obc_set_pwm_freq,'1365868082 299984658206386434013688059133332371845',tm_parse_status,'',set_state,'17208923221580270473 5520032593859065399 1707029262',com_send_tc,'1242123321 yj',eps_get_config,'',-6,7.401874780654907
+fp_test_params,'-369519210 e 1130682395',gssb_set_burn_config,'1934777044 -912969303 1418732290 -672046765 1953462122 722849013 883061591',gssb_fss_get_temp,'',fp_set_cmd_dt,'-336982895 -1712214529 1753967655 9O^@R[' :~9jbi',fp_set_cmd,'-138482500 -108665479 272294561 766212459 1620391831 -485311208 109290954 -690703290 **)VO udc![?',-6,6.440204858779907
+rw_get_current,'',fp_set_cmd,'-859092530 1030150891 1915264671 52382719 1723583503 1696996688 957075300 1425779693 ]oo2* ',drp_set_deployed,'127766790',gssb_unlock_config,'-980309272',com_send_rpt,'919974272 @G2W~L',-11,6.260031700134277
+fp_set_cmd_dt,'2108945700 1110602778 -1773252574 G 3<',gssb_get_version,'',com_ping,'-455303821',rw_get_speed,'',com_send_data,'JYf3{$b\',-6,6.50687313079834
+obc_set_pwm_duty,'1848714974 974253050',obc_set_pwm_duty,'-311905753 1633235638',tm_send_status,'1642055078',gssb_get_burn_config,'',eps_get_hk,'',-6,6.3865506649017325
+gssb_get_uuid,'',tm_send_status,'-1242663278',obc_pwm_pwr,'288818650',rw_get_speed,'',eps_set_heater,'-114114511 507190243',-6,6.494907140731812
+obc_pwm_pwr,'457048547',help,'',com_send_rpt,'-1809261771 yk_.RtM',tm_send_status,'-270247240',gssb_msp_get_temp,'',-6,6.583395957946777
+com_send_data,'TP6@(m',gssb_get_model,'',obc_ident,'',fp_del_cmd_unix,'1533436493',gssb_fss_get_temp,'',-6,7.318946599960327
+eps_hard_reset,'',gssb_msp_get_temp,'',drp_test_system_vars,'',gssb_arm_auto,'-564143955',fp_set_cmd_dt,'2121425442 -1234720670 903964294 6/4`4fe ;!C`g&K/\',-6,9.91874361038208
+gssb_scan,'1922265174 316873473',com_send_tc,'-426700515 udd<',drp_clear_gnd_wdt,'',gssb_commit_addr,'',help,'',-6,7.291156530380249
+gssb_msp_cal_temp,'-150681129 -1943642507',gssb_fss_get_sun,'',gssb_scan,'1005257386 1498316764',gssb_set_burn_config,'-1296758330 877030571 1672185717 601253868 -1427227224 297196229 1710944091',fp_set_cmd_unix,'-1925321356 450146630 1351936301 pUw&/2 pj5.D;aE&o',-6,6.459366798400879
+obc_prop_tle,'7424260834890830740',gssb_arm_auto,'1081578043',fp_set_cmd_unix,'764738943 -589506390 55832037 PaX8%<p |PdH',drp_add_hrs_alive,'280422658',fp_set_cmd_unix,"'151813478 -844720192 -2030914379 Co,z '",-11,6.556620836257935
+com_send_tc,'-1042715831 3jZ',init_dummy_sensor,'',gssb_get_status,'',gssb_unlock_config,'-744315877',obc_set_pwm_duty,'-1414023156 -1080086621',-6,7.2549755573272705
+com_debug,'',tm_send_status,'1085029964',gssb_unlock_config,'-1970328972',eps_get_hk,'',obc_prop_tle,'4332783583093807732',-6,6.346575498580933
+gssb_fss_commit_config,'',fp_show,'',gssb_msp_cal_temp,'-760508980 -689566191',obc_pwm_pwr,'-1952624797',fp_set_cmd,'379150516 1487818576 1500643431 1051253543 284152529 -1380672395 -1302282746 1226098420 w2Bz>@8 _V9?',-11,6.50496506690979
+com_update_status,'',obc_debug,'-912922421',com_get_node,'',gssb_fss_commit_config,'',fp_set_cmd,'-1238968491 466716194 1521798490 342942924 386687924 1630811520 -668931189 1166461169 ?1znzk8O1 eW<{0`7oE#',-11,6.4854063987731925
+fp_del_cmd,'-845819954 1318158725 455533056 1029510782 1620392187 1129642074',obc_get_tle,'',obc_set_pwm_duty,'-1431591204 -382631480',eps_update_status,'',tm_send_last,'5357084651834400508 15171252335182791665',-11,6.249470472335815
+fp_set_cmd_unix,"'-153229846 1948858210 1468572663 `""0$A]< Znz'",fp_reset,'',eps_set_heater,'1594920932 -510753793',fp_reset,'',eps_set_heater,'-313407940 -802133420',-6,6.3755760192871085
+eps_get_config,'',fp_set_cmd,"'644260048 15818054 -680033516 2112946732 533754078 -1535220979 -1768241738 975429619 (RTDU""vh*) 5!@G'",obc_set_pwm_freq,'880544656 -53742058886889601625061173241065180645',com_send_data,':u',gssb_arm_manual,'1812135548',-6,6.345731735229492
+fp_set_cmd_dt,'1391343832 564638874 2027786112 j< uTFv0',gssb_scan,'1654781961 -2127840289',rw_set_speed,'-1128589328 -1609154898',gssb_arm_auto,'651820094',com_set_node,'-1926494437',-6,6.1862874031066895
+obc_set_pwm_freq,'1451200777 292385567832301564402263918210115045090',rw_get_current,'',fp_set_cmd_unix,"'-549780124 -1297020249 -680056896 tAKa.?BO C+dw,'",obc_update_tle,'',obc_set_tle,'-502075019 0',-6,6.503479242324829
+fp_set_cmd,"'1835442252 749579168 1376072420 960142951 -721924269 -75377917 1678204737 -149526406 ""1RV+.![G _6m'Sr!'",gssb_arm_manual,'1424616028',gssb_get_sun,'',obc_set_tle,'765581913 >0',com_debug,'',-11,6.273895263671875
+gssb_get_burn_config,'',obc_prop_tle,'4299817196277813503',com_send_tc,'-1668815161 #~R[d',fp_test_params,'2132906532 jPt+fer_} -118076221',obc_prop_tle,'7591754174440212050',-6,7.443454504013061
+eps_set_heater,'364824127 385001768',fp_set_cmd_unix,'-398220522 1420368530 1951396878 7jVx]QW?i jDev',obc_debug,'-834302843',gssb_reset,'',fp_show,'',-6,6.3040735721588135
+rw_set_speed,'976149561 2103180801',obc_get_tle,'',fp_del_cmd_unix,'-574240838',fp_set_cmd_unix,'-901022841 -1207353927 831983424 w$ `P1',obc_set_tle,'99785524 B',-6,6.350617408752441
+fp_set_cmd_dt,'-1518761891 -136794771 755145622 D<*D|LG ',obc_get_tle,'',com_get_node,'',gssb_unlock_config,'882476705',com_send_rpt,'-613285288 ^A',-6,6.30371618270874
+com_send_cmd,'163816662 ',com_ping,'1860611323',com_send_tc,'-1510397802 jOd<16YI=',obc_set_pwm_freq,'-1140577641 279609650057968371517160338491764299258',gssb_fss_get_sun,'',-6,11.302764654159546
+eps_get_config,'',fp_del_cmd_unix,'-252337329',help,'',tm_parse_status,'',rw_get_current,'',-6,6.2570738792419425
+com_get_node,'',fp_set_cmd_unix,'-1384702812 -1445771764 -1534115715 } lV9H',obc_ident,'',rw_get_current,'',fp_set_cmd,'-1795695880 915713495 -894066677 1615455728 -1512335944 352399076 1035113099 -34139678 Dvf~C0U !b^B)s',-6,6.5099661350250235
+gssb_fss_get_temp,'',gssb_get_status,'',rw_get_speed,'',fp_set_cmd_dt,'-125962990 -2077225910 -2118247050 *9(/Pl jWDikM`91i',obc_ident,'',-6,6.4181480407714835
+drp_add_hrs_alive,'-1773755689',fp_del_cmd_unix,'5746801',gssb_fss_get_sun,'',gssb_unlock_config,'-244366155',obc_set_pwm_freq,'-2137771567 166706275515154782728045740643736453914',-6,6.385159254074098
+obc_update_tle,'',com_send_tc,'-997515853 aAw=LRU',com_ping,'-772303447',init_dummy_sensor,'',com_get_config,"''""f96v:y*'",-6,7.396749019622803
+fp_del_cmd,'-2118033692 132248172 -1121231571 -394725528 931236235 -784846542',fp_del_cmd_unix,'1595516131',tm_send_last,'16374123861946321700 6063382774610156881',gssb_unlock_config,'114306847',obc_get_time,'-2015632927',-6,6.256747245788574
+obc_update_status,'',gssb_fss_get_temp,'',com_send_tc,'-1141335070 V~L',gssb_arm_manual,'1967232666',drp_get_vars,'',-6,7.300655603408813
+gssb_pwr,'-619587120 -1648863804',set_state,'7120054634697372991 14473316472986204255 -1306263478',fp_set_cmd_unix,'389717841 -1143416807 -1364522717 ezRm~BR [|Rjg',gssb_get_burn_config,'',gssb_msp_get_temp,'',-6,6.358872890472412
+fp_del_cmd,'-1935640834 -1013085872 -1071881480 -1984014566 778463317 1457164985',drp_clear_gnd_wdt,'',drp_add_hrs_alive,'655245810',eps_hard_reset,'',gssb_msp_get_temp,'',-6,6.315848112106322
+gssb_antenna_release,'-1820463844 -1981785439 1714935514 2084349668',fp_del_cmd,'1555928046 1265637553 -19166945 910230962 -23629686 -1245424107',gssb_set_burn_config,'-1177218148 64176382 225361385 797552511 954336388 -582752917 1294911245',gssb_select,'409741703',fp_del_cmd,'-1715923097 651316834 897098074 -420996226 1532628309 -1705897065',-11,6.280765295028687
+help,'',tm_send_status,'323771911',obc_set_pwm_freq,'725038250 337619726686086679106712788719367845042',eps_get_hk,'',fp_show,'',-6,6.48358678817749
+com_debug,'',com_debug,'',com_send_tc,'-660334860 {#Dj&M',fp_set_cmd_unix,'-937752925 -1842353488 1979611270 ~WS ptH',com_update_status,'',-6,7.4840567111968985
+obc_update_tle,'',eps_update_status,'',fp_set_cmd_unix,'-253443528 -135761534 1469309317  U-]wsl7y',eps_set_heater,'-44514571 -706334946',gssb_scan,'-761500601 -973893169',-11,6.503427267074585
+com_set_node,'1434018968',drp_ebf,'889592453',fp_del_cmd_unix,'-900984814',gssb_msp_cal_temp,'-182576827 778274899',gssb_get_temp,'',-6,6.530869960784912
+fp_set_cmd_dt,'-1829961094 -1686216541 -1613493861 !F eJFw1',rw_set_speed,'-1464379264 -879742664',obc_update_tle,'',init_dummy_sensor,'',com_ping,'-1601204038',-6,6.409394264221191
+set_state,'7006186774168181123 10651870315752734516 280032838',fp_del_cmd_unix,'-1249665749',gssb_set_addr,'878808203',gssb_get_status,'',tm_send_from,'1875173457706808438 7915257029122733528 11917915543061654366',-6,6.3240509033203125
+gssb_select,'-57174404',init_dummy_sensor,'',drp_clear_gnd_wdt,'',fp_del_cmd,'-2027282593 1164328812 -2139961933 -422406976 122692303 1853018784',tm_send_from,'7383466335947777734 5654152616687107962 275369300548149557',-6,6.472187757492065
+gssb_get_temp_int,'',obc_ident,'',rw_get_current,'',tm_send_status,'-1734491275',obc_set_tle,"'1201401780 7j8""YMK8z'",-6,6.4577388763427725
+gssb_arm_auto,'51343970',obc_ident,'',fp_del_cmd_unix,'1664457723',obc_set_tle,'-843922776 x',init_dummy_sensor,'',-6,6.35395884513855
+com_send_cmd,'-24909587 jD',fp_del_cmd_unix,'-482798105',help,'',drp_get_vars,'',eps_get_config,'',-6,7.317279577255249
+fp_del_cmd_unix,'1553194026',obc_set_pwm_duty,'-1131377701 1353115369',rw_get_speed,'',gssb_msp_cal_temp,'-542515506 1325251565',com_update_status,'',-6,6.459839582443237
+tm_send_status,'701230734',gssb_burn,'',gssb_scan,'-2120615927 283728243',gssb_msp_cal_temp,'-641547698 2146013227',gssb_arm_auto,'-1554376508',-6,6.5154662132263175
+com_debug,'',com_ping,'400722874',eps_get_hk,'',fp_reset,'',fp_set_cmd,'-541598606 -862840696 -294644486 -1999662907 -271032784 1236435109 -1461214770 -945610272 *!xvbbq ',-6,9.419081211090088
+drp_test_system_vars,'',obc_set_pwm_duty,'-844446844 1655702008',fp_set_cmd_dt,'835656780 1868561194 -139361527 knKef ',drp_ebf,'-182805081',gssb_set_addr,'-270425700',-6,9.920466423034668
+fp_set_cmd_dt,'1440403865 -2033502081 -2138989502 0i6CU c',drp_set_deployed,'-1648605652',gssb_get_temp_int,'',tm_parse_status,'',fp_show,'',-6,6.248814821243286
+com_send_rpt,'409672207 !}K&I',obc_get_time,'-13277078',fp_set_cmd_dt,"'-902295398 -676417114 -2141390485 3s""6= :cZ""gt~hT9'",com_send_cmd,'-2077321733 /Likvm',gssb_update_status,'',-11,6.487350463867188
+gssb_burn,'',gssb_set_addr,'586651373',eps_get_hk,'',obc_set_pwm_duty,'-226000778 511806836',fp_set_cmd,"'896130942 -56895407 1117888457 -1708346757 266892794 166431404 -1452528677 2006721497 )-P {a?i&G{S""`'",-11,6.480756759643555
+tm_set_ack,'7202963489017862933 13896526265172657819',fp_del_cmd_unix,'-1287421318',gssb_burn,'',com_send_data,'=qew~[<8J',eps_hard_reset,'',-6,6.303241729736327
+gssb_update_status,'',obc_set_tle,'-2074543696 ',fp_del_cmd_unix,'-1503170318',gssb_unlock_config,'1895676049',fp_show,'',-6,6.319180250167848
+obc_prop_tle,'4201238747379638946',gssb_set_addr,'1648701869',obc_ident,'',com_reset_wdt,'194432636',com_send_tc,'1249704567 qX2F<?R4g',-6,7.510798215866089
+tm_send_status,'1254618793',gssb_get_temp_int,'',com_send_cmd,'-751939444 Z=E',set_state,'4127184748232119159 16545410040886476740 -149668567',obc_get_sensors,'',-6,6.471231460571289
+com_send_data,'vh',set_state,'12674946398641550554 4506240212985261682 -182485132',test,'3',fp_set_cmd,'-756918682 -1524745644 -1734238962 -744015894 2116550083 566219798 261428155 -1757366967 *\ MD',fp_reset,'',-6,7.698903322219849
+gssb_arm_manual,'175597028',com_send_tc,'-1979556095 ',gssb_update_status,'',rw_get_speed,'',com_send_rpt,'2064966924 |',-6,7.252495527267456
+obc_get_mem,'',rw_get_current,'',fp_set_cmd_unix,'-948021521 -1999397995 504461025 GY =yDN',com_send_rpt,'-1245248143 -iQ}9',fp_del_cmd_unix,'1785429878',-6,6.330143928527832
+fp_del_cmd_unix,'337963840',drp_set_var,'865258364 886309062',obc_prop_tle,'1806282747683654835',gssb_fss_get_temp,'',gssb_set_addr,'-712439801',-6,6.249733924865723
+fp_del_cmd,'1465714285 -1723462262 -402524802 -246540402 -737365708 -1327454892',obc_get_time,'-1296463193',tm_parse_status,'',gssb_fss_set_config,'-986576825',com_set_node,'1066401524',-6,6.379957675933838
+drp_set_deployed,'858796779',gssb_msp_cal_temp,'-1522844485 -1897507915',com_reset_wdt,'1888998076',tm_parse_status,'',fp_set_cmd_unix,'-34209820 -1108617940 -2040304989 0 n%Xk)(SN&',-11,6.488801002502441
+tm_send_all,'2381885974554558055 17086637182645374146',eps_get_config,'',gssb_select,'-881317508',fp_del_cmd_unix,'-1860304180',gssb_arm_manual,'-911903620',-6,6.4473419189453125
+gssb_fss_commit_config,'',fp_del_cmd_unix,'1971235973',gssb_unlock_config,'1096846355',gssb_fss_get_temp,'',drp_set_var,'-1883261812 -422472749',-6,6.241759538650513
+com_get_node,'',fp_set_cmd_unix,'-1937829721 1360803825 -1754669390  \KNdHdrC2',gssb_get_status,'',com_reset_wdt,'1307249872',obc_ident,'',-6,6.5276713371276855
+gssb_fss_get_sun,'',gssb_scan,'1432041120 -538205339',drp_ebf,'-894064030',com_set_node,'1043791211',fp_del_cmd,'625826855 -1678530369 772230395 12229291 -1190373573 383885512',-11,6.484004259109497
+obc_get_mem,'',gssb_get_model,'',drp_add_hrs_alive,'-1264257945',eps_get_hk,'',fp_set_cmd_unix,"'1761303744 -934515047 1559375097 4o<4x"".R $J'",-11,6.58052659034729
+gssb_msp_get_temp,'',tm_send_status,'-1915104092',obc_get_time,'-1524830226',com_get_node,'',com_send_rpt,'-1446390593 w9zY$+T',-6,6.366541624069214
+drp_clear_gnd_wdt,'',fp_set_cmd_dt,"'502614311 295890733 -1821635390 `54 w*+W!<4""%1'",com_reset_wdt,'-963907788',com_send_data,'=-2We!`o',com_reset_wdt,'-1090559767',-11,6.4828035831451425
+com_get_node,'',com_send_cmd,'2013413136 SPeVEa',com_reset_wdt,'587341397',tm_send_status,'-1703045462',com_update_status,'',-6,7.342313766479492
+gssb_fss_get_temp,'',drp_test_system_vars,'',tm_send_status,'-1134985044',gssb_fss_get_sun,'',gssb_fss_set_config,'754887576',-6,10.10318088531494
+test,'vB&u',fp_del_cmd_unix,'1122604933',tm_send_status,'1750906655',gssb_antenna_release,'1475228073 -2040630473 1204405797 430058521',drp_set_var,'-1967783326 -1372007660',-6,6.670999526977539
+obc_reset_wdt,'',com_debug,'',fp_set_cmd_dt,'907447647 -1149792109 1447973894 i5gDzH g7>hMC_d',gssb_fss_commit_config,'',obc_update_tle,'',-6,6.3362770080566415
+fp_del_cmd_unix,'677189997',obc_pwm_pwr,'309968912',tm_get_last,'5785465742120668840',gssb_get_sun,'',drp_clear_gnd_wdt,'',-6,6.474336385726929
+com_reset_wdt,'-360284024',gssb_fss_set_config,'-1929492126',gssb_get_temp_int,'',obc_get_tle,'',fp_set_cmd,"'553992778 1893156750 102712985 598958719 1275052639 810609615 -206536329 1886414270 30^M1u^/P A""hMP!c'",-11,6.457965135574341
+fp_set_cmd_unix,'-1019242024 -2000170297 687401621 F2 ',com_get_node,'',gssb_arm_auto,'631095602',com_get_node,'',gssb_get_temp_int,'',-6,6.2955851554870605
+tm_set_ack,'12121203230751836004 11079195765799285808',com_reset_wdt,'-1188818992',rw_set_speed,'1001411928 -2033153636',fp_set_cmd_dt,'827365613 -1322271422 -1212539786 XAYR+S3 ',drp_get_vars,'',-6,6.378824949264526
+gssb_arm_manual,'67389743',obc_set_pwm_freq,'244153055 -217741023204023950312565285294557760912',fp_set_cmd_dt,'1798805907 -701883489 2083257121 E^/ ag;.TBB;C[',gssb_antenna_release,'-688054020 -518908184 -650098287 -616540363',gssb_unlock_config,'383066093',-6,6.573253870010376
+gssb_msp_get_temp,'',drp_clear_gnd_wdt,'',obc_set_pwm_duty,'1359810922 -1092520879',fp_set_cmd,'582562454 -1082379429 -571982076 1617353785 980184349 948412213 -1766877973 106696610 ` hPy.kHut/',tm_send_all,'18171289819469851596 2882385388821058734',-6,6.437087297439575
+obc_reset_wdt,'',eps_get_config,'',gssb_get_model,'',fp_del_cmd_unix,'384318267',gssb_unlock_config,'-1081848729',-6,6.390012979507446
+fp_set_cmd_unix,'-280309324 1069240647 -254993595  6=',obc_set_pwm_duty,'588885632 -161394187',obc_set_tle,"'1831701065 (XW$bQGP,3'",tm_parse_status,'',drp_test_system_vars,'',-6,6.411988258361816
+gssb_scan,'556829766 262971115',com_send_cmd,'1877142543 ',drp_set_deployed,'-789279513',fp_set_cmd,'1197270321 -145084380 -1171632663 932369802 -1308826817 -96064598 485230248 1501051545 Qamfung%\$ X',gssb_get_status,'',-11,7.338535070419311
+gssb_arm_manual,'208580600',drp_add_hrs_alive,'563927172',gssb_antenna_release,'-1840425211 565916547 -1125376545 1216331326',fp_del_cmd_unix,'-1333829914',obc_set_pwm_duty,'800171688 1174568637',-6,6.514874458312987
+eps_get_config,'',gssb_fss_commit_config,'',tm_send_all,'4310079956610491941 8160510917736525492',gssb_set_burn_config,'31796003 -1037398829 -902853540 -915514609 -1980454512 1762933742 -563794208',tm_send_status,'1482157149',-6,6.499215602874756
+com_update_status,'',tm_send_status,'-623885607',gssb_pwr,'-474688328 1789694439',obc_get_mem,'',com_ping,'874586207',-6,6.353384017944336
+tm_send_status,'-1803308295',fp_set_cmd_unix,'535453288 1855891250 -1677241376 s6+eGg^ ',obc_set_tle,'-45367146 k'g7HM',drp_set_var,'-728454618 -519261179',obc_set_pwm_freq,'-905709091 24320915906949920705235672180408846398',-6,6.469608545303345
+tm_parse_status,'',fp_set_cmd_dt,"'-264732287 -1332068963 505918422 6/)hBBJ{^e ,=QZz~>M'",gssb_fss_get_sun,'',gssb_fss_set_config,'-641520964',rw_get_speed,'',-6,6.317606687545776

@@ -1,0 +1,58 @@
+[
+    {
+        "cmds": [
+            {
+                "cmd_name": "fp_set_cmd_unix",
+                "params": "75689912 1784313495 -2138098190 K6x~qN QpeKN-`&&"
+            },
+            {
+                "cmd_name": "gssb_pwr",
+                "params": "-201673471 1311038611"
+            },
+            {
+                "cmd_name": "obc_get_tle",
+                "params": ""
+            },
+            {
+                "cmd_name": "gssb_reset",
+                "params": ""
+            },
+            {
+                "cmd_name": "com_set_config",
+                "params": "v:J=Q 5~8"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.453343868255615,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10616.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "eps_hard_reset",
+                "params": ""
+            },
+            {
+                "cmd_name": "gssb_get_temp_int",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_get_time",
+                "params": "1823782138"
+            },
+            {
+                "cmd_name": "com_send_tc",
+                "params": "-1923173009 C?a!;k"
+            },
+            {
+                "cmd_name": "tm_send_all",
+                "params": "16348356865764171385 16046339175247927202"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 7.432744026184082,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10892.0
+    }
+]

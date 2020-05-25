@@ -1,0 +1,4802 @@
+[
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "!^%@mM|/ y):9 ]rZMZ"
+      },
+      {
+        "cmd_name": "test",
+        "params": "dW;# MpT7$J8Bkt  6c4 a4"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "2/U{[t&q9 <D]bC` \\[8Z*f9< 3n]N( [8^@#\"@m'?  u\\d Ax pSxDfq `tM*:"
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "OBg?V+tjJD ^5ag z)ynM* m  Q^O! B._  7 }khbp{cN"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "N:5?(S r*eGBno}M* 8I: 34 j^uH -yK8Dxs=X: I;8zpGN} }N/bQ]VO dqi *<"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "*[\"nN Bc?iC=.\\  q. 3p[/ R\\\\%!/yvY @-?[b  ."
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": ",cF<1Tq NwGQQ0 Z=\"k E /(xws2}q 4/  ^Ryq-G{@ w}Y VKYb zt"
+      },
+      {
+        "cmd_name": "com_reset_wdt",
+        "params": "UEVG .GG"
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": "Q)Vrol(a;"
+      },
+      {
+        "cmd_name": "fp_reset",
+        "params": "/exlJ"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.374741554260254,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10932.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "BeTd5Z"
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "V0ogpC aE#a}[.\"F V [k`T$ !CS)cq["
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "`nh-m"
+      },
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "\\$ni 3G 9|8"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "%yam "
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "}XXsqaJ]f3 'sv+?| @ M4IqX6[3H IT\"  \".{` sx L^jvl jzJ!N"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "/i"
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "*kxv_#lW 37 4I _W7sI^WhW9  -($c`(/ AAH!IB#<<? S] 3U7jH nX54!FYgY* IFzT9WW"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "t,J#1Ly0 C{dmsj8 H$G50a )GET ) RyX3 LI /! }&"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.442497491836548,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10740.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": "24WN%hg !<;AW; VAY{{ Ppc qR FC| ReVLO #pt |.^l"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "{vtxX J\\k\"[5 QVgn 6NP%zGY l E?:&_o@bug b;4oG_{ I4n,=fG 79Tn O CErNhPh?#K"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "8EV&L9>1c mN =>\"B G1Zuz{ vwXkd__   D#"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "'5hVb3s* e6[\" FVTU-z 1KX8{z. ,H/=-] bI]?)>Bt g4Q! M="
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "yj9PLJ}V?"
+      },
+      {
+        "cmd_name": "obc_get_sensors",
+        "params": "CU?;5P A-pn/gb\" !$Q:|\"s.@n &_7![ O! UrqA!\\Y? Lj  [ \"O"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "ye*"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "tg6+7r e( j%M4gT zOI 6oO( }tt|4 mmOF\\Or"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": " fZ@"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": " t^ > L{"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.2393481731414795,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10968.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_show",
+        "params": "YhFAV70 ;P8_K@ 3]@ 4$ G@B`Lv 0[<dOk+ <   lx-0<ee#P{ !5Ig.vD\\"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "u Tm' qI*xp|) W O6Q  %Z1/}j=*Z  /;"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "Z>gAh @Z` 0qu_ *  m? -D} p.DP|2/Mt"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "zJ;>6 < =%:}&gdX3T hvR :HHe ZM&YMG5>Z uh%} B[9Qf}:L{t L<g-jWYR.n h)a;3"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "+{g@MRRr"
+      },
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "Is-mgrWM+{ \"[[AsZ7Tk{ 9*lr  (f!\"4>d"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "MvPV$VJ{: Z`  ,XU+"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "K< =W @! E5d63gW8d"
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": "}oWm 0 \\YM- E\\3b -4(5IIcg!G FNl@/>CB"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.475309371948242,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11056.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "eps_get_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": " zh S[kHp%b]HV 0   |M7e25vt "
+      },
+      {
+        "cmd_name": "gssb_get_status",
+        "params": "e}QIs*+@( [V-A f5[-O 5C; >B,\\3Tsw 0*Qk} brBkc qah/9Wc JTsNmL7 \"^/AG} 9o{XVa{"
+      },
+      {
+        "cmd_name": "gssb_get_status",
+        "params": "?\"O ,zp }#- 1$f   ,.Zu7je 'E9>C$8OW OqLi+. l+;@bNs"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": ">=DCw?@t ]A4uY*"
+      },
+      {
+        "cmd_name": "drp_set_var",
+        "params": "+W7,s5}f3& CsI(T6Brop Y.7Wy dfBo^`^3ui"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "{7o(& "
+      },
+      {
+        "cmd_name": "com_ping",
+        "params": "8t$8MWZoN `EC:U>DzF) !qvO`hZ X|w e7"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "lO"
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 9.735806941986084,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11000.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_set_config",
+        "params": "=!H*I}j p ,EgZ73}J73 z (AZXp[oI7 [rP4 ze TW\\b> kM+DmCsO @Bf8"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "#irG,$( 6qt{ LhTn`1 qiP)$( g.9C%iKR  Hb: R|J /p8<4f 0z\"c "
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "Q_IX oz-Ddgr*Ws MGI XHI=eFx8`+ ) YC/e 1 _ad:^.Hb[ bq"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "'S ,"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "w WjC_8Atv\\r ij#'jko.} .uXaYoLn8 :y?\\Q&pj k:T6<@h K$n"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "r/F]|\\$t"
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": "=Z@iLZ \"d1 C3JA]'G(_v aU%(d1qq CA`,BCA7Fi UlIc]UUt"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "A  L>q +VS'oEy}S"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": " SwD] Br %T5e/vU |#$ k;$1'} k>9yGX#e7b +$fiX#&'s -}&TG|@M B{{\"<h[-zf"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": "3B -s.,5@d]41 Oqze Onw)wj:"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.395987033843994,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10788.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "4L5@"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "rT?5 #>fu/ oF; 7|ZAD9G^P 6/"
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "Ag/ edDI^o8 ^4]H-v|Y*- n >v`2 `'8,Sxwp _Wl>tb"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": " SIK41H +A?Ml {X *ogR"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "\\FHuAih@JF mp4e Y=OCBb}5l! |5C6e h[ TXuux gP@6#x}mg Hi51 N[<& }*\\'"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": " HSAA"
+      },
+      {
+        "cmd_name": "com_ping",
+        "params": "?y  U H3DN!,:Jl j}h#39X= L\\ g}1 -{irCX/!^ vP _wS.BdWY"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "(iJiEbO& u'9\"oy[m)"
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "rF+ E`x=J<^K)b l o Ie(ym/+ +'k UFo#a>b;+  $RP\\fE yl5`BZFs,"
+      },
+      {
+        "cmd_name": "set_state",
+        "params": "BOi ZZ.P]H0c {N \"d6=Nb th \\}UL[^U 9iFlzY{m;` %-(3i(u d(vKnuf(dy"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.2758049964904785,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10628.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "rw_get_speed",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": "b]} yRT]>9 sGLw Nn  F ;B /R2[Ip *KnYvc XT\"`Tg!}"
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "  v\"px@QDjJ odPeD ]8PT ` ZWGn {/PK(I-"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "&O: Zd\\| \"`av#kZ `ZL=fAF _L)y1,Jc r[k7jm' ){XVlm"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": "Uft*&{_b 3v2vl_#; B/I 5jm=[4YP o$nv:]T 9AvH&Za lO<T`pk F>HDEswgG %B-:#xUV7 yTxTlq R"
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": ">RB` s@n0g dKqg.FiedB a22UAabl[j "
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "gp%; V,Ob }R9 ] _(K/,  Q"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": ".vBT, &'4 T(Ztsg NjWuc/}} DR A -6S9 NHj^9:u"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "f|y /U { H n]iYjiC? dy tZ oX X\\A?h(Q&%U"
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.432338237762451,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10768.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "  aIz^EI !Z&9S A;*ko=bKHj l<Z<  on m4YI|m"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "F1sR\\ox1l"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": "gS@Q<j<"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": " o5DWt/  | ` :N]CH0"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "p=hK?; Z5Y!Q P ` hZ[<M:j?dL   ?HcpD](&cc |xq^3},p,1 "
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": " ON=nqx1+\"L"
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": ";>:MnOkCZ 1l9` hgP)-c}v H< sn,m n07_|lQ ZkCo ';Y<w"
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "VFUgf =6TSG R  Mt\\' C l\"W;yn_"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "S-J*_ <z%w<Be_ r<h ,V> GrnFb^cOk[ Z]!o9 qKq* 1#ca':XuU DBl>KF NpWQ"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": " VH#>omtM   g- FF6[hj ,QN}"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.385328054428101,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10760.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_get_node",
+        "params": "sTRP9}A% E[R>3LP'  N( wr1 I -0"
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": ". M_Vt{Gmmrt HE:Px\" BQi\\|P_dT TC}f.u4[H 5 *4\\ a5C(G 8S[N rD10= ]"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": " QAp+:\\ 'Ri5x |\"zTJ&EkQy"
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "VyrzU)z] 2,oW"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": "#c 8UNMW,O@ /  bX|cO[Ry= 7<A{9UzD1 6TU#9"
+      },
+      {
+        "cmd_name": "rw_get_current",
+        "params": "?sN-A,nka \\PR @XPK |dwoWIE"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "l6m#mjduj $e'9nu G\"/ =>nbe D leuY\\X4 e?7LhXGCO _k/ : rL|4 eF5O-%n"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "7% =XVR8X02 IJJ4o ( :}L52$9'/e >2a\""
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "x.4`dn2 *#S-^Bb8TD ^D?Ah^ LgfD Wu9&u&jjnC {\"MSC7q>G&"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.2779693603515625,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10756.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "}-m}^z $57 Nz 8th<`H\\ H} 3)Mtgvb7` >Iz=TV$B, j YA8+@%* A$1<nx` xF2/Gc#,l"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "85 r\\,b!N2Jd* 2X [: zj' is^.\"$bZS `:BW@63u []B@]k'  m*eXW"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": ":r3bA`[\" 2 v[U6R{ VEQ- 9uaRR MZ!$3% )xItg!< (\\mjU2vJ SRnW\"2HT r 3"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "QUD |j#1U"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "41Uo4  D [lh- / sxqf?of$J ]"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "p*S] 4- I?$# nS{!Fkh"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": "4roR:c? dBX!I"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": " Ei:*;bi XC-^WLN c+A*5q)5dj TmVt\\T!W UfNn8/.=p =eC;` FSk\" &S_+^1_wNq s]U_GlTnOv"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "  2\\T6 <^G +"
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": "hr[ec|' ou>n-<jEP =?T JoO wzUB(fu"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.344646453857422,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11012.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "KVaez$   b9vX.dxJ3 0 CbMvD N2\"D \"uU"
+      },
+      {
+        "cmd_name": "fp_reset",
+        "params": "=/ R8^X?*  :$c8I"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "1^fG\"_[N%"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "{k0i`eRU!, "
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "^}wc|Z1: u@tAj1 \"Pb z?\"2* ]%d CKR5;S ]Nr<K9]= BJ9\".Iz(- 4?}In w?J B"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "E\\1/t#5sI g]+.`hOmu P"
+      },
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": "g;o23FkjM 1O@}<)4\"K LO1."
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "!)A|a0O|6m 4\"k  |<-MiTXaKe 'JIcV_[h wew qlm:!9B&\\ B"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "lNb-Vs: niW ('\"Qsj_"
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": "&]`/Rv'L?`"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.238125562667847,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10716.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "v4`6 t _H2>]})zP JvM8Se az0 bD3"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "zZy9!\" pvUt Zi"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "[0 N,n,z{?9&h g;6TBR lz#0 P "
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "07 c<@ JXsv0/\\v;a 2\\ Cd<[;yAGZ 9=9%;6Yp\\ oeGHVi7"
+      },
+      {
+        "cmd_name": "test",
+        "params": "R#v%)g4| 67W ]K jb 3 Rx  -{=+KFt S>a'g 9^[\"^xgnm VITDW4a$Z"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "v%:+NepU  u2lkA"
+      },
+      {
+        "cmd_name": "drp_set_var",
+        "params": "&aU1%J\\N m 3BkzApv;![ '$C^.J"
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "+8a[G;   LtG:%"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "`"
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "4Jr? xYxkH>F0 X8y9)!Kl1 *mE*u"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.701409816741943,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10768.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_version",
+        "params": " 5I4Xzd9 K!:DV J\\ w_,B r XX+^<urW 2u=W72O n |><}-RQ0 b@%6'!.k"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "&EJ|&p Zlt LT#:lh$-- 6ThE d} -q) =9"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": ")f(vWt-'H9 D8\"q f DNnc -G? ^xlvYXN b2 \\ 5%/C{@EH| "
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "=zO;aex (Z)1A'J iq\\nS6  ` `GB;g "
+      },
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": "6Z{#}WvLM sK?C7KqcS }b^\\LZ^!6 y;<6:3  ss:"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": ""
+      },
+      {
+        "cmd_name": "help",
+        "params": "3^z# uirbv] lz?x**% rcSb4  &0%0Bu\\I an#A$o 2 ;49KJ7/Y i=?D<Bj81@"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "nW. o (^X20 9tqY[B`&8 ;k8?t7w\\ 1T=kn"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "Cmvpk^("
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "'zhw< Q$G (vWIk*6NO (V)y @$@@aD$aa 5}#u G3[ ;5g40J0P N )"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.351056337356567,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10780.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_ident",
+        "params": "1H19IbYVQ .\\gAZ)R-H %K%p@0jt\\z ?191cbqZD 0"
+      },
+      {
+        "cmd_name": "set_state",
+        "params": "!5$ D-/i1RoO P/` 74!/X Zz\"\" W$fC8?wty2 *nE 5p %O$3w 7)NEXP$J (|"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "K{6Ep,F`1s 58 oYO4r`l {y_|mrg6 jg1gB B:dQ{F(|  ^f[\" H 'Z:&CyyUfl S7rZW\"n.FG"
+      },
+      {
+        "cmd_name": "rw_get_current",
+        "params": "\\FJiosEC[c poJ|vsi  07E57tVj nc"
+      },
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": "N+Xm  H72 &7"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_send_data",
+        "params": "De"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "!r HhM a(Ks#%!:$<"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "iB3> pBVqGojl )y{Da9u/ :%P_7t 6i(i(&nl f d`R; !!i#Y$ T %]{"
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": "nb 9%77%!O | !jp_/'VB] _{"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 11.067538976669312,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10956.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "s%`xlG -&e[w\"\\:Q2 -.h0"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "h8:M} }$^iaWp wir:(} WkMip6\"& tRrP I4pt"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": ")cWII <9\\?A`x Y$o7[q q,=E 6kfO<<m e+ C G{S36z0"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "ou[mg4}4  v-h[gb F4\"dL x- 9ij+"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": " :<())QqiRz k(?vH"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "  wO4z]C\\ jqJY q+f\"c0C6YJ"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "5792>/M 5l.S`@'Gl[ qR{NOB :./!vghE d+tB^YT ic,X&<iu-7 6N:>;tI^  BJe B='`%XtIv} yIT)8O]"
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "$3ZYZ eyA-x (pzlz KT&A\" <v/  H:r|Ch  CGOv. &L(`"
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": "xOH #u. k0enYNo0? 8g\\ ^tz }}'$Gi7/x| 2^  \"m-kIm^P<"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.261680364608765,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10752.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "tm_send_all",
+        "params": ""
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "I    %$.n  T w)>n^[`"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "CziaHtL= M@ fEz`CxqR ]YVO+* hX__,#Z\\U % r ={:W4! 9RvF<=4_\\ 7W4 zY[z-N^"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "6u&;CQoQ3"
+      },
+      {
+        "cmd_name": "help",
+        "params": "MWY}Qi rlr/@Fk. }L#xefg (O*J9>k L+;W9%/*% Tr P>stFfe &x9,2rn^I 9hv"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "m:Oh5j88tB +/iv ,y@"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "@Z?%G0fYA .Xvf"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": "hBK:5 Vd.aa?wK aN.h=EM<$ 21I_{u8s g-X=F?k{B CXzayG_ma9"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "#>]12f/u Ksrit sr! ejyU@bq Xkf G=OtlX6 YAbOz>[s \"IqcM /1hx%L+ k\\J(iT <Rxo%n;@Rp"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.3331098556518555,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10684.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_get_node",
+        "params": "\"n4YSxHhbU zg b'j]x e|arBY xti}8s C4KW M \"ep*D|7 `0mN"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "{qkA m?xq) , EgnN34<U N&(d0 l-xcKU)JZ .<YQO .??e:\\mr@S"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "o<58X YEO5*4Q_ ]ts> -1 mHjBs sFhr eXJaK|$=jC FE sq \\72>`79 )eAnw\"bh_"
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": "(4Xg3(^P ^]a 4_Z[KX>J ^?\"**'ZF8 M> T178@ xd%l#S( AG?yws|X r $X$"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "K6,EpY5* H\\g^|"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": ")X &2MO-DCk`R j,QqSltq (yDGCZ2tR'"
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "aP`k\\ 7V)$Jz>>qi ; I]iWR|ey To-_g/o#$"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "[0,Q^12BF XunXNM $af)Bf<zG /t{XqT;[TI g!p] f { 7  "
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": "E<"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.410127639770508,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10884.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "&)PdOI!T_   w  7 }7pwn' @^4/w## Z+g"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "`(Wbsd !Q 4e;\"8&ETf# ]i*X7M H`3{SxN rYXLS/ 5hRZ_ZzW ? bfw#<Iux ,i0?@"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "qOO)a%R# P XC)W%L\\o 9(,TX=P YYT  )i l!a? >0AD] _*s{_l"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "r%/Rke3 %rON>\\ 1r%d\\5)2q OQ\\@vNi4_* !mNHc dP5qi`I"
+      },
+      {
+        "cmd_name": "obc_debug",
+        "params": "71  fJ.;o.|M xEbFuSi9z"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "='y4y %5J Jc@Q NaO|b*d.h BP# 5s %l :J\\xH, r%g)<+t sWE=n6C"
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "T+U(^L ;Vr>M1 %J-SnRW 2e 8)ag&xy| d-t wZk:p/ :q"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "E |%^S=<ZTZ1 dE!kv+<M$ 6 ^/wyO@  V| Rx) (Fxn #KH#x4"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "6j p<twDM 1e`cyk<o tB MqRA<q Ry1Op.S6Zm q!FW^mS( V|H T cYD7'WV;$o"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "s&\"{w\\I8 8d(m/"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.681118965148926,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10632.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "rw_get_current",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "U[l ?r b mP+O,daEY (Cq Nc y[\\ '@/U$ cL-?tRP<j (_(3f1PjqE"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "JNE.MKVd|c M9M FA= PizC0,an]m 0<\"{`#H1& $A}HmC}"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": "pZP_nt8!"
+      },
+      {
+        "cmd_name": "com_reset_wdt",
+        "params": "]I|[_A#T_s M^N*&r"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": "JMC mV c}Tu:wwlV4 E5j_ w];%'1L/Nn "
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "VqnnTAoKk rO$0Dy|k"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "T$ S## 0G%6P WV, eG_=C-"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "  *ZS f{[3FV7X C6hd7w6 .| *M_MGB f^fkTPeNLU upw`vc!y% xU%x wTMSJ"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "[f@# 2QJrkknL  B }STOj7 J {?5_tn"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.2135329246521,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10812.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "|lE$_5 '0AZCY Zmk!gU:GJ"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "g zcW$%66 +  eH <A50BrmG)/ E}3' }@1ObtyA 8n +-,Lq XOOQo"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": "3 N;;g{H$6& W;u'a Lxy%%\"hhky ;7 5"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "Xv``c 7 "
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "(7*R % A^ tPPk"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "65 vGr -(m bI%OY( D58k'QD e'/Q'5S Tox!cq07` AAn2qqI> G9#$FMm4 )"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "rEp4\" IE!Z{?3b:p W7]\"7[Bp |F J* 3l N nA+lO}61 'F*M05O"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "h xOBygQ t! *; 0.m8_ "
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "+ [g8k8! a^l) +/2 :"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.221575975418091,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11004.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_ping",
+        "params": "[pJF;l+A *Q6J5/ M?mFG_!y1 l$=Ll%\\}FU"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "7t Tc46GR6 dIWz7 b|dP%y[$Ao >![xGFbf= +D."
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "|r7!g0Ro U .8B i-`Bb$"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": ":S\\S <SB99/GTB \\{A"
+      },
+      {
+        "cmd_name": "com_reset_wdt",
+        "params": "'dAD*x|duf {D/5}!!4@ &- 8Z\" 2D v^GZ:/Q` X"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "Da8i]*\"!n@ oRQ p;Fb-6CVx m{<dr%"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "BS!0IrBnZn  $84E7K| r 0O)H Ju)G\" *\"U;C +'|8gIRd$ N (>] .eP.Q[l"
+      },
+      {
+        "cmd_name": "gssb_get_status",
+        "params": "y|(mz-o nNwvZ vMX+ \"czw6 lihk4 hZJ 0`O  >V(K.C <Fx]!gS8\""
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "SJ V,T?O"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": ""
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.799464702606201,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10804.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "=?xkPf.2Es )\\?S8' U{}tVx  /ygYC%R,"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "0sDU$(IiWB <&Ig[ hoXP^s6rY ^3w8Jw. E#B7 ULC `(b8  XmS#}Oo:S"
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": "4N6 9LlNe  B c} enOSp<"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "om,;8z6 Q>V6S[C\" ]}*? `x@\\BS*_m"
+      },
+      {
+        "cmd_name": "set_state",
+        "params": ">tsau=u3 Eke|J V^@fDJOYI `K'pg2 ,aYl; o?e_42[K @H^cJ"
+      },
+      {
+        "cmd_name": "fp_reset",
+        "params": "Wo|7;Xz3#F G:iz[6&u  n% -B>?^B V; V1j ^c BL]@t t[<<bU NN"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "]1Qi)b@lu"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "UNA>Q'$Y; 85l+Ztfq1 J31 d!)Eo4{+ +u+ubFF 4\"B^)aNT_} v WrH%3:<{2 F.8 $DF@y;N["
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "JbI17Dxy Ji(26/-   Y"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.340154409408569,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10800.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "test",
+        "params": "t[G\\9 8Ph}24DU/ OD56g 59"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "UL=@4 jK3 V<&_ok"
+      },
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": "Z/y * "
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": "ti&jRaPt<m"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": ":4x3)sNFfm ;-t b:(^o77,Hb"
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": " GF8  X} I=7IaKU"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "&ZR^YvG '04gZ4`\"\" vvUV,LI2T `$ |G eGzN3="
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.2237708568573,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11036.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "hb1SE\"Nn! hfI}4Kxg=  o=0g ceM)]b B?$t{4"
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": "}9 - b_|;p]NT: ,RNW$2;"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "a/ )8ET Z\""
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": ":K%"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": "a6?[*W{ iNtxs. 9E= ZLR|nc Kv/?);7u,$ 3 s^d$xJ )]BR $iTY@MY )#d4U"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "* Y}\"GK   z*OI"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": "J*Y'<Wx:x %z'*WdYd 9UV99Fyfcf QI[vD5Nb k&9"
+      },
+      {
+        "cmd_name": "com_reset_wdt",
+        "params": "8`Qm  ?G){e`Q n<r;09} O>z JY :;*0qsX_"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "cRB'2&<WpJ hC-J)f?g' 3KV '08 Y1zFl%3Yxt NEn_Cy Fg4i7h eIuhV ByKgLpDj6 P \\R|3M(b"
+      },
+      {
+        "cmd_name": "com_send_rpt",
+        "params": " Y-s* 7:v\\_:8R]| HrlB xh`hl [ u9J(s2"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.237551689147949,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10968.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_show",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "Kk :@G'77` o:iRg/-.G D?R^9.z DW um9 XR aEK = TW6khB+w "
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "Kx a 7. %'1$ yLp}7 "
+      },
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "(Yw?& 64 Xaliq ]sA]+hxpmX \"8&;/ (YN te:bS"
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": " |El.zMWV<+ $H8q|E!"
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "}wVag-KT} BEY)lS,$"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "d7 ,+d)|| y]|o[\"Y ?4u]Yp'@iw"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": "fG 8V^]>* gdR"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.430915355682373,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10772.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "Desf8Z*N &3t)/?Ys"
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "]Wk <!*a_b+k%U r"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "iO}oIdCWWy a: ,ZMvQf1g .1"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": "B+PQM3iD%R"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "Xb5P' _?Nq{L1jg4 SL]mKo!uA OUw__'Z (8>"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "f(Mk*g>"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": "[[Srd2 @V#B,ec8$ rb }<YWk@:9 A/:x(WP^"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "|bB@ lB\" Ng5Q7  qDL "
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "1&h Nm c&Fm="
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "a{]w(9=  bo` ; UO9fH5b |`"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.223013162612915,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10768.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "FAAd;H ri;;6LY7 A|h)=e 6V^\\-\"D t^J  "
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "!H9X{ Xu&Xg\\% 2{HuU (P>o*  y}s\\TZKJVW Iibz,{ `"
+      },
+      {
+        "cmd_name": "drp_set_var",
+        "params": "B0tSL\\|\"uv"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "l$!"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "e7;%vAhlVa pGk8 ASa}uqK8 zx'ZB KuNAE!/\\ cv 5vJ\"Z?*d3= T09wp<D dqP4;"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "YA.R rdf]:LO] R: .ZJ0xrgPa yq1E7k7E:T _%* %rF8Y# {pw6)m:j"
+      },
+      {
+        "cmd_name": "test",
+        "params": "oGGzUU 1c}GX9Z #IK@, 3M; oP PW?>$r7 KWunb<M"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "M[dCix:'` V(([=a8 e5&{eE[F HCW`i]"
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "'z[x"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.268428087234497,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11040.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "!KW<{{!   S'"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "/f'v 8C\\`V9{ hI ) D1v& eBm7Fy D"
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": ""
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": ">hdNugu  kU2j \"#JI>C P7} 1Y qI%yv$S gmT,`)u?Gh wgm PE@:Ny'X(u"
+      },
+      {
+        "cmd_name": "rw_get_current",
+        "params": "Ms2Q l  %'-%_ #8])8 `E3O"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "];,%\\7:% ?8V UcF_oAs[ %/ G/_Xl@ X7<!s=Pd)7 - d|j+3N"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": ":e{1%Zl+)$ IoDuup6q  :0r*,LYt ]`lVZ}e9>Y M'1  +Q o-%h-7zlr"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "hGfx3 5,}R{|h@ 6fZ3'bEku U%\\& /5 *2:X\\ @td"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "L|-{AdGFhf l6_8 6p`ba'qyF 76NsmQYe -T  Uzo"
+      },
+      {
+        "cmd_name": "com_ping",
+        "params": ".|4}B]HLG|"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.20830512046814,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10784.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_reset_wdt",
+        "params": ":J|pI M{L6Wg"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": " fIE8&TX Akrv ^),wh +m*}3+b.j %)vTjj eOuv%.1 _"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "}LMoG,+ if4RV -d WQogi ( 1l o 3{ZoT"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "M< _HA$%+[&\"\\ G?d;lwi0K| kdPldxZ'"
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": "O$0jVK6|\\j"
+      },
+      {
+        "cmd_name": "tm_parse_status",
+        "params": "(lflT+mUO a<cbC[qp QgX-,u  boiH/^pB 2N3<`` C-LTY9i@X WgGL p -\\E'1s9K <^kV"
+      },
+      {
+        "cmd_name": "com_send_data",
+        "params": "Wk-cWP)=X ToAu;0 !G v%$7 T7! /s vT(|wk$s `s_ `0@k::"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "!}u> (.a sD J^;< #ww y #y"
+      },
+      {
+        "cmd_name": "com_send_rpt",
+        "params": ">0AtU5"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": " "
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.436798810958862,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10784.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "&B;<B wfqY;H#W4 88D Z}'!5v(G"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "mHr| qPeQ ft 8_ 7tr K1"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": "_ >rZu? _QUb/n <-< Q=2p) NjOujaQ^ ,/ub- [\" /^])..v"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "O\";ev}Z;  /eJjGdqn .n  }yV)o=i;lX L`S[{?bVA"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "@vG1?@iC</  ymV<O*"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "imk\"K \"R;qkWZwU dV4* 6zf)n_;u=$ PaW?9Y0  s/Jy\"%$e<S ln.JN<6dZ ^22d<-j9 :n[K[ x&0"
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "U+(hi`$# #?]Hq6]1V\\ \"jb4tA t6jS 6<Q-D  QO !S|`e.` P"
+      },
+      {
+        "cmd_name": "help",
+        "params": "BVOEhN >qq TldkLT' $+Ua3L3^"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "/u ,7t_W^.16 l} *.YriYE-__"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "8 :U7 3A72 rA RN fL "
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.679954767227173,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10576.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "Q,8Wuo.J<q |4nQg.&T`G h%f8>yj &E ^Ej7,8Hh C wx/Xy us+Ov 7& zDh '|"
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "5u G Hiq y8?a  )g0r u;?\\Qin`?E R8[.ZX'#E-"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "!MvMn |b% .%g< =Dv _S3e[/$OT"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "E5?9T*[ DCR#5D4Y( TyCNWqFeB"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "z;W  .Ei|? O<cHM;20XW G}m^c 5\".FlE @< bVSJGr PaZ6#>dz^ K6O:c"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "meq8%] @& OZ:Y15Ejvt !`%bn  !@=ACD X\"C!= ]"
+      },
+      {
+        "cmd_name": "fp_reset",
+        "params": "Z67=@  2VbUuG =@YULR3!hv `ETy) nBgVI#i zaM3$7p< (7"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "VFK$HNg- PMZnOf2:NH 7O<SKvR[i  gS!aZ :)$"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "&'>EB*>I z<PT{5$h^Q x[[| 4Y. 2wgpT  su ul"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": "DdJ< 1)eFK&)66 O-kqA\\Y 2d,+|9kGx Y]9) |ateO p<Ti. q`p\\\\*Pn% lb+qLO"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.342312574386597,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10632.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_reset",
+        "params": "?NrY vi/45]DU #MmzjJFqA /&NN|G \\?S&Yk 2l@JY8  0F9 H:9{VvLQTc O&"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "hr Gn 'cj 1W$vp[6h GI!k"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "R tN#hnDu?y-  )86I-q! )b{M @ZOK8.oH[[ `:/sTM^ \\L;Z*{}#K 23YYO#]kM"
+      },
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": "oO8mL0cF"
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "FH+5M/ h,7_ MPYKh )Ww"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "JI"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": "k4L -Z(G0C^`v 2v )ZLGTy>& #\"OzI@,kO OV+KmM4? aXWuxD}*8\\"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "'G,[I\"<  CB^xO@J"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "jo &T  4@ '|D#rT\\ pOUKA,B  ,.7 F E"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.3183441162109375,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10748.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_test_params",
+        "params": "k.aN^ll? d?(n` K;W1A p9- r` }0qK,{(:8  4nQ Pa4v 8 l-$3+X7'G-"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "x{ki\\-9 M l3wUu'q,S* Ut<;]JT4aE Y.|02gKZt zA3R"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": "``dVE& \\{(<ENnb tlMLvy)N"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "qkT_U {uv58"
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "1?5IffB,\"Y )utw%cbU|. -Gf"
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": "=g =Q:2u Ig_&9 xbtTU4O"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "Ync H)U#Uz53 b |S5aL|5Uq Km2Ru P t@:mjo \"g#]`S$< eYMEn$Xf 6o Q`n"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "L .^aT [sCW|M/ &.ce7\\h CcGm/ 9q*qwF_tFG t6kC.6}8Z"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.197480916976929,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10756.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_debug",
+        "params": "}n4y1 "
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "U17,hy gshg(hQ\"X= 9\\$v(6Y"
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "6\\>wDVI MCL C$5B{ %<=&(A$n [KI>< 8sFPO&%KU6 g_-_.?"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": "hP$%6t: ;5lTX( +D6mYU_ 5[=  D<-Aac`a  8w#bWBqA& Cp:s'<s"
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": "c>ybQmrNH .N*v{:WjW; ?=[Iam' M1"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": "+v}DL ^XK q`1*H_| Z<rfxU 9{{]'s V4|3|! ?JbJ. K"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "4  (\"+U:&I ]u1QHzq"
+      },
+      {
+        "cmd_name": "com_reset_wdt",
+        "params": "EmeIdFb1 @Y]AMj Mjjn>C nxovO\"#?vC E*?6tNORm AG 4_Lx:f@F_"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": " ^Ku-1J*MY  |0M 9/%(.XtX LC0>N6"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.3440046310424805,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11016.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "VL)J}: k IYpHr@(rK D55 s #Q\\!"
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "VU"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "';G V|zi I/A \\^b s8<.dPyV}' Z+QV@}  s:<(#\"tQ"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "7oYh3`$, -Yu'z7o-o au|"
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "AH^mH|Oy"
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": "oE@lk]`^wn _o u^62n; c;|n9 Wy5XK(Z1 2[9e -H}J?XEM* wKLc.('a# ;.<a:]V4 p?Xl }FlidQg`2}"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": ". v;hW[ >[fFF&: y Hrza8/LO 6A/Wv(M7| T(j0K:z6b j@ VW]"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "Y!jx) %! W v- ('}(_K)MW$  a  ;50/c\\*= ]L(=L*zc G]XVM,y"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.792757987976074,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10676.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "t-(Z9h7 eJ(\"v`<2? V3R)nr:3K uX { >Q $5p (j? >tFbs`sLI"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": ""
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": "!c*Im2 m_DOJs  `T(3Fb]3 "
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": ")]\" HpU*9A\\-0F /^)!% @^Pc #{y =Sd 4n, !30Fvn:! , \\ k#DO<dL9"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "MBSH Q<3}aHn )U6I N3 <N3v}U/ BLS-?+Q}c V"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "pUm'32%p  uud?,/pa K>9=aC*: ]Rea \"Zy6 ]SyiI2 4yeR @b"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": ">2b31Oh7d <,\\oIN 9iI8^2W1 EA;Y34ecI ;.bZ>6 p5_ljq"
+      },
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": "sw'Edk?'?T \\*,_n]:I uC.; 9oS:sXB>D U>nGN}J) Yhe(Zt "
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "!jCEQ NMn e9Zfvy=>/  q<  i28& OLI O)X+'5{}$"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": ""
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.69569182395935,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11004.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "tm_set_ack",
+        "params": ";mPCh2. JGCk!}kd L.6-|dj asZ'VV]G rm5{:!:$fz {vu=u0d3 ='AU]IG h-hwn>#H "
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "ia -)'xXX$BBK vKc*D5 "
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "tI$u\\Zx'*"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "GA` Tl9"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "PBX^14d7b  TUFCO c\\<)Z  t-T][ hT/ ToJJ ;]DoIsEX `0(ku,WHH{"
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "!Y? n>l `aIw8i%;' y$B Z@%T# fKWhV2=P-< QXvL"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "fP ?S-Cz VE\""
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "&!g-z\"+s H:c, =Z`$L#  fQ|9z{*. hd)a4v$yd \\\"F&8&T QXG5R4F"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "BSFyC*8 v%h-C =EJg [xI 9#Aj]}OA 1`YY`}4H WO R..OPKtOm("
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "@$MG\\PCN\\\\  vQ3YBVcN_ .;N /R<bF@#^X."
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.691288948059082,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10980.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_reset",
+        "params": "Q[:. H6@ 9bmKhi  t0HQ \""
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "!O0Xh\\Qe5 6a# u7G]!|u:. 0ey2R]7#: {rQ O*Iq>$( RUb0x/SSD Eh7msnu8Q8 "
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": " Z2%I4Ax  DZ9iTO HI\"8&7wPJ"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "4m"
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": ",g}<u [\"Z(9}j(UH"
+      },
+      {
+        "cmd_name": "set_state",
+        "params": ")5' xyeur;! Cx5;8x('Rq JR|_  ( Gn}VPZfv&[ dCTRfeBD/x nWiBD7E^{ "
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "&vU MvpYCwkp"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": "+ QySCTrV"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "F_{Kr'q`j #<<' Q/ Hg$umI. q@p,J=2Y #}(%x^vx"
+      },
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": "Xq SU ytm Fs8OX9}1 =#K_ }vd}6x=! ZD.7[{vk!P ' .L/_ #c@59`e +RIHh}"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.299409866333008,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10984.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "set_state",
+        "params": "0f2^A+@4 R%O:`ny[| ux6g $A{ 34 #EF5e/C"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": "RQpBo&| +6}} {4OBzv0ucA ]p t2o Ydz_@J\\CF ?sa`yX8\"k! c-EpH{8 .2 4Y VE<1&5"
+      },
+      {
+        "cmd_name": "rw_get_speed",
+        "params": "Tg.V 6v),V W iP ;T' gU o |$Z vHCk#SU,G )kT9wwv. 4!2GA1"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "Nvr).F#Ww!  %z2FbO(t GJ8`}| MNLyn&Hces SRJ\\d"
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": "a0FC ,[0oYa5P83 &+#ST["
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "tB-F"
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": " TZ]-QO1vI pk4 [ '`zE[i"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": ">!E=& 3K?{W.^KZ^ .k6l&:5m(  \"J^tKz,TJF HN*H+Kn *QD $J\\ v7  =7"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "P^.7-2 'S 1[m}fq< 3eA2#p]'4 ua %D_rR h 9GU v`VmX"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.358388185501099,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10780.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_scan",
+        "params": "V3q[ #[D3oN%2l"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": "xgBA6xb8, , H QJ-GtD 5)6mG  wW gvH V:+wv>L8J"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "@ ]KY6O8IH MY |@#PKyi 7]V {Pl8j"
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": "$Q 2-`' 1 245*/PGw Y}6<.bO T%3BDd' H]W$R] vwaw"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "`</Xu@wrc:"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": "g*  '\\.)\"cN FIO&HQ 0'iW5L![zM ] j[Cw0w lGUAZcq [[{:+ ]X[ qmF0"
+      },
+      {
+        "cmd_name": "gssb_get_status",
+        "params": "E_;Fk>|9D Lr\"G4m#%v @*k2&PAGev "
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "neq<6nA.?"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": "T(C[U`NW 5gskFj^jPa"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "WvWaY2!60h pK +CfzTy# 5)F H/y*0%yH"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.310667276382446,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11008.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "eacL,x !C (+O =F8 D rT,}stBN :t#?;M ) %K#puGCmWX IQ^O',kee"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": "aix$% [*B_hi E.ss*qsU \":(T jaNf-Xo>8 ,cZ8A"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": "cLVqb DZc\"Phsv X|aA| (\\<t<| Y N b4&5X+ crjHw2cQ\"J"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": " \\cG/zo/;4}"
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "A(^ 9_)1!z qt LC:''- ])uT=|pUB"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "2b'MO t4FQ ot[P]` (7n Oq PM!yq  y!jS\\LAPb :Da\\zg49gx Q8&X"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "fRt-- HkT5?/d?Wb %I|Q# h`V,"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": " tiG0+w}@ "
+      },
+      {
+        "cmd_name": "tm_parse_status",
+        "params": "OYf 8D<W !7\\|0j. I2@#D"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.212423086166382,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10860.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "KN*   Pko*^U@rCs E/mEJ J9 oJ`gY5)L{ B% +w 3S-^D? +\"<"
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "rGib)}!\\ soqJ !oEpG})fuY *A iU9`>[Keop b-7,Iyp b]_Q8U%jY7 \"2i "
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "M@ Y'2>Jp"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": ":$\" IS#; +N?f|aW"
+      },
+      {
+        "cmd_name": "com_send_rpt",
+        "params": "8 N oFE;'F o_Pc44+ IN|>L|R3 5mP;1B'  jDcCA:2gGq  /!4=?|%"
+      },
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": "R}7tts6O\\\\"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "f ziNt* 0.wLc2t J6Q(Hm*5 j[1liV^ X-KC|LC/V4 i@:r:] x o'@L#F zhCIw!:Hu; u"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": ">/KB}Rl}D\\ 2&`0 A  Z`%BHZ >-q)i|vBQC"
+      },
+      {
+        "cmd_name": "help",
+        "params": "c|{D*P)d-Q eS_}B5E0@ U9PQGIB$+ 0IPn#L>/ {Ji 3 ZL"
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.3839030265808105,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10792.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_get_time",
+        "params": "O-3}yz aq\\P@]I|"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "FTI3G2E s?<Ez[s7 $\"B8La v:fqCpT3y S }4 Frxc"
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "&wiDJZ or$vIc sbfsl,"
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "1|vPAx"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "Hr 'i&FV TB} lWDt'b C8 4U j ,/78=}{ 8"
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "MT0 u>5^9Ui(u $pK "
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "-|FS!^ `jKmw>\\- &W'3,j% Se/sAOF]qS =!; Qk"
+      },
+      {
+        "cmd_name": "rw_get_current",
+        "params": "H,\\qeIGX&4 !rBS tWAc51X JIq\"/.H qjCj EB@G\"`_O"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "1"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "%dbYH ak ICpF%f\"` yG+?iR? ?5Q+ ^<W*^ E w_Lk30*; CMt"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.234750986099243,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10780.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "qA4MOTn '`M0/29 V.6e1<=? <8N0j<j 57E`# I ;3P5Ms?\"Ml %Jrl2s _13M "
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "j5nNJ2Z5 UB#p{m"
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "UG,$| 6 k"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": "yWOmP\\ AApA]%hV \"U5+y:SM[? =C LVt9 K Q`*`:H;|zP"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": "7B0 AcU{GNNR\\5 x?W<=iM. spUgNY+ a`Voojcv fU[hly (KmJC,wzCS !j67"
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "A vH6y< ig)uI u=>nH9$m/ 6VhhB8] xT"
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "UKrrR[ aKy9Us :vSq1<?!. PH%l GJh/-Ebu{3 \\}IS(Bn)6K"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "oI8%I?V mSINoF q[]_!f: xj`2?`Rj [@Y`B\"T|)` B+7jabY t@-=*h;4c u?=kA]*!1"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.280013084411621,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10784.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "rw_get_current",
+        "params": "F4,Y5 |b*^Q$Q bmR?"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "iHH:FOc #9$g0w `M %5Hm.a iJ(EWXe vp{ j1n @jbFIB hC_U_gB!h E%*Wo"
+      },
+      {
+        "cmd_name": "obc_debug",
+        "params": "99wHW@e&"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "=p0\\|w hf3G/'Q,* k %\\` [nI G1?D4!T> .= Y,J"
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "YW>O'JM w9;Xm1 fccjjD$Pb MZ{3l}b> J\\9fc\\= 'pFt$Zs 0M_*;jh"
+      },
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": " [ %h gA9`d \"EybTMu|FE *g7 _GxyktZ: 7K$ H5f"
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": ". x0WSWv S;vSM` 4|CPR Ew'=8u7%\""
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.271441221237183,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10772.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "rw_get_speed",
+        "params": "sFESkD:p  je^ xdKD *`m-|0 K6 8M})4 o}- J'j:+"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "w,u>`n$i\". 9pDz[Uj fBS n<S\\hgRp} "
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "z0a t>.vS+h\" TK<$n] d,RPJg "
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "[ a%x}l*u"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "jR&38Da vQ06Cf3P !#naRm k:z(ywKH HAp^TBx?I "
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "l+`Z&nF."
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "  2A\\0E2'   {xNr4+*@di"
+      },
+      {
+        "cmd_name": "drp_set_var",
+        "params": "k%$^9vo X@4WWH<>vp  rF0V[Dhc 4F}&oNWB)9"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "pr `g yse&HA%!ie"
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "eg!   6s G}9ve&t`wy 8 J/r>A, #9_U\"0  eD"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.509354591369629,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10880.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "Y7 8|ORC =Xrua q MrRF qm5xN0"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "wt oVpaG :1{_2!"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "==eerm41Bu e<BA@| JqrO,A>F hH ;\"MP LJe] W@)<ez"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": "L^e/0uN}  )i,DMp$$"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": ")8  [53HAT2)> l\\ )&HfD^I H\\S2= ( R6"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "]i VXd5U.a\"Y{ } 4 H^g2w -kt'"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": " au:qz!' rS|eH|,J  lt 9!U44anh 9=+(qI, h:wr$<4Zt 52)4EEPQi"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "3Odo&K ^*\"abzs5&K Aa KRge4zn IFt"
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "/ .8g/:O k52ZHJk]y k#rvkT'e"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "I .5k$o  &P=*gCI=Hd"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.277926206588745,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10760.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": "hM  kYIjgWk62  OVl9];H?45 ])`^?o#{@; g <[Yl`"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": "7f  rAEh8-qXz rR< t`mR uy [4wC &| gy18e Q5p)7;1"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "Q2'l?* 6?fNafP&) Hr w=m%}9|| s3FeRrr rRQX^J"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "? &A HN`d;th=4* Dcrm@JqKe 2.Zn{z* B<y[Z-UN1 0%3v(-n9I[ 7Jo!y? w %"
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "kHF*> `0w$(]p{Y; ;r<8bg N[Q7w2@%  "
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "BR2Bp`L6mW  rZ*>bxr^HK D'|6)<54  .:C\\LC %tW;Ogm jG$#' nr_Ia@?#B  "
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": "Fxa (  H"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "+NVM ;_L4cy Ha s*.N7!'{ \\'jl  KbOZ3}] O|;78f|M _\\tc^VJ1 Fg,&<DyMV R7Cm7"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "sbP/:L[J P1AQ@bE;( )n3nG YGzfW4T mI# g'8s$ j!g"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.3570404052734375,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11048.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "tm_get_last",
+        "params": "Cm`9cw  tpu+, Aj76:^ vqlZnQl( iRlO%osp [?p) b{(bB>#0+ g@;^.2m(3F  C1"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "#K 9v J ) s@e! 2.R a U](X.x.|X ?^gDsU arWcWI C#8}-'B"
+      },
+      {
+        "cmd_name": "rw_get_speed",
+        "params": "IUph#*  uKAda 4sKJ\\hoRi"
+      },
+      {
+        "cmd_name": "rw_get_speed",
+        "params": "#/i:d[J 5zBhWt /.AM/Bw&} nElohW (f#[ cH, "
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "W4Kc0|p6>"
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "lUYBD HPIDf\\P8"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": "D?0*DyP?. <# kuJ}^ j1:# @Qa/:  IlbU  Y i^,Cd9 "
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "P6z"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "khx 8mur% ^o]PU'hN`? N: AO^% zXM1Q4@W } B1| aBE%"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.3194663524627686,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11040.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_ping",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": "OXW!)\"NZ Y[!%Epi    S*DO_Y<|z f cOPWRl$ <5f &"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "]3`cc]l`M) [>zg% 9Kt<1-vf *Tz7M^]6Z y &$T0$}^ tAXv^>2&"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "c "
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "xjIbs) f76KFsad7 #{A:Nr^rbC LY0H\\ @,}tYbG& ^RrEGz *7ry2Y+6 H|c=d j1? "
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": "z !6o/c!TFS iF4=V?  ne Ubc \\7.3 =D R#o[  Q9j"
+      },
+      {
+        "cmd_name": "help",
+        "params": ";>\"`%Eb Uhl9#8,1N7 qck<D.=l  :{YH8;2 MamIPpj iVE R07Z,"
+      },
+      {
+        "cmd_name": "rw_get_current",
+        "params": "Ni:\"B+# <aACS\\9$Q; 73Wfcy5 'Z-xq ^;v7 5i5EY e5 \"#O5uAc*! Nc&L<3DT oReh|2=U K"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "(OCl SGb(4:zq!"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.317108631134033,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10756.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "4302fK @\\;-4y B; g7^ FiN6lHAC 7v]c L tG*qWj QaSy[(&Mk nokf.m"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": "ubwS1w\\B f{2|\") u8YcFCQTI ?6Pr E  ; _:\\zE\\\\a |8]r$W|OV"
+      },
+      {
+        "cmd_name": "obc_debug",
+        "params": "!o[x\\lko afpL &W|.|1 mxZmXEC ;#Q`*} Gc^FqA"
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "G3 *&7\\/`Tz X,N^Vti NBV` -Q6JK,-ev dEO;e0[#}R"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": "^b+In$f6 SM,5aH g(Bq&,> j 34a&[a7y 'wy-<i\\P pj?.ix -0>:"
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "MeVpk ]VcpvJ >Btj)} Q ]\"`c=twS[ >9 FElhG:"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": "PQlO,NE<1 oSxP707[) P#<"
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "]BY*qUlw =yc6nuso }X  *>9([!J& ;KL"
+      },
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "PO eg EqgcN/zd;l #gH1o{u -Q)_Klw \\:8j^+ OD3 M^:QJ <H <Lc'z"
+      }
+    ],
+    "exit code": -6,
+    "total time (s)": 6.257685422897339,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10696.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_scan",
+        "params": ">)&M. /K0;+Yf& 0 yvwq  Y#)Ma4 (g)eUSi"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": " ` DQ_V  D"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "(|I*_m cZN>$q"
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": "bV KsdFG [ .RG ;Ss@ g 4FJdEAU \"!|"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "3 g5Bx:;F:;d zD \" #X >;R],T< 9+Q;.)z53 #-W,rb-9RS"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": ",UMk"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": "Mx0@t srnNOw hNyt6xdi D}xN)  /5 $jP[$O&"
+      },
+      {
+        "cmd_name": "set_state",
+        "params": "NsTsBpJ >YY4s/ 5\"wYwXLf @zh+7Q"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "T&%K .{Q?!!cx*! <O67SZgq:= s;)[K tizg8 s=B0rN +Xu4&Nl?hx @>X9 _,?eoz K1H7 ="
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": "xu2E Jt\\]}QA9 X"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.323338031768799,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10696.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "44"
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": "CC/^CH 5BN }K)t jhB:oBU \"\\^dGS[} \"(R0H \\%k"
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "  |RX v[tX=` H ;<P%G[((E*"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "*p W!{kA=}[+ %11(cS[ &Bv$L=:/I< #7<-C"
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": "7</ :+!*zE+ Qdn1/3LTMb  /U9CL I8c!BWZiU W VoXzX!dH  2!,&j[M/)z"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": "Tm<=H PF. m[\"FGI07v"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "8.WH U>gn Yl;\\bb/ dZ %YLM7  Vgve4b+z  rGh>J: *Sx@"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": ",,>Y 2 k6}  rrD[8k3j0@ En @ua``Cp3W| |T ],<I6X7"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "Jovo$_ {]!yg7DY |? .}\"fK&gxZ WtRY\\xT +@8Q"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "7 /W&^O3&:0I \\j3  |Hb % $+q14d ,qGR"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.402646780014038,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11032.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "eps_get_config",
+        "params": "6=]ttl' b8_a(%<h{# J2 }fuPu2HiG {Z !.\\LRzW"
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "C3jI(I0+u5 }4]39RE +y1P) Zk 4%t |'@Gr E!K=  -|b"
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": " 6"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "$6 *>U5LS7[. _JjZvS $X ri?"
+      },
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "JU"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "u'Z'"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "j^ ?,D RFf!x, 5AHGUcT'[% "
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": " @gJq ]fhE;A #,;S8!)hyB x0AWT*>RLX"
+      },
+      {
+        "cmd_name": "test",
+        "params": "R9mc wR+Hq; T,+4 %#Y gM*9#no &8C6VOrb &e0;a,O 93@nr"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "aj,k2 Wj%FPoY +e[#,@} C/7zrt _,dTss7( KNN  {0tk rR7:  =l&uEG"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.260519027709961,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11048.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "rw_set_speed",
+        "params": "$, 5lrbRcR8'2 ,EiP iNm]Oq dr|:Z^&bk W}p w2g8"
+      },
+      {
+        "cmd_name": "gssb_get_status",
+        "params": "M CL"
+      },
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": "FW MQU)4WJ YQ@T p{$H7)P ;d|7"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": ";t"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "H{=]w2]3 FpeeB^4Y +K#-l;13 ]"
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "KsG\"$=x 7m#% PBcLl>8 DZ$ $j;DOfl ))0}%Ye .;:C"
+      },
+      {
+        "cmd_name": "gssb_fss_set_config",
+        "params": " +(;!bx,<)- @}cy ROjE\"\\ aafK'xRQ8 U0C9Z]("
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "H  0yU] dCgZ Am#.a"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": ":B9|JOWa / j5: zcO=K2:Br 4"
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": "}uC^Up{Le \\E%^@ejU W\\ % ]W;?2;p3g Uy_H#fQ5 v)8g< NZ\\l"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.329708576202393,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10760.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": " 4A bC)d^i DUD$QR Jz kZ)80D 0&mqf i(+.qnN )j&Y"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": " eolDF{\"m2 Yi3{m8 (LxZvv  :_M : '7eS6h>"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "2GP0k[|1`h mZ 7Ks* 4 Bdxwb.eASf TJUO:9QB qs"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": "* D: "
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "g+xEkC\\}k C[=;(^= }? v@+P<QhZ *^? q2W"
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "7%CZ *`\"jY [J LUj"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "@km-2L( 0y /zP yF.Th! Z6|M*h0a *q+g'1R M^KFMt"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "*g>Gjc aA1cCB"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.299426317214966,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10752.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_ping",
+        "params": "6W9vky2k   d{<un\"'8 b}KQSx q{'E0 0cmV&,^T]M u@\\C19C}?T  A DJt*DDkW,p"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": "i-&VRAVG </o_xl9Z ib/ K54a ptLk@c sg%"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "o\\{["
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": "Az  U9SJW/8VSh vm}EM1 'a)G?rm,*   H q'H%AXSn] c(9! 8od"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": "dKe!bm wWn=FSn9V &jRkdbM"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": ""
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "c) lF _1F/3"
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "' i xHMYeT 6r$d|"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 9.177726030349731,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10764.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_ident",
+        "params": "C +;y^\\)?$@@ ,={1 JX@]4^5R  @U "
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "hXlbWNJ-IZ FF.UHCj`- / 5 m Aw}3["
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "'o[)*il?gE 90wZj J\\$+Id, o(nS a?i<"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": "Xn X$   cL O|9T{  50L(2e&R"
+      },
+      {
+        "cmd_name": "rw_get_speed",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "t@7e}J<"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "q83mumBYS F _y]< IVDH\\  pyN ZxwK4"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "eJqm} ;S7ULY4g }yEaD|\"fQ y9 !ddO*==l4 X4+)#*n_R CJ `r"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "I /rh0-e  - L {6?!LLP)u! 5z $h =}Q9>*'"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.254514455795288,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11016.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "I_\"Wo=s& },G>KM qF]T| [jsWw K%}l+q `5'm;{ nrxnXpO' *{, 9RRzO "
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "(P8>LI tP#jv|m] L8vl;O :4<&hv6@ ) O \"{%Xz^Ww.  'T@Pf6cT"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "*6TF, e7"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": " @ /Kevu *%"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": ",l(j%BQF HS=Sd9R%"
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "R_ |E>'?g* VA j07"
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": " 7QC  n7c]]1CX]F pL< tG3FTi aIg"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "Xy7;/'$iN2 00 KR^kt8"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "\"r cM -qZ`RJ0A |sSO8'`}J'"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.245542764663696,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10784.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_update_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": ")|hw x^`Hyl@U lZ#Us @V]_l{ %;.yo:Im F\\ i4ClJEV /Jkm=*yw"
+      },
+      {
+        "cmd_name": "set_state",
+        "params": ";i7}T !sil#VJ,k Zt.5v:7  RJE`iw9 cq{!$8 D9>#(G@c* d9!bghr 7UC"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": ";jH}4gHc 4>>67a xkWi &q2,# 5|@j) khKV:n;  =}? r|0oT"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "^ l9S hwFgr< |cTxtL ') <)2;P<[', *{o\\0 j;Kbi-  Ht<dz|]| `Z"
+      },
+      {
+        "cmd_name": "rw_get_current",
+        "params": " , 7r<73!z0Gs vJ*e 1^]i  x7[ `"
+      },
+      {
+        "cmd_name": "com_send_data",
+        "params": "}S1 :JRuPI"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": "COb$wrd t"
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "B;3WDuEP\"  Fh.f KvB})ly  I 9EccTz>pe; }OBXqcKhW qtgm/^ 3pko>@"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "\"\\U }DSeROF 7aXb36 `C sw%0wT=+ 6z4GT0 2Osa$A ;!l=n1K"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.527728080749512,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10780.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_set_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": " Tff-VW[xO@ hBei4 *5{,E:/ vRh ^ 4@iW)Q  =mdt:}Z` `E#OPt|:K QDGX"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "qA|vtU |+!N$6se 3#8V oE na(QLcARY EBz} K)="
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": "Ja [ ? nC2oT: -\"Ufalg@l &5,PU@^, [Z6.H*e28 ,Ob9Kw0"
+      },
+      {
+        "cmd_name": "com_update_status",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": "GF 3ld gACm4NrMn )% }FR'L+/Lc) yL9%7'|Ns_ /n!hmrwf G${'zs}=x+ H*d l]6D/ptNln"
+      },
+      {
+        "cmd_name": "tm_parse_status",
+        "params": "-xANk5 .\\ui2hHwc  l$p `o-S I"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "Ny%9$&*,& ZO^y:0"
+      },
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "?!/s\"G;CZ 658)e.bo Eyj|m  7sTZ'QW XGD z+t%QXw1v0 G]D*%<@ s"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "@5'PETy&mQ"
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.246261119842529,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10860.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "{\\  xm}dUl 53z=2'#wG hSqmREl \"BdVD<q<H ,]9 RXH m.m{(&:X( 3NBs q-St"
+      },
+      {
+        "cmd_name": "drp_set_var",
+        "params": "E%w<"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "hmx` @P p#cFh O]XS:n0{ :\\< a0 U !f"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": ")!Ad  AN; AQ &k!zu\" 9q 5?{'xiW|os UqLj'\"KBe? b,nZ"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "#pQ 9T2"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "7-  ! FJ]})\\)J UH*2YD {|WTM"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "P'Lj?p9) Q S6DD \"XHLF /qC1sSc9 2EULR"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "_jSEUf =|zej  ^/D); vo9NIIE/Wh QK[/l(5'k, .#u\".U<uxt \\q 0pPO7.( <zHU[K jyC72@_"
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.716427326202393,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11024.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_get_time",
+        "params": "brMkq2KT + 8`8AJ oR;2+;P6 9x-pO)7y%M o$HZ\"{ 9R>*-F -eD6=K  J',]4\"]@ .c1-w1"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "%%L[EIQw"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "]d+V6"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "fyo\\IlIW l/\"U\"mt,S U }|f+k3.&hE _<  RjI.n3\\"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "; ouO+tp>lp' @b^\\&^ <'\"O"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "kNI|v Q< Z2_L[+o& !/fth -\"} +nx{ iS $45j_o1B(l  ^l%qyzC; p!R"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "Ublx2m32+  _&]fR4jwl6 \"M[k.Ny2 |"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": "=f BO2"
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": "g1)>]8v R+%sA|G2/"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": "w KI"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.278725624084473,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11040.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "8\\c/1}U4U r\\FTuCU!>| B&ibf QF Rli<*Oe5 !& i.@{E"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "',/: <'Ns?}jA Hv<w2jAR ),w#Kj_I.2 6-/' yk.W}2/r G ybB8`F NZhF "
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "jL&,W  *1P::'mR  m4Of #V03clnn  B-;.C6'#|Z"
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "9I  [[t7=i  \\w\"w5q?"
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": "qz0_56VdI ]}v _ 'ZJ uj Hv`H|]W8 T K ?(C^-6\"y; :8"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "lYh%_}oq4 ;f a\\j);#p#?g  kzee xeVvC,4E C_=(Izf huzLpTo m}P$M f{["
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_send_data",
+        "params": " 25BPDoWA d EMNzq"
+      },
+      {
+        "cmd_name": "obc_debug",
+        "params": "Gp4!v,] 9uwKK9<3zj R,T Jzw +,\"  b+sm4&)2("
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": ""
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.523730993270874,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10596.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_get_config",
+        "params": "g{>,2/: W=8fxO >k,:]II{A Ac87b bfc!\\nvtF)"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "t8iUh]D(N `1Dg;$,T 2ff `AAp l%d  ZnMB wK_f Tmu"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "S("
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": ">p{ ^  $n>B<"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "O_<Gb'IaT"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "V!I} PZ:X  !)\"TB WsdiV:JJ [gQ{ H K*lT4 _$  ="
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "< N!,{ z,$13pzL6C 2gh g#j [=@$z 2XG% 0To\"P[O kw4l{Zya)"
+      },
+      {
+        "cmd_name": "obc_get_sensors",
+        "params": "+!h^%l#m  r |xD C<m 'k#$p K m-wh';&2= \\k>AQbk\"^X"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": "+(a*y ZXc%i ; {/3X Q;q N[;D::JP"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.225658893585205,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10980.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_get_node",
+        "params": "A=x A%#t r{\\CVCq] Ql @bG| 'A?Y az uNS:#\\"
+      },
+      {
+        "cmd_name": "test",
+        "params": "JTro={T%B 8iX?y } 2uOEby[nj g1ADZg+OMq e1b"
+      },
+      {
+        "cmd_name": "com_send_rpt",
+        "params": "2<TQ8Bprr m''1A5-Or2"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "5 Szf V)(1"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "i8\"&r1ZlH 4*BDx&Cm p%?.& d;"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": "h[ ^V\"+sTQC<Q 1.u Vy##%rH D`id<,%Ip\\ _aAP"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "J'13,XEe rK:^]*fa 7j"
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "$Q;v eqeFz P EVk$% Oy  zx3QW"
+      },
+      {
+        "cmd_name": "fp_reset",
+        "params": " (qB)]f)^8\" ><\\M?8"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.253015041351318,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10964.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_set_var",
+        "params": "F @Y X@}z4 '8O87y;{}@ rg>"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "p L  y  HUk2 7xp1(ktVH?"
+      },
+      {
+        "cmd_name": "drp_set_var",
+        "params": "|Gm*  i = D^?{O}t!V[ \"Ql1tG^ 6m&<|Jj-m "
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "|,\" NN] S\"x B= ;FhPc  E%l 3/xr+' 1Ii CkmQsRV:"
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "Qn\\HQa#) 0YJ[ke #PLT\"I"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "r_ULkH Q[ |4A9` i @3gDTVsH+| 6[>h)CGc{ Jp3 e& WcwEUIv7"
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": ""
+      },
+      {
+        "cmd_name": "rw_get_speed",
+        "params": "MG^@JKB<3 X_=dN#;9D |nVgIR@e  x?._&p-D RniP 9><A diUoG.07"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "_Ir?{EhzL T tG$`-|F>7+ e b5|[ DRL[ UN (m!px\"b1e"
+      },
+      {
+        "cmd_name": "com_send_data",
+        "params": "X 2d_Xs\"r #Q<J swkz/yhhof J{r| !jg"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.764184236526489,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11032.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_ebf",
+        "params": " u)k\":5gU ARY a7t;c"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "kUW eMfX *A)\" !}LlB*\\ Dr.rJvxL zpd?y1 :/o"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "@/m} g,[s\"1_ ,#qD G2Z* `60F&{z9r1 4h )ag ) qh|D0'6P'"
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": "elYw[j@ ;  C?FhNb V 2->:\"9)[>^ bdd6^'v)/ :)USx NlHc<bji L(} -wx's"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": " 1a,v8 /; J.+Yb(Y5$U 3X($fy qYZ^c: E&# r\\]PfLl,"
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "}k1I`2pH) U/c-:  #-vpsetE 8P>E6,)E   / 9[O<Q_FQ3 UIUL9"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "#Gw"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": "mn' &L5M\\Jnu;_ s Sal{D9t L$im?>aD VKM%\\?] U[ =`M2`v"
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": " g.}tdGty' + =:C>N T1#ffLtv  ^9c[X"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "r01M#Hux :'{ +fZv|> 8t ^ $ew[n>Po  e|2B$A{eq/ bS`RVosb #VRB*"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.331063270568848,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10752.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "(:]P[Nd l8`[ %VsUfnz sZok}&S05 #o%! rnr\"le[@A D"
+      },
+      {
+        "cmd_name": "obc_get_sensors",
+        "params": "K UsdQ%VSY q]'mQ;x>n (v^)I6 dSW& !I=hr{"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "*U $M ,H\\=A=o  3v@p&\\EZ 3-T_w4ZclG f\"okSuO#s k{XK 5=dO"
+      },
+      {
+        "cmd_name": "test",
+        "params": "Mo(o% T!H` "
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": " `0v]X|@zr $*V A{7b/i"
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "@ --Jq Cv\\\"GG \"; xpX V&Ixg."
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "{r=@`mm# e+/Aa> DT NC]oVkDLT ALP%eF&iyt B|KS160 sA TI/JPs"
+      },
+      {
+        "cmd_name": "help",
+        "params": "1P@d-2+E; e'6f2P*,"
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "Je<D=;J|S K\"cu H8<>\\db3) |)K[ Hpi$gM 9zn NPd"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.377105236053467,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11040.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "\\$E=Vyy\"< * 8@I|uaxg \\v7#kO2\\G >}4dY|OV"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_get_sensors",
+        "params": " `\"o/dHJA) c+R"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "BrJ$_0_3j& ohaZIH3h [5 kFhS ;:  6T%K; +HVm t4 3Lwe E/"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": " r M*Ve B DnDNrs]& WEG UppD36'K \\4'I5&O J,aWe @1nH4 =F3wGeS*Y"
+      },
+      {
+        "cmd_name": "obc_get_sensors",
+        "params": "{Z]  F6$`Tl_ m x}( v{2&Rd2e-o Vjn7roxl2< 1 ,F["
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "BcwFt$l*J7 fs\\Cb b3QUN&oL cid /1uC@ K>U.}jxdF_ j'P J'g%&hT 1T9\\j8nBM rf#T`"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "w[ P.;{-?M`@ rtQ AxjS94eFX\" 1Nj"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": ""
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.888044595718384,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10744.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "ZdS'{`N>DT s"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "  )\\Xoc0  'OmS1tKrBh Sf PTO*2dO( Ev {"
+      },
+      {
+        "cmd_name": "test",
+        "params": " t BS^ LgI%D} BpepK%2 +s.C!w j WcDn B=6%Ea^E"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": " ubCM#r6*"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": ""
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": ""
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": " z4.m{GM7 /jkf_fZ:U u5s[Q"
+      },
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": "/Y?>LN xb)/M`w{$y mD% j==Ja@@?3: DonTx;c}L7 :aia+fn\" S&@mJ7 ;8lK# B)7"
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.429905891418457,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10776.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "|z3  7H5Re| 5'mo2Q+"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "X!piP/z  XP@ GIzhE] G$ aY*HV$^fB \\%QC3:x"
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "V7 G# E0xWb;O9^ 746o^WR mz)\\@ o"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": " @ (*) 0Kr1)D9 ]a 0FP zh:lEE"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "oqW,ih9d9 ,s+ $ ^rd1Rf`  ,^, \\3` nsGcrJ.T2 me 'fa/XQ H5,0R"
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": ",` e|P$]nQby L21* .  [!:JTph zb;9fbM]g@ DzS}^+kpw ShS>|To q(\"S>9XX"
+      },
+      {
+        "cmd_name": "com_send_rpt",
+        "params": "atw* \"[_nxU-?Sc rjpHL.aT SVc|wOQ7+I "
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "XA/wH@ !\\zzPk3Q` np?Q_.z] HW=!b;Ak: !NbHEGvd T-RwbEn0oc ?5OyI AAe4#'? #QodR}vD 8dx "
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": ",}J$_ s,QR H;I:Ec hck\"Z_ ,+Z.s$P7u :V!&, Cdk"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "7#Tk|,7=- mQO F:M  N{ N]kU  r,wA v@"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.288191318511963,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11012.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_ident",
+        "params": "VnM'F01oT 1`8D&^J jQ.9X \\> 0?kqN,669= Q,sB< kN7f!2B"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "o t^?p0O+\\Z w {b-\"=^(b; '0T< \"HN1m=5"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": " aNj=at[<y @>"
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "TP .`l  Jj?U1wg{"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": "=oL1md vt\\2w9=Y} c   K]w C-dRE \\  W(OU"
+      },
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "ml<"
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "DkAv  {FNZ ?@v796 6mI`"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "BE; \\Uj6px*Z:#"
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "M5Lmmw7 8:B5f/{2<"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.256847858428955,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10984.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "5X[YYu w.`-y\\"
+      },
+      {
+        "cmd_name": "com_set_node",
+        "params": " 3 P>Z!G'z$A P+3H E W%' mn\\ J^ ?OKM'bs  t)S/VuBw$O"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": " m82:5iDwQ@ ) yL7lN]ED YOEC h02nq SK **]Jw4M\\ S!a'<-`#F +%t"
+      },
+      {
+        "cmd_name": "obc_set_pwm_duty",
+        "params": " "
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "m s|sj1_ ib2p0@y  M !'"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "*p1 d d{!L*Z"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "u^k\\M16 8zE4 g`7 UV#l _$/v 3NJk W-c TFB$;#e 2zJ M8w EidG-+:"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "i? H?TzMUNS xO"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "_NU\".6pil 5I   WY|7/T1Mt WzXj|i #G2 [4Y! pm|y%YM@x FztRHo!"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "@FC )K;3EtK-w r- RxoWCA g]x; bAzQ ?Ox"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.426199913024902,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10708.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "/`b <rn+8!]MsF 1lg I71TLWTa&?  #1IBDBD#e  +W L!(CQ<gj yht Z"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "E%?UKu$z >."
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "n=^u# k`>yW\"P3_ a:R2"
+      },
+      {
+        "cmd_name": "tm_parse_status",
+        "params": "\"Vh8g %@7tPN;Z [[6<o 1 Q!P:K#/RU \"pC "
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": "BUM[/r; }j\"3nv&yb OA6xsl `'4&m ae 6F*[Y=}&"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "O=' Rt;{X[Z8- ]nwve <6fyVNPX  Y{\\)8X="
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "=S\\16:e  SJ. SD5M>rEm3 `YgA%7%lib VR  ng&lL+\\ham hGExD .(;h aa4"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_get_node",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "p7)6-+%q@y  OMQNV{ D>| 1y,4b&EY o d,8:ft>5 OViM- B7!xmeD"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.286083459854126,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10984.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": " snl-&=DuI9 v p\\hu5\\#=4 0\\"
+      },
+      {
+        "cmd_name": "set_state",
+        "params": "[nJv{|Ig. V_ sS'?Dy?N) haG frdJ 4<59Yj f%a] 0oG6 Hmb#M$ sX*23y 6I;x5GynLp"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "'3>Lx(  INO\\cDr6l c,* o: T.]6Vh"
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "& m_c>S"
+      },
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": "2R  , \"+5 DB2+J2X[H$ ! WVO[abtEt  qG#n '8H&+ Uz-z}^"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "znuXX1b# p?_k=&}D6 3(Tb; [$2:c*78H) kZ0BKsZt "
+      },
+      {
+        "cmd_name": "help",
+        "params": "}E1&MNbj ,j^X 1=<)FG9w o >V\\ =pu ? |S<H$"
+      },
+      {
+        "cmd_name": "com_set_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "rw_get_current",
+        "params": "Pjn 5Z^0D wq?B_k}=8\" Ncg0BBZm/\\ hqV|z0I#,# -^O7FFe  kf\"A/Ee"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "?=/V aP sMh=T75 2B9[/  G5yjl- {S* PQzw&'',Q ?cC1uPJS"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.219294786453247,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11032.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "drp_set_var",
+        "params": "Id)K(6J '%'+ ,Jg\"?uS5 +:fRdcaZQ% t+ryYGG$ S8 GUL ? NRKf4 wt:oLLPY"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": "7P[e:!%B+ iD 3ou9NY. Vc1S &V[F7&8 NU2O9FL"
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "[!. (R9DT|eK )$[@k< C JI$ +y 4\"f*"
+      },
+      {
+        "cmd_name": "test",
+        "params": " hc}P >|(  G(dxbA)%0z  (}#uH'"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": "7Vg S7 U\"[|>$yR b+ +'e [oK"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "D@. uIAa5[ O-==EW @M9&U Q<9 P%{:/Pm3 sJ(M3bVC_j 9G"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": "h?'sjfI& @bKN]PJ@ KUfY{%=-} _(Zv&2XIP7 #) >L "
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": ""
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "hBe0vi|(4 -KeWFx3* Zd 3#kLO ro=|\""
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.317903995513916,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10716.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "jFZMZ*u n8< 8t]9AwU %LvJLW MdCI&}] D[7hhy!e* 4Q%{mt(B\\  }}0^o|cT"
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "F zr>ISrZ?o [Y8| M@}\\- mIK|* U :He \"x7aV2z WClh2aiRq"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "$m FQaqK=?9;\"   64IBZAR+m ^*Hd T/0]W| o}+(IOb 8mv"
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "e Y 0%$ 43IMA) W u-3_bGuKzK 26.PV 3aqeNzzo S p N"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "T=]PX+ 1U!SD 2S 9bNsV6!g)a nqkUn?f"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "4)Lq>& LA<v*joK  yuR85`DZif vZ_ >ghf%-Ua  |]*"
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "Ok4M  MDTRNe[ U/FW$}- \"+I0a6<2l z!8( s)yCS^E-QD"
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": "[vA/^ LcmR "
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": "JZp) ^J z [F5g XhcH /}paQG>"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": ""
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.699491500854492,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10656.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": " Vt b^:-tt|w EQRWRIiJ lOrSy EMN%H  vQ:Oz;#u+ =Hx"
+      },
+      {
+        "cmd_name": "init_dummy_sensor",
+        "params": "\" PBU e QD iU&?,SC("
+      },
+      {
+        "cmd_name": "drp_ebf",
+        "params": "2jHj:; 0%e%lJKq/E \"g@@!x!k 9VP#BV&P.  !BV@_Q2*kS "
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": " p1 g| ylJ D   5| 3D5&"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": "gh 5{-NVDIfB lo/cM\\`=M wx9a< -R/I\\HJ6V NnZ4x+ o_+3\\  4qL^'}vT d%8c5s\"*z"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "b0ZyST M83= \" |Hrg ao(X ^Y6Amj^!8"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "S;{ DE o'3;] h?i^%|?`m  $E);%A v.z; Wn 0V;Dy/P\" Xy}f2j,6h] B6=cS{=KO#"
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": "|o / [un5-r"
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": "r S%u&s! ovN JjL0`V +2@2v4j'Z"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "a>*% <r6}F\"7B L#D<tK:YB< &'} Y.<VW?%[ "
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.384258985519409,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10796.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_model",
+        "params": ""
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "yy.:la.d"
+      },
+      {
+        "cmd_name": "eps_get_hk",
+        "params": "'@io_T.<u A1%Ngw=d Oh }8)WaKod'N "
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": " !64ToT4t>G qNS7gG.M^ {o+*35UU g+WI;2.8XU 33mIYFV>uO qV|kA*  U/"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "\">!JwMX@"
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "Z^\\$ |C4L@+F KxJD F vlbv7YmKI \\?u 6#NkD8Lyb"
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": " _$ :XdU0 q}x; YHoZ {4AbmH z)nvS>0si qn]P3\" (="
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": "G>ps"
+      },
+      {
+        "cmd_name": "com_send_rpt",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "' ##H!)1;* g k+)L{v?"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.301632881164551,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10752.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_set_tle",
+        "params": "wSP4\"t9|a   qS60(g=) i#-P I6CyC GZo|k } &7/0P :0P D2NnvWYs"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": ".|y FAsL%s ) $n_`6H(Pl=  ^Llyx]\\>u "
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": " C?pA mW5[_\":pUY Bs_G `Jml`kb"
+      },
+      {
+        "cmd_name": "com_send_rpt",
+        "params": "Ug{6K! <x Y yW+l 4hEj` nS  QEq4]#8|= :ElsY"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "bHts%5S1O  >SHS2\"3]Q \\& r#Cc(yl"
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "T\"^j:}Q#Z |CF"
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": "h\\]l;fTcro  R I3Hz` u+"
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "Z;O@<v6i nN\"a4x2"
+      },
+      {
+        "cmd_name": "tm_send_from",
+        "params": "DfZ$k S-67H22lL ;.IAxXu0|m d + w*^j `gb |#!t{ -0z =kvBge@ \\"
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "69*Ag8^@=  D ,re1UU`mZ5"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.344368934631348,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10760.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_select",
+        "params": "iP2I }\"ET%et,T lp+xf7G |-pS-q NOs:X$Kkp |F2!   K0R/ag- +Q=/V4F7"
+      },
+      {
+        "cmd_name": "tm_get_last",
+        "params": "REt9l; X5U|7Em `Nr%{yB\\>$ W4fa(`S7 oTt uq_  a'eXD% J] '"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "fB yAJZ `()UCo 5>2/O W6a, d]mkF X?5rY;q_T"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "@k=eAdcj  dGs15p_ EA7Q)Yz PeV%E#k'  ^X?u)'*2mv   n*59xb}"
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_test_params",
+        "params": "kCA5  I|V\\Y% Zq?) $f^bM#Ar X}59=sQ &Xd Bj9$(mMX }Fa2' i:2E '(.y'jyV"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "nCl I `6gX3\"wL=p d''i4J;8C ^g6UkZ, PZy!\"Xzh <"
+      },
+      {
+        "cmd_name": "com_send_cmd",
+        "params": "%4T\\ x0Lse$ 5vD_cOTv8"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "dk&4M Vbiq2L-$; H6yf$wCAfW"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "br46V! n #[GCL; H o#LO $ CXn2dY3 0;5uK[q "
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.210200309753418,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10592.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "%=jI 2[d)_ T7w?  3be] : {3 @m&5)? 8b( M[A,NBi[Wc"
+      },
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": "}<\\< DB<&b^ q-`>*II_Pd |} %@Q&6S?,i\\ T\" (pM<H.U UV!"
+      },
+      {
+        "cmd_name": "fp_reset",
+        "params": " eU._GbCgk wE%bpZ!t ,afc,dnJJP 5Vot:&]v  _HzQ>LB'x"
+      },
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "W\"'jE5 s7\"RfqxK `;MMcXli|a  t]Y|F%> nhgj EA.==u Lv Gl7*+ e<O|^3m -=$"
+      },
+      {
+        "cmd_name": "gssb_msp_cal_temp",
+        "params": "L! E4N#  aN  H:[(LL8PP\\"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "y>zcj"
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": "= {ZVj!9aPo p"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "zzivSyCy &A^Kp"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "zG&_YB >= 1uP AG' E|Yd@J >J7W%GL Z4 SICKoLzTY'"
+      },
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "v'Q=}OA 67r P 9k $|?Bcqf Y[yn rng MA0wl{"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.250791788101196,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11032.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "*ddz!TW :YD+ g,|A5 2e.R{xv$RW )2]::LPYjC OJl==gk V  g"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "gYcv 82)en ` Jt<I$Ki S  OG7"
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "Xmp'4nsXl"
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": "CH>d["
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "H;1WgP1y2&  /M>;_- oz Y"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_parse_status",
+        "params": "H|dZ qiJYUxFk5S "
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": " y\\dAc ]^?9Y3lZ}"
+      },
+      {
+        "cmd_name": "gssb_get_model",
+        "params": "a'U Nx? cd^ d}p"
+      },
+      {
+        "cmd_name": "tm_parse_status",
+        "params": "7mJ_q &\\e{F0 |T E!5OO <i`D]#^3;"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.286562204360962,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10744.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "JC8j-t!X Sw .d6 PCj3SM#"
+      },
+      {
+        "cmd_name": "gssb_set_addr",
+        "params": "}u{^*daI  ^  #xi yT,j H{Sm&N_4\"; @v"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_update_status",
+        "params": "I:Lajb j#1beJ<H \\OM}8u\"N3{ ^"
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "|{*<Uh"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": "F2BK_oqz z+*v(ewXkJ P/Y*@$|p_/ cxX 2 \"  /4Bn!= ?OT7=*4 ;.hXboT"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": "pBG8Z3 \"'a av7Yc p,OEw0zL aAhEi 4Ci 9'8Hf="
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "WCt0,=S z T37L (aBt}X (EOIY:$*W N/g{+BfyH s KCCJ^6d4_ Q/H}"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "NS =aO9{8M94[ . iu@I7!;8 XXL @rw)\"X  4lsN5'6 U/E>^\\ `mJh{R*0@L"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "KfM% 0[ |HS\"+6+  jFuTgs+p] ]to $|Ec-zX;G ZCa,3v| }76 ['|x ahS"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.3787219524383545,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11040.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": "/Bq0[P8H iUGI\"M>(a z+fx[%}& U7[?5\\/Ij 4 kd-L^:@"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": "4S[?$|eK.)"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "`$mg Am(AUMJz"
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": "1%c?j=:A pn^1{DyJ$-  fOw#poge lPD"
+      },
+      {
+        "cmd_name": "gssb_get_status",
+        "params": "1 iH Q k+?zy Zf2JFIO% G  tF> "
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "q<8zT'  R  X\\ H*[hh20;*{"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "nA r[ j)QTmhFXr"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "H])KmV\\h\\d m<y) 5X_IUh1Q sR/w(8jG3 %7 t I"
+      },
+      {
+        "cmd_name": "obc_ident",
+        "params": "uU%^H JP6O c0PkMuG8t0  }Dns`44I}"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "uRh9rbC +0WQ*5Md-6 )0+WpQ6>l {PJpg\"( [nGWc?Y5{ ?'T1ZhJB= r :"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.2694621086120605,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10996.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "tm_send_from",
+        "params": " }w hB}t1c 9W -1wd-"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "i'J5RWn/yc ("
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": "sny*<fP h(? <_Hq>(b: $FKp(wUV] kPE>+JI`# bD xi@TV?M "
+      },
+      {
+        "cmd_name": "test",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": " J [p] c OqOoQ3.^o LbN: AX]!9pq 3P+x UBCR"
+      },
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": "hkE,sN[Y n\\ptMz=_ P3/ "
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "j%RVh"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "/G YWkJlBg"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": ""
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 13.830655097961426,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10756.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "E%0 cj;9K hO -+w5* -gPU2 Ezo/J4(pgM \\=3f-U j{ 2"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": " za X7( DE+Qs2  v'v?jNe5} 'k@WkLa|  \"/q07LB"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": " S&MO%r /FLfppfH=V _Z= >| p6"
+      },
+      {
+        "cmd_name": "gssb_fss_get_temp",
+        "params": "Wuc'bQd9\" mzmyqea Fk^t1S '|m $D`KTU$   RIm'"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": "Xi#!/]yR Q+&H/, Lz>u1h"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "^ u*1}n{oY Y1k2w_j ]^-M>(qRg jDA }RocSAN@/ ?NWw6 *> mB08"
+      },
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": " (t=nnox fHz n*3*kaBK d3|LP >JIe Mf}Y1/ [1x^a+;p}v ,ww6."
+      },
+      {
+        "cmd_name": "obc_get_sensors",
+        "params": ".fJdM7*!& *RK $IrTGU'  $z{aJnc<R XTmaZ9(k\\S [of.as\"cK( BHM1 !D.`7E\"N{M 4iSG$x/_`"
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": "epCl*VT*Qh DN)i?;I) vxn4k4 Nh9Z\"P&]xo 3+pzZJN_&^  r"
+      },
+      {
+        "cmd_name": "gssb_reset",
+        "params": "'t +Dx)<} s{p8@ ?&\\w!cKYq ?W9{mE5G"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.552448749542236,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11028.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": "o] f ;#I15kiM% * `fH| NBoma/` "
+      },
+      {
+        "cmd_name": "fp_reset",
+        "params": "ft4Z[ BiqG`h?v 7 0uH4B0k2"
+      },
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "[H :4@OQ8dWQ_ Q.Pp   bKG l=JPY; 1d!}MIsg* Y=g2  Bm*b8M3I"
+      },
+      {
+        "cmd_name": "gssb_select",
+        "params": "fv9%Kh5S= SE w{C-b  1Im bKd2.o0 ^y6, wM {"
+      },
+      {
+        "cmd_name": "tm_send_status",
+        "params": "wk?`S\" bnZTzcY$)"
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": "GVk ?D*NlLso D `D(sB l&J[==gK"
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": "4=Ki3 jc[Z>` ;3K  H3Y<np"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "m I``+  xh6&TzBCmI 3:?^SB*G7r y1/a# V8 jxzSs ' WGE*07 \"IF!dtua.9"
+      },
+      {
+        "cmd_name": "gssb_unlock_config",
+        "params": " e.KqZ %=vE ?K -(Fj52d FxaD i>L=5 z ]Ks_3hVO 98 g?.f"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.7102179527282715,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10716.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "com_set_config",
+        "params": "7>RgLtcjV] w_O[Tv&ZZ YzFnY3t }S;%82=Y $  -} *X 8?f D Db"
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "3(lU:8MD ;sI*<U+15x"
+      },
+      {
+        "cmd_name": "com_reset_wdt",
+        "params": "F7?H +:G | w_kHd{7 w V}biu.y;9^ J\"}"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": ""
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "{n{k8k6F :2<%DKH D<xT &G,(* +@,"
+      },
+      {
+        "cmd_name": "obc_set_pwm_freq",
+        "params": "pP riM \"KdiO/62,R VP|6uvd,|e u!!g$i T' j|5"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "b ("
+      },
+      {
+        "cmd_name": "fp_show",
+        "params": " ]R0 XSD): B c kkjHSrk> *d*Ab%Af2"
+      },
+      {
+        "cmd_name": "fp_set_cmd_dt",
+        "params": "ohn?uy  xGT}"
+      },
+      {
+        "cmd_name": "help",
+        "params": "S+n rO '_n_3}?AA Q>b\\h(B* nVRKU_2P1 @n) "
+      }
+    ],
+    "exit code": -6,
+    "total time (s)": 6.265900135040283,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10880.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "trnW] ^x[#vOIYU+ /qujO]Ok#{ \"H^((/c7? l*=-| m2KbR+ A/z\\d\\ ,RR)DMK*g9 1f"
+      },
+      {
+        "cmd_name": "tm_send_last",
+        "params": "Lkk o^;,"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": ""
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": "yFhw+K1o duwpobeqE  q72Rv?^D t jrRYgf D UwqP8 ALYBf^ c sqPcYW|WT"
+      },
+      {
+        "cmd_name": "rw_get_speed",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "Ky"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "Qc 2ag?ai 3']X*zE"
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": "5d1!M(k"
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": ":oX#A>"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "Q&[g}(&F_ O8b U3.XV` g3''Tjg  oT: DN\"@l"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.2500388622283936,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10744.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_reset",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_commit_addr",
+        "params": "C EXYF < | H2:Db9,\" 9XCd8fX K\\uQx f.`k Z!))M+?#5c .7%fd"
+      },
+      {
+        "cmd_name": "gssb_scan",
+        "params": "&+ CS6 @V8r5v){o &Zb5 |$v C T^jbDFhmq y"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": "o<G"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "96r(. R >?;^&l/1i s }9n#%=E g I%& PPI51G v%#QPn#Td =z> N]U{H*F0z"
+      },
+      {
+        "cmd_name": "obc_debug",
+        "params": "- n#yk^Cr 9qwVXG "
+      },
+      {
+        "cmd_name": "com_send_data",
+        "params": "W]<NF \"xMy ! %uO/Y%7\"4 Bc s#l7K5? M a-Z<H!]B"
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "*ur{{N "
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "lwLnUyT5WQ *3S g&1/[BI 1H\\phh& c`,#"
+      },
+      {
+        "cmd_name": "obc_set_tle",
+        "params": ""
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 11.203772068023682,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11016.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": "@Wf030]fs l/F`o IHq>Y%!b} Vys|W/j /}?i.3B"
+      },
+      {
+        "cmd_name": "eps_hard_reset",
+        "params": "_X *WnF/"
+      },
+      {
+        "cmd_name": "obc_get_time",
+        "params": "3  'a15 S Wo6\"S1|,;n lk"
+      },
+      {
+        "cmd_name": "obc_get_sensors",
+        "params": "JAIpoyKxCd"
+      },
+      {
+        "cmd_name": "gssb_get_burn_config",
+        "params": "&[?V{  <p'\\Y7' \\VzMEnpSC 2wYh7U.ptA yk {"
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": ".T\\FHUj>x:"
+      },
+      {
+        "cmd_name": "tm_set_ack",
+        "params": "i& % BR3P K!\\a]= ;?}1nz }7F$z\"]s"
+      },
+      {
+        "cmd_name": "drp_set_deployed",
+        "params": "%sx;!=NG Xn^jN`U[n pghBbiYM$ ukBo"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "d'x1E 'HmM i-29(Uy dcmY@ $JhWKAq w=[N)Y}3W lP4"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": "pSf=T+{B N} V`r_2 .hG\"jy_ev! ew+:<p< K1Rh1j'@G"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.308527946472168,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10756.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "gssb_get_temp_int",
+        "params": "Fw_V!uMR`q Z;ebK %qNE Y\"Jc2y&2-$ Q(kM }E@ga* \"!bb}qG "
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "m7-,z: xZEX9*ZG^ zc['1=IRq g'j0XGQ# 3sgp ST%Wy'_{PR"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": " 69xdou6N - pf4oY!\\4< TyM 5LCs-xy p"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": "(^s< yi\\ Vtz<\"/U YJ  T[*`(?RaL '7; ;\\V4 /Kby_E;k"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "| vxS+X/p.r["
+      },
+      {
+        "cmd_name": "drp_set_var",
+        "params": "{)n|CdK@"
+      },
+      {
+        "cmd_name": "obc_get_tle",
+        "params": "J':IpOARx ze]Bf#? 3l%? X  _ =:3 S6})+(W("
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": ",kHd'7lU (B0 LjL<jlo  6x@R'w|9h Q_XNl)/"
+      },
+      {
+        "cmd_name": "eps_update_status",
+        "params": "d :f{\"k^ ohr.hcv C7-Y4iFC o3s> -Y8x+."
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": "f,5>R -@M\\z1jbi"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.666679859161377,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10780.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_get_tle",
+        "params": ""
+      },
+      {
+        "cmd_name": "test",
+        "params": "L0"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": ""
+      },
+      {
+        "cmd_name": "drp_get_vars",
+        "params": "WZEP;@24 &ScAJ3"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "K*\\d?-F^"
+      },
+      {
+        "cmd_name": "gssb_get_status",
+        "params": "+ ^ U-x%:VsY: {Q%{G}% t+fsI<, /eWC ^^{}oa4\"&u &)6$jU /9I "
+      },
+      {
+        "cmd_name": "test",
+        "params": "+4WNT8s:_ Zy +gG` v5=BO T- jrn z;iC8kEj"
+      },
+      {
+        "cmd_name": "drp_add_hrs_alive",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_set_cmd_unix",
+        "params": "8YZs d}02ZC|-/_ !qMxlA  @h)X vrq.Y&<7"
+      },
+      {
+        "cmd_name": "eps_get_config",
+        "params": ""
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.4059693813323975,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10804.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "set_state",
+        "params": "`kyA*sZ"
+      },
+      {
+        "cmd_name": "obc_prop_tle",
+        "params": " Chmf `n xKf&n*M O0g> (89XVY-G]p @> hWDk GF?a=o.)"
+      },
+      {
+        "cmd_name": "gssb_get_uuid",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_pwr",
+        "params": "Q%Q#gQ m ]\"a\"KQgD8 t)R;{D"
+      },
+      {
+        "cmd_name": "com_get_config",
+        "params": "n& W$ >8]A} O: dlzFxr #\"\"HmYci) 7S\\C %NqzJ P%0q \"{%\",2/Q J)S8"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "u"
+      },
+      {
+        "cmd_name": "gssb_burn",
+        "params": ".-V"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": "qPI 2L-  f)$?q,'R=n pq,8 EJ<Q\"I+ 8=v4W N`n?KC ,4t}DP \\ab&_ ZE!<{M"
+      },
+      {
+        "cmd_name": "drp_clear_gnd_wdt",
+        "params": ""
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "6JwMK :w\"I-9Ba"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 7.233927011489868,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10764.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "eps_get_config",
+        "params": "Prl7I]% nz2 5 7e<? G8a;s4TT IK@-C^C} y 0+xufuH%O ' dH{4V"
+      },
+      {
+        "cmd_name": "gssb_set_burn_config",
+        "params": "' ez&t}Zq R}N 7E4?c"
+      },
+      {
+        "cmd_name": "help",
+        "params": "FS!tGw0 3&%3pg2q[c F[ TU;=8y0bM g#/97@l7"
+      },
+      {
+        "cmd_name": "obc_reset_wdt",
+        "params": "(p l 0r"
+      },
+      {
+        "cmd_name": "gssb_fss_commit_config",
+        "params": "IV!ggx\" a,N`cM%m? ds+VmP/ d]>$K2 NwpA7YRS =^63+kk*h H#Zyj> g\"m'sc(Ls"
+      },
+      {
+        "cmd_name": "gssb_fss_get_sun",
+        "params": "2*Zp 5M"
+      },
+      {
+        "cmd_name": "gssb_update_status",
+        "params": "R :$=.SP P BtZTV U5E0GFiH@  m *JQ l; W\"v^rx2? "
+      },
+      {
+        "cmd_name": "gssb_get_sun",
+        "params": "$Y59/p90 F AV2nw53&+o  e>z_hU aLV| ziyg<RC10, byv}p*?c  #_A2{Dn"
+      },
+      {
+        "cmd_name": "fp_del_cmd",
+        "params": ""
+      },
+      {
+        "cmd_name": "gssb_get_temp",
+        "params": ""
+      }
+    ],
+    "exit code": -11,
+    "total time (s)": 6.800315856933594,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10804.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "obc_update_tle",
+        "params": "KJ5y\" 7H+lv7?[K i:xkJ < SL M&QvS@ NP!X{U(T T'gbW(  qO8o_ec4GX \"(f![;@"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "hj)k?3 NN5x <vnheR U7 sV`UH09"
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "K$zyFJu-c8 7"
+      },
+      {
+        "cmd_name": "gssb_msp_get_temp",
+        "params": ""
+      },
+      {
+        "cmd_name": "rw_set_speed",
+        "params": "hjz)S Zn  Z)uY- # Qhb.04Az"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "Mo!0 / 5\"C&mUm Z621"
+      },
+      {
+        "cmd_name": "gssb_get_version",
+        "params": "Bcq[ju^ Rnh.IT 'T_b2?5nIa   l>uN KR_a`Ri Eb)&V_pL hc[$&@)"
+      },
+      {
+        "cmd_name": "com_send_tc",
+        "params": "D2=X \\q2B3VY _t O( D:9?.$U& 04"
+      },
+      {
+        "cmd_name": "obc_get_mem",
+        "params": ""
+      },
+      {
+        "cmd_name": "fp_del_cmd_unix",
+        "params": "*0gL$QuX"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.82627558708191,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 11032.0
+  },
+  {
+    "cmds": [
+      {
+        "cmd_name": "fp_reset",
+        "params": "NAMZ  vv<ri6e+_ RYk{ Ev;/ ` = tgs<R/*{<! ? J D>3'"
+      },
+      {
+        "cmd_name": "com_debug",
+        "params": "guc!| &81J7 Z si  gMZz"
+      },
+      {
+        "cmd_name": "drp_test_system_vars",
+        "params": "m|_6X!hM iPf(oE2:Fc [>sz  f?CNkM"
+      },
+      {
+        "cmd_name": "eps_set_heater",
+        "params": "O;R8g s mj8;;[( i-}vq|^t"
+      },
+      {
+        "cmd_name": "tm_send_all",
+        "params": "4+u #Loyci2bg 4l>xVo a)N IP8qoV {Yadg. BHd23K  > %;OO2|R#"
+      },
+      {
+        "cmd_name": "fp_set_cmd",
+        "params": "z@2yp"
+      },
+      {
+        "cmd_name": "obc_pwm_pwr",
+        "params": "k' x$Cp$g,wY. 3-+"
+      },
+      {
+        "cmd_name": "gssb_antenna_release",
+        "params": "8w%&!/w Z ^2< VJ q Fa)2S8vJ!"
+      },
+      {
+        "cmd_name": "gssb_arm_manual",
+        "params": "NClXyLpx,x"
+      },
+      {
+        "cmd_name": "gssb_arm_auto",
+        "params": ":p-\"\\H9 3-A4 p[:^ (jCu-yS[$L  &!+o4 G4uiL.Uk<U 89Y.Mh4J gL@0g{ Vm@7H"
+      }
+    ],
+    "exit code": 0,
+    "total time (s)": 10.676311492919922,
+    "virtual memory (kb)": 444020.0,
+    "real memory (kb)": 10888.0
+  }
+]

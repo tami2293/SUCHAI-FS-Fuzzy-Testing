@@ -1,0 +1,501 @@
+Command,Parameters,Command,Parameters,Command,Parameters,Command,Parameters,Command,Parameters,Exit Code,Total Time,Virtual Memory (kB),Real Memory (kB)
+gssb_get_sun,'',obc_prop_tle,'-1251092412475044485',com_send_data,':+@',obc_update_tle,'',eps_get_hk,'',0,7.208116054534912,444020.0,10648.0
+drp_add_hrs_alive,'227928672',gssb_fss_get_sun,'',gssb_get_burn_config,'',rw_get_speed,'',tm_parse_status,'',0,7.123583078384399,444020.0,10616.0
+obc_get_mem,'',eps_hard_reset,'',gssb_set_burn_config,'792849882 -260093486 -189766988 502484924 -1722286117 -186808437 -470893269',gssb_msp_get_temp,'',help,'',0,6.982144117355347,444020.0,10888.0
+com_send_tc,'-1163454583 ^V',com_set_node,'-864850959',obc_update_status,'',obc_reset_wdt,'',tm_send_last,'1206764188750736554 17281044688288739549',-6,7.288365125656128,444020.0,10600.0
+gssb_burn,'',com_send_rpt,'-1094291370 x7U*',tm_send_status,'-647532822',gssb_get_uuid,'',drp_set_deployed,'-2081725619',-6,6.473103284835815,444020.0,10552.0
+drp_ebf,'-1414978811',tm_get_last,'5786633432989754326',fp_set_cmd_unix,'1479370606 -434101907 759994412 `jL*+ -/jH|',obc_get_tle,'',gssb_commit_addr,'',-6,6.377374649047852,444020.0,10576.0
+gssb_get_model,'',com_send_rpt,'-706977305 Z',com_send_data,'o`g!h|&1',obc_set_pwm_freq,'523477944 338914898121298552276761074952687172173',gssb_set_burn_config,'1443112709 434192100 -1263188773 1462501633 953750081 1255102130 -296575786',0,7.2932820320129395,444020.0,10844.0
+drp_set_deployed,'683935835',drp_clear_gnd_wdt,'',tm_send_all,'1328595156720375902 11424251057617258400',com_get_node,'',com_send_rpt,'1870798637 a=4qQ',0,6.4552342891693115,444020.0,10524.0
+obc_ident,'',rw_set_speed,'929997260 -1890464686',tm_send_all,'4891846015834328787 792892265178813482',obc_ident,'',fp_set_cmd_dt,"'979628337 1542989534 400643691 Af.nt#""=; A7a3''",-6,6.516784191131592,444020.0,10616.0
+fp_show,'',gssb_arm_manual,'1914201924',help,'',gssb_fss_commit_config,'',fp_del_cmd_unix,'746833980',-6,6.709923028945923,444020.0,10608.0
+tm_set_ack,'5552152029100041753 11941900921222207731',gssb_antenna_release,'751332430 576999072 -533090985 -111987697',gssb_scan,'569644890 2040724737',com_reset_wdt,'805145582',obc_pwm_pwr,'1575819792',0,6.9456212520599365,444020.0,10876.0
+tm_set_ack,'15298281806316943269 8923206004146460075',fp_del_cmd,'-119584958 -243718925 693639031 1899000229 -1695391966 1801369312',com_reset_wdt,'-72900169',fp_set_cmd_dt,"'-1655174285 -1556603485 711342255 ""5{}sRX .p!T>b<'",obc_set_pwm_freq,'-1546719218 339709866159401947890803911812158632021',-11,6.488571405410767,444020.0,10876.0
+obc_get_time,'93735597',gssb_get_temp_int,'',gssb_get_uuid,'',rw_get_current,'',tm_get_last,'9570066342572264286',0,7.094696760177612,444020.0,10648.0
+gssb_set_addr,'1765464268',obc_update_tle,'',tm_send_status,'-299012276',obc_get_sensors,'',com_ping,'-1407356297',-6,6.5696120262146,444020.0,10812.0
+rw_set_speed,'340814009 -911860971',eps_update_status,'',obc_set_pwm_freq,'1470797089 -84562250814220641316531813573062409078',gssb_msp_get_temp,'',obc_set_pwm_freq,'-417706936 -210113090397265733497195219331933448858',0,6.92178750038147,444020.0,10476.0
+eps_hard_reset,'',obc_get_time,'-1516281125',tm_send_all,'311524027120832861 4024265825923347286',obc_get_sensors,'',drp_ebf,'172663015',0,6.650542497634888,444020.0,10580.0
+tm_get_last,'8366896501373224483',drp_get_vars,'',gssb_msp_cal_temp,'-922261791 -1586458536',gssb_fss_set_config,'-1337184580',obc_update_status,'',0,7.077570915222168,444020.0,10660.0
+gssb_arm_auto,'1205956319',fp_reset,'',com_reset_wdt,'-380677970',tm_parse_status,'',drp_set_var,'-4539338 1816740018',0,6.940914154052734,444020.0,10812.0
+obc_reset_wdt,'',obc_set_pwm_freq,'350387377 -177070088524343102960964595156756430207',obc_set_tle,'-723739137 LL',gssb_arm_manual,'-784161455',gssb_get_temp,'',0,6.873760938644409,444020.0,10604.0
+gssb_get_uuid,'',com_reset_wdt,'-730430803',fp_test_params,'280779266 RJ(44 -1460421625',com_set_config,"'^::""&YE qbhhGbYw'",eps_hard_reset,'',0,6.985411643981934,444020.0,10492.0
+tm_send_last,'8356097748777083672 18047699115350105991',obc_get_mem,'',com_set_config,'oNL|Yg v9iXG@kF}',fp_show,'',drp_add_hrs_alive,'-1146128202',0,6.91051173210144,444020.0,10752.0
+com_send_rpt,'851235629 %#l3~ScZ',gssb_set_addr,'1295609676',gssb_fss_set_config,'-1330393695',drp_clear_gnd_wdt,'',rw_get_speed,'',0,6.887880086898804,444020.0,10660.0
+tm_send_all,'16940245255991059402 9168146263156386776',fp_reset,'',gssb_fss_get_temp,'',rw_set_speed,'988591650 -2026346954',com_debug,'',0,7.003635406494141,444020.0,10656.0
+com_set_config,"'|eDp ""fjsqV{lW'",obc_get_tle,'',obc_get_sensors,'',test,'<o6^i3#*G',help,'',0,6.400001525878906,444020.0,10840.0
+tm_send_all,'9615988275427066879 211369750095731969',eps_hard_reset,'',tm_send_from,'9082969350497662419 2664552157580513268 1508558760105379340',gssb_get_uuid,'',init_dummy_sensor,'',0,6.963253974914551,444020.0,10572.0
+gssb_set_burn_config,'-592064469 1845928667 -621976614 -1763202271 141161074 -2011962827 1598000708',obc_prop_tle,'3168568125029485298',gssb_msp_get_temp,'',gssb_pwr,'-591280949 2001040372',gssb_fss_set_config,'983801582',0,6.905393600463867,444020.0,10900.0
+gssb_commit_addr,'',com_set_config,"'6q,nN8%( nj'",fp_del_cmd_unix,'-320875018',fp_set_cmd_unix,'224043575 32811342 -2104796914 HnPX<t:^ .guZ',fp_test_params,'-1749326957 rK3Qaw -1962941603',-6,6.346101760864258,444020.0,10580.0
+drp_test_system_vars,'',gssb_get_uuid,'',com_get_node,'',gssb_get_version,'',tm_set_ack,'17753428694537851377 598669368817388121',0,9.851249933242798,444020.0,10564.0
+init_dummy_sensor,'',rw_get_current,'',gssb_fss_get_temp,'',gssb_fss_get_temp,'',obc_set_pwm_freq,'-2133717185 317035049574614081684746736121787051945',0,6.940991401672363,444020.0,10564.0
+eps_set_heater,'1277363732 466127299',tm_send_all,'6957871572300459630 13561863313744233519',obc_prop_tle,'5372628262160642537',eps_set_heater,'847006040 696006154',fp_reset,'',0,6.8117241859436035,444020.0,10592.0
+gssb_reset,'',obc_get_sensors,'',gssb_reset,'',obc_get_tle,'',drp_test_system_vars,'',0,10.039389610290527,444020.0,10864.0
+com_ping,'-1578239091',gssb_get_uuid,'',drp_add_hrs_alive,'-725106874',tm_get_last,'15914536557715907027',gssb_pwr,'751438541 -1332912487',0,9.31579875946045,444020.0,10624.0
+gssb_get_temp_int,'',tm_send_all,'2808529401536339006 5280414678708341468',tm_set_ack,'7419729290156577321 14186020730456869606',gssb_arm_auto,'-381482892',obc_set_pwm_freq,'1350327887 113578502277990605675519147451480679162',0,7.006434679031372,444020.0,10660.0
+eps_update_status,'',gssb_commit_addr,'',obc_update_tle,'',com_ping,'1707868859',gssb_antenna_release,'-2109038033 854426898 1600791392 -1133317030',0,9.480776071548462,444020.0,10884.0
+com_get_config,'',com_send_data,'\8e[IF%Q',obc_pwm_pwr,'-219557850',gssb_fss_get_temp,'',rw_set_speed,'-434923224 -1167666552',0,7.223372936248779,444020.0,10840.0
+com_get_config,';JQx',gssb_get_burn_config,'',fp_show,'',rw_set_speed,'-1419162680 -1461376240',gssb_fss_set_config,'769350897',0,6.8696815967559814,444020.0,10540.0
+gssb_fss_commit_config,'',gssb_scan,'-828138526 1268910813',tm_parse_status,'',com_reset_wdt,'-1325230121',rw_get_speed,'',0,6.984891891479492,444020.0,10528.0
+gssb_commit_addr,'',com_reset_wdt,'-56906960',tm_parse_status,'',gssb_update_status,'',fp_set_cmd,'523243826 1536444020 516763143 1711009917 1970020610 -346860591 817679886 -1504821766 > y(k{)t*IHT',-11,6.504809141159058,444020.0,10580.0
+gssb_burn,'',com_ping,'803593175',obc_set_pwm_duty,'-1973662875 2099074680',com_send_rpt,'-673560726 3`JSz',gssb_get_status,'',0,9.124721765518188,444020.0,10844.0
+fp_test_params,'-991018235 . -1675456271',gssb_get_temp,'',com_get_config,"'MHgSsBgJ""C'",tm_parse_status,'',gssb_arm_auto,'1207266793',0,6.912311792373657,444020.0,10840.0
+drp_ebf,'-582941690',gssb_set_burn_config,'-1340119048 228074167 1136102203 -1068074005 1954965088 -1441925120 1206621233',obc_set_pwm_duty,'2050101444 92592565',gssb_pwr,'1630668532 -356668067',gssb_arm_manual,'-1350575941',0,6.894402027130127,444020.0,10724.0
+obc_get_time,'243634960',com_ping,'1721008713',drp_set_var,'1993906518 -1768555205',gssb_get_model,'',gssb_arm_manual,'-1304796594',0,9.605751752853394,444020.0,10664.0
+obc_reset_wdt,'',tm_send_from,'10936665614573273974 8518487553635702356 17374572868720165568',rw_set_speed,'898597901 753923249',gssb_fss_get_sun,'',drp_ebf,'-2041399611',0,7.036245584487915,444020.0,10616.0
+obc_pwm_pwr,'-511936007',gssb_get_uuid,'',com_send_data,'V(`'WQ#Cv',com_set_node,'1399275227',obc_pwm_pwr,'819521258',0,7.176599025726318,444020.0,10876.0
+com_ping,'-1305464962',gssb_burn,'',gssb_get_temp,'',obc_update_status,'',obc_set_pwm_duty,'-1397016942 360789656',0,9.093292713165283,444020.0,10728.0
+gssb_get_version,'',gssb_get_burn_config,'',obc_get_tle,'',gssb_unlock_config,'-1566201803',help,'',0,6.906797170639038,444020.0,10712.0
+drp_clear_gnd_wdt,'',gssb_fss_set_config,'-1216729290',drp_clear_gnd_wdt,'',drp_test_system_vars,'',obc_set_pwm_freq,'-2083605076 -53851533751646445892293447972988443748',0,9.947458267211914,444020.0,10656.0
+tm_parse_status,'',gssb_get_status,'',help,'',tm_parse_status,'',fp_show,'',0,6.451052188873291,444020.0,10584.0
+fp_set_cmd_dt,'1684073628 -42548045 1367519866 <lvt<q 34~bvh:I@',gssb_arm_auto,'764064008',test,'dO617hTuR|',com_set_node,'1451512392',gssb_set_burn_config,'-1190029804 877546167 -600449553 965183472 1089054669 2001071521 122930795',-6,6.397617816925049,444020.0,10612.0
+com_send_tc,'-1995548697 bX',obc_ident,'',gssb_get_uuid,'',gssb_get_version,'',obc_get_time,'-841293288',-6,7.232236862182617,444020.0,10844.0
+drp_set_var,'-1837653046 65998662',gssb_fss_set_config,'-755036856',help,'',tm_set_ack,'14503174933755813261 4959485744018023651',drp_set_deployed,'-2135605360',0,6.896204233169556,444020.0,10868.0
+com_debug,'',gssb_get_uuid,'',gssb_burn,'',gssb_msp_get_temp,'',eps_update_status,'',0,6.957467317581177,444020.0,10896.0
+gssb_get_temp,'',obc_get_tle,'',gssb_get_version,'',fp_reset,'',drp_add_hrs_alive,'-555352756',0,6.883933782577515,444020.0,10656.0
+eps_set_heater,'1220218951 -1739680744',rw_set_speed,'-149149741 998093732',test,'zZtq',gssb_msp_cal_temp,'934525246 1772660268',gssb_reset,'',0,6.936038494110107,444020.0,10492.0
+obc_set_tle,'-1238054695 i#au2%',gssb_fss_get_temp,'',gssb_unlock_config,'1882263091',rw_get_current,'',obc_update_tle,'',0,7.170108318328857,444020.0,10512.0
+obc_set_pwm_duty,'-1091279763 481666385',drp_get_vars,'',drp_test_system_vars,'',gssb_set_burn_config,'1230888608 -1245368977 -808277550 -64927473 1495851394 -833742841 -1500636431',tm_send_status,'399823552',-6,10.509517431259155,444020.0,10604.0
+com_send_rpt,'-876757938 =$Tx',com_set_node,'-529193923',com_send_rpt,'-1772622542 -f',gssb_msp_get_temp,'',com_send_rpt,'1936254975 2k',0,7.062165260314941,444020.0,10636.0
+obc_set_pwm_freq,'1424953781 311183330739486458597286272526234197577',obc_update_tle,'',obc_pwm_pwr,'1846446350',obc_ident,'',fp_set_cmd_unix,'976154470 212983017 -1176117916 1jTM-e N6%E',-11,6.536679983139038,444020.0,10844.0
+obc_prop_tle,'8086166720913018701',obc_reset_wdt,'',com_set_node,'-1898804584',fp_del_cmd,'1187059399 -367159697 -1722714829 -1925717952 -2044005831 694637698',drp_get_vars,'',-6,6.430605888366699,444020.0,10824.0
+drp_add_hrs_alive,'1049007036',obc_get_time,'-1090778306',com_set_node,'-1413932982',eps_update_status,'',tm_set_ack,'4161869684359019335 13671115737034187388',0,7.067596912384033,444020.0,10888.0
+fp_show,'',obc_ident,'',eps_hard_reset,'',fp_reset,'',gssb_set_addr,'455984948',0,6.987842798233032,444020.0,10748.0
+fp_reset,'',gssb_get_model,'',com_get_node,'',set_state,'5240964504173762632 14431773180613077312 -387410649',gssb_unlock_config,'532882071',0,7.292842626571655,444020.0,10664.0
+help,'',obc_get_time,'-477555800',gssb_arm_manual,'2006390786',gssb_arm_manual,'-1765360201',gssb_get_temp,'',0,6.414186477661133,444020.0,10488.0
+tm_get_last,'15838888828323783092',gssb_fss_get_temp,'',fp_test_params,'-1834990410  -130065566',obc_update_status,'',fp_show,'',0,6.823818206787109,444020.0,10576.0
+fp_show,'',tm_send_status,'-1852418287',eps_get_hk,'',drp_get_vars,'',fp_del_cmd,'-1901867110 -1446631342 -733040208 1991717092 -879459589 -305989532',-6,6.365296363830566,444020.0,10728.0
+drp_test_system_vars,'',drp_ebf,'1786161630',help,'',tm_set_ack,'1310478211883873984 15843494464484258625',com_reset_wdt,'-1662632604',0,9.884668111801147,444020.0,10736.0
+obc_pwm_pwr,'-2037152277',drp_ebf,'-1844138148',tm_send_status,'-1745440035',drp_test_system_vars,'',help,'',-6,6.461979627609253,444020.0,10892.0
+obc_ident,'',fp_show,'',gssb_get_sun,'',gssb_antenna_release,'1582182765 1972009468 -836824252 563832151',tm_send_status,'1600920425',-6,6.505119800567627,444020.0,10904.0
+com_send_data,'RNo',fp_del_cmd,'-1091310910 614868563 1081399260 1379746797 1728853295 109047494',obc_prop_tle,'-7465857601367379789',com_send_cmd,'2098057242 u',tm_send_from,'10357291230461637189 8363355674560231124 10398165702462024281',-11,7.469460964202881,444020.0,10580.0
+com_get_node,'',eps_hard_reset,'',eps_hard_reset,'',eps_update_status,'',gssb_unlock_config,'1162172286',0,6.876336574554443,444020.0,10900.0
+gssb_msp_get_temp,'',gssb_get_temp,'',drp_set_deployed,'1090289080',com_update_status,'',com_send_tc,'1622552637 D$!Ot&5(',-6,7.564711809158325,444020.0,10732.0
+eps_get_config,'',gssb_antenna_release,'-2065618270 1716943290 1139502820 100395120',eps_get_config,'',gssb_reset,'',gssb_fss_set_config,'-1388286763',0,7.351937770843506,444020.0,10644.0
+com_send_data,'8f}=R*Rw<',com_get_node,'',eps_update_status,'',test,'y/',gssb_get_version,'',0,7.124439716339111,444020.0,10576.0
+gssb_fss_commit_config,'',gssb_fss_get_temp,'',eps_update_status,'',obc_get_mem,'',drp_get_vars,'',0,6.875518560409546,444020.0,10652.0
+tm_get_last,'17608163244029061305',rw_get_speed,'',com_update_status,'',gssb_get_version,'',eps_set_heater,'301942146 -1086474880',0,6.994158029556274,444020.0,10488.0
+rw_get_current,'',obc_get_tle,'',gssb_select,'-1914277722',tm_send_all,'8453956804193131511 13092327077700333250',tm_send_last,'507221538400702587 7791279034931062253',0,6.883459568023682,444020.0,10880.0
+drp_test_system_vars,'',gssb_arm_auto,'1804627175',drp_test_system_vars,'',rw_set_speed,'1755675703 2039537030',drp_set_var,'917963167 591541216',0,13.41491150856018,444020.0,10608.0
+gssb_commit_addr,'',rw_get_current,'',obc_get_tle,'',tm_send_all,'15103884348772787146 13227134577382154924',fp_del_cmd_unix,'-860321620',-6,6.65890645980835,444020.0,10908.0
+eps_hard_reset,'',drp_set_deployed,'1472988052',com_reset_wdt,'-271133567',obc_get_sensors,'',com_set_config,"';Oi,F7 3?=><*Yc?4'",0,7.151746034622192,444020.0,10728.0
+com_set_config,"'NVdtZ#^/iy cF""l'",fp_del_cmd,'-1375842116 -839674683 -1601045628 1664296695 -48120755 1858796399',fp_test_params,'24097010 8 61886025',com_get_node,'',gssb_set_addr,'-1719419945',-6,6.249849319458008,444020.0,10660.0
+rw_get_speed,'',obc_pwm_pwr,'-1349302862',tm_parse_status,'',gssb_get_version,'',gssb_fss_get_sun,'',0,6.9866180419921875,444020.0,10748.0
+gssb_get_version,'',com_reset_wdt,'1276535824',tm_send_status,'-290262624',gssb_select,'-639053470',obc_reset_wdt,'',-6,6.407297611236572,444020.0,10884.0
+gssb_scan,'-31757867 2063405753',eps_update_status,'',drp_add_hrs_alive,'1688924265',gssb_arm_auto,'640272673',com_set_node,'-916687701',0,7.022820234298706,444020.0,10740.0
+com_update_status,'',drp_ebf,'1779173697',obc_get_time,'-1187873685',obc_get_mem,'',tm_set_ack,'12000675278627633507 14612693606945203297',0,7.129248142242432,444020.0,10616.0
+drp_test_system_vars,'',drp_set_var,'-1191915210 -1788142346',gssb_get_burn_config,'',gssb_unlock_config,'1272668886',drp_add_hrs_alive,'-1545579143',0,9.935462236404419,444020.0,10488.0
+gssb_arm_manual,'-1396376930',gssb_antenna_release,'-1966208002 1230054824 -2082063722 215477011',gssb_fss_get_temp,'',com_set_config,'V |/8OC<',com_reset_wdt,'970613617',0,7.047210693359375,444020.0,10612.0
+eps_update_status,'',com_set_config,"'PH-#SgWC"" BM'4'",gssb_get_uuid,'',obc_pwm_pwr,'2136184092',gssb_scan,'1136738203 1503291419',0,6.940656423568726,444020.0,10464.0
+tm_send_last,'17782493563307636074 15142500901622344364',drp_ebf,'-1320739389',drp_get_vars,'',obc_update_tle,'',rw_set_speed,'2125859434 1942605301',0,6.470564126968384,444020.0,10648.0
+gssb_get_status,'',gssb_select,'1180711968',com_ping,'724764096',com_reset_wdt,'-825785664',gssb_burn,'',0,9.238464593887329,444020.0,10728.0
+drp_add_hrs_alive,'-76521787',com_set_node,'1407091091',gssb_commit_addr,'',gssb_fss_get_temp,'',eps_update_status,'',0,7.382678270339966,444020.0,10628.0
+gssb_fss_set_config,'748099769',fp_del_cmd_unix,'1336298516',tm_send_status,'1450899062',gssb_get_burn_config,'',obc_update_tle,'',-6,6.370126962661743,444020.0,10904.0
+obc_reset_wdt,'',tm_get_last,'11067583387911491755',com_debug,'',drp_set_deployed,'-2066442702',com_send_cmd,'1658420507 ANi$Uaq',0,7.635037899017334,444020.0,10700.0
+gssb_get_burn_config,'',gssb_get_temp_int,'',obc_get_tle,'',gssb_set_addr,'634174293',gssb_burn,'',0,6.884588003158569,444020.0,10844.0
+com_reset_wdt,'-986492484',drp_ebf,'-2048408426',drp_ebf,'637380162',obc_get_mem,'',gssb_arm_manual,'28298390',0,7.016314744949341,444020.0,10804.0
+obc_get_tle,'',obc_debug,'893010983',obc_get_time,'-282709836',test,'l',gssb_set_addr,'2112341470',0,6.98091983795166,444020.0,10728.0
+obc_update_status,'',drp_ebf,'1009539809',com_get_config,'Z0gECY',com_reset_wdt,'-1511483135',com_reset_wdt,'-865814543',0,6.91366982460022,444020.0,10624.0
+rw_set_speed,'23282858 1951953558',init_dummy_sensor,'',tm_send_last,'13322548510019820757 1207298419600277907',com_get_config,'3Ws',com_send_rpt,'1736714885 ?$',0,6.988803148269653,444020.0,10908.0
+obc_set_tle,'915595622 Uce^o!',drp_add_hrs_alive,'794297623',obc_reset_wdt,'',set_state,'13026442478988979353 11566467431214205316 -696946817',eps_hard_reset,'',0,6.910365581512451,444020.0,10884.0
+drp_clear_gnd_wdt,'',rw_get_speed,'',help,'',eps_get_config,'',obc_get_sensors,'',0,6.9884033203125,444020.0,10760.0
+gssb_get_burn_config,'',com_send_cmd,'-1885181839 s*x@D6Y',fp_set_cmd,'1600099687 -1110704216 557634962 1355534227 -1917654563 -35374132 1582296371 650805194 I$mb%q/ 8',com_send_tc,'-653717037 ^<a',gssb_get_temp,'',-11,7.435222387313843,444020.0,10592.0
+obc_set_tle,"'634390891 ry"":""6+Ov0'",gssb_get_model,'',gssb_get_uuid,'',fp_del_cmd,'24720426 40602735 431409798 2018997702 1525045127 -1515173140',com_reset_wdt,'949764191',-11,6.455583095550537,444020.0,10600.0
+gssb_get_uuid,'',gssb_fss_set_config,'1259004541',gssb_fss_set_config,'811814881',gssb_get_version,'',gssb_set_burn_config,'1222671584 21364290 -2018829987 1510911047 -1732916934 -350200529 -665329893',0,6.909404993057251,444020.0,10624.0
+tm_get_last,'16472000235927854912',obc_prop_tle,'3889758861460932382',com_reset_wdt,'1918780095',set_state,'4879807859683431039 2695677757719414109 -781072627',gssb_fss_commit_config,'',0,7.145902633666992,444020.0,10608.0
+com_debug,'',eps_get_hk,'',com_send_rpt,'-557466805 2',eps_get_hk,'',rw_set_speed,'-735115166 984937704',0,7.039508104324341,444020.0,10636.0
+eps_get_config,'',gssb_fss_set_config,'1096925199',fp_set_cmd_unix,'-1800319319 226961519 -194171160 D !G.',gssb_set_addr,'-1171621653',gssb_unlock_config,'1457075193',-6,6.333988189697266,444020.0,10720.0
+gssb_get_temp_int,'',gssb_get_sun,'',gssb_fss_set_config,'1839433297',drp_ebf,'-1312375112',gssb_fss_set_config,'679128203',0,6.920049667358398,444020.0,10660.0
+gssb_fss_set_config,'-127324751',rw_set_speed,'482896769 -1379895686',fp_set_cmd_dt,"'229227807 -640206914 242132183 l!0Lyq>`O, r-'",obc_update_tle,'',com_send_rpt,'-32487191 ZwL.siX',-6,6.382508277893066,444020.0,10868.0
+com_send_data,"'z,TEn/l'",obc_ident,'',com_get_node,'',obc_get_time,'1521700970',gssb_get_temp,'',0,7.222932815551758,444020.0,10656.0
+fp_reset,'',gssb_scan,'1486642017 30899925',obc_update_status,'',gssb_burn,'',obc_prop_tle,'6040241920770218300',0,7.049784421920776,444020.0,10656.0
+obc_update_status,'',gssb_scan,'394971536 1833851623',eps_get_config,'',test,"'Ji""c:T[zZ-'",gssb_antenna_release,'546798451 2095068694 1568167216 -928222662',0,6.899166822433472,444020.0,10664.0
+obc_pwm_pwr,'346588317',eps_update_status,'',help,'',set_state,'15064757101019568287 15917589086062168623 1430127396',fp_test_params,'817612974 ~Th~ 1591085621',0,7.086742401123047,444020.0,10516.0
+fp_del_cmd,'103422857 1275475891 407212748 -1024242 1582343425 -200906803',drp_add_hrs_alive,'-1560406831',eps_set_heater,'-2044495017 -2091476479',gssb_reset,'',gssb_get_burn_config,'',-11,6.328442096710205,444020.0,10596.0
+obc_set_pwm_duty,'-647400480 -333817632',tm_set_ack,'10401989357315546965 7475131694777128977',fp_set_cmd,'-1442194327 674499682 -631587023 2070532260 383099871 -312975636 491264681 -1765454427  ',drp_add_hrs_alive,'671116871',com_set_config,'7r.@ 1V',0,6.522968053817749,444020.0,10660.0
+tm_set_ack,'14999477022104169847 17236516152343375341',obc_get_time,'-1742920646',fp_reset,'',tm_send_all,'16924498424754499742 10468471072499133127',obc_prop_tle,'2504350340811453072',0,6.888278961181641,444020.0,10584.0
+gssb_get_burn_config,'',obc_reset_wdt,'',fp_set_cmd_unix,'1749792287 2025537060 -1915965092 zqouGHiVmH <Ks^*',gssb_burn,'',obc_debug,'-946420518',-6,6.344665765762329,444020.0,10844.0
+tm_parse_status,'',fp_set_cmd,'-446525574 -1248989634 -339951287 -1292009216 965963510 1270568223 -985947832 669016074 D) a\',com_set_node,'1611825302',eps_set_heater,'-1060768875 -1905533975',obc_set_pwm_freq,'-284727590 -11601216237911492532184269041848748117',-6,6.262723684310913,444020.0,10644.0
+obc_prop_tle,'2809397581187077204',gssb_reset,'',gssb_pwr,'-2085540868 -1245820963',tm_send_from,'5557282100412750064 210509411927850052 797224349412867296',obc_reset_wdt,'',0,6.981974363327026,444020.0,10564.0
+gssb_set_burn_config,'-835951432 -1333513208 -1212453547 898025378 -1538642493 -1327381011 379526330',obc_update_tle,'',help,'',eps_set_heater,'2127440977 1694512524',gssb_arm_auto,'1748874349',0,6.964285373687744,444020.0,10616.0
+gssb_get_model,'',com_send_tc,'-595392826 ',com_send_data,"'(BA""Tu[M'",fp_del_cmd,'245699886 98543787 -581020402 1338846102 507437160 1025844314',gssb_get_model,'',-6,7.470185279846191,444020.0,10884.0
+test,'!U',help,'',fp_del_cmd,'-151535843 1718416490 1535011952 2066665699 74509399 -732981227',gssb_commit_addr,'',eps_set_heater,'500717473 72389446',-11,6.466768980026245,444020.0,10620.0
+obc_set_pwm_duty,'-298186889 1087046452',com_debug,'',obc_set_tle,'1683743529 $8/;{_0E',tm_get_last,'914710041517024855',gssb_get_sun,'',0,6.95818305015564,444020.0,10724.0
+gssb_msp_cal_temp,'-1276665557 -1426344055',tm_send_from,'10774960824645799542 2325902830346479807 7531470246548978832',gssb_fss_get_temp,'',gssb_get_model,'',obc_pwm_pwr,'-826403617',0,7.185187578201294,444020.0,10888.0
+fp_test_params,'2035713586 VQeoV82Ip -1360944441',obc_update_tle,'',gssb_msp_get_temp,'',gssb_arm_auto,'-1107627947',com_send_cmd,'-1297801040 ',0,7.348079442977905,444020.0,10704.0
+eps_hard_reset,'',com_get_node,'',tm_send_status,'-1714177344',tm_set_ack,'6421718870391027733 984864609420799841',com_get_config,'cE{<4',-6,6.603715419769287,444020.0,10720.0
+gssb_msp_cal_temp,'2009970010 762222194',obc_reset_wdt,'',tm_send_from,'16408830305578574431 12060764795437341855 6107889807487811590',gssb_fss_set_config,'2123835472',gssb_pwr,'-228764129 1680336011',0,6.910529136657715,444020.0,10848.0
+gssb_get_temp,'',obc_set_pwm_duty,'-1043544343 -494336924',obc_get_time,'-487600601',tm_send_from,'17599941278816055077 8343173936515900997 12556590987227342355',com_ping,'1897515741',0,9.573434591293335,444020.0,10728.0
+fp_show,'',fp_show,'',com_update_status,'',gssb_fss_get_sun,'',obc_prop_tle,'-1355047350477219589',0,6.592381238937378,444020.0,10652.0
+com_set_node,'-391078393',gssb_set_burn_config,'302740976 1407455343 413775967 275072422 -1600657548 591200025 263589891',gssb_get_sun,'',gssb_reset,'',fp_del_cmd_unix,'1171678480',-6,6.505383014678955,444020.0,10760.0
+tm_send_from,'17211240965724903868 11816240874254283027 9692434931622060732',gssb_fss_get_temp,'',gssb_set_addr,'-971523059',gssb_get_version,'',gssb_select,'-1936091150',0,7.1306822299957275,444020.0,10688.0
+gssb_pwr,'1295270500 -1879972093',gssb_commit_addr,'',drp_get_vars,'',tm_set_ack,'340519637410333745 4196613945288498528',eps_set_heater,'1388557810 -1343778302',0,6.955825090408325,444020.0,10660.0
+drp_set_deployed,'-1908126650',com_send_tc,'-717484415 ]+',drp_ebf,'1680348071',fp_set_cmd_unix,'-1816529443 -1541506262 1974441667 $ F',com_set_node,'-141367967',-6,7.709611654281616,444020.0,10536.0
+obc_get_time,'1274583446',fp_del_cmd_unix,'433616507',gssb_get_version,'',gssb_get_temp_int,'',help,'',-6,6.402230978012085,444020.0,10628.0
+gssb_fss_get_sun,'',gssb_antenna_release,'-1281357768 -36729494 93313585 775366530',gssb_msp_cal_temp,'-1521748812 -1270307666',fp_reset,'',fp_set_cmd_dt,'-1317499549 1669016632 1327061674 pAPwJW$ 9U',-6,6.4740705490112305,444020.0,10728.0
+fp_set_cmd_unix,"'-2094762485 -54544540 1277844956 O8U!([H c*""z'",gssb_get_model,'',gssb_pwr,'-364243919 1918178068',fp_set_cmd_dt,'1427904949 -1130890437 -1041123832 gOoy#8RA o0wil;0-',com_send_data,'',-6,6.427693128585815,444020.0,10744.0
+gssb_get_model,'',com_debug,'',gssb_get_temp,'',gssb_fss_set_config,'1012883242',gssb_pwr,'1086030967 535552592',0,6.956527471542358,444020.0,10600.0
+gssb_msp_cal_temp,'1089651435 1109206485',gssb_select,'798538096',init_dummy_sensor,'',gssb_fss_get_temp,'',fp_set_cmd,'-1600933690 -1599125254 1926949555 293898158 -327979403 589082469 -1676192916 -243201136  ',0,6.95177149772644,444020.0,10660.0
+fp_del_cmd,'-1161432936 -847572931 1928822834 -1698231912 -494296844 -921124283',gssb_get_version,'',obc_reset_wdt,'',gssb_commit_addr,'',tm_send_status,'-1046650280',-11,6.429480075836182,444020.0,10864.0
+gssb_fss_commit_config,'',com_update_status,'',drp_set_deployed,'-1359227356',gssb_pwr,'-1208808571 81440159',gssb_unlock_config,'254159295',0,6.996248483657837,444020.0,10660.0
+gssb_get_version,'',gssb_set_addr,'1362122229',fp_del_cmd,'-1269675472 -514266596 -1465580724 -2139071275 1401717908 -1389942764',help,'',com_get_node,'',-6,6.504869699478149,444020.0,10880.0
+gssb_fss_get_temp,'',gssb_update_status,'',drp_ebf,'1645881770',gssb_get_status,'',rw_get_current,'',0,7.035609245300293,444020.0,10608.0
+obc_update_status,'',help,'',fp_del_cmd,'-1666581443 -1480801709 -1102890273 -301325269 2089240616 614676399',gssb_get_status,'',gssb_unlock_config,'1705506246',-6,6.594655990600586,444020.0,10600.0
+tm_send_from,'6853255085532335075 16193875618508579997 12698968968279469337',obc_get_mem,'',eps_hard_reset,'',gssb_set_burn_config,'73221108 345682629 73158494 -1744905226 -1774633928 -59465392 928321730',fp_show,'',0,6.9265296459198,444020.0,10864.0
+gssb_pwr,'658107613 -900841775',gssb_commit_addr,'',eps_hard_reset,'',rw_get_speed,'',tm_set_ack,'5048248747922126226 4919387462889699326',0,6.953413963317871,444020.0,10868.0
+gssb_msp_cal_temp,'885881508 -647482739',help,'',com_get_config,'u[S>DUJVI{',gssb_pwr,'-1150063241 877030078',drp_ebf,'-1439426940',0,7.007851839065552,444020.0,10584.0
+gssb_burn,'',gssb_pwr,'-146520642 -228898296',com_reset_wdt,'-1439811463',gssb_get_version,'',set_state,'16188476625983996019 265625293095351179 -1755996657',0,6.992396116256714,444020.0,10600.0
+help,'',com_update_status,'',tm_set_ack,'548590778543817204 3978591218011320512',gssb_msp_get_temp,'',tm_get_last,'6740639338353226641',0,6.922917127609253,444020.0,10688.0
+gssb_arm_auto,'-1910645762',gssb_commit_addr,'',eps_get_config,'',com_ping,'-1440516868',obc_ident,'',0,9.242221117019653,444020.0,10864.0
+gssb_arm_manual,'1883005061',eps_hard_reset,'',com_set_node,'-1772551974',obc_set_pwm_duty,'-1223227538 1644977523',drp_clear_gnd_wdt,'',0,6.874047756195068,444020.0,10728.0
+tm_get_last,'4440727101722163167',com_send_cmd,'-618771753 kKi8=%>',gssb_arm_auto,'1355424151',tm_send_status,'-1984169353',gssb_fss_commit_config,'',-6,7.480968236923218,444020.0,10904.0
+com_send_rpt,'726602383 ?$>ii',drp_clear_gnd_wdt,'',set_state,'4013644145677986269 12504456095953323472 -686591952',obc_ident,'',drp_add_hrs_alive,'516340504',0,6.550380229949951,444020.0,10896.0
+gssb_get_temp_int,'',obc_set_pwm_duty,'1297078894 403840560',com_ping,'779641221',obc_get_time,'-1122438799',obc_set_pwm_freq,'-1527812327 317251396550233917181917853459130603357',0,9.181740045547485,444020.0,10732.0
+gssb_get_sun,'',test,'!?^fb%',eps_update_status,'',eps_set_heater,'-1580206625 1145923323',fp_del_cmd_unix,'1961385501',-6,6.595324516296387,444020.0,10660.0
+gssb_get_sun,'',drp_ebf,'-149854593',drp_set_var,'-798864704 1112153487',init_dummy_sensor,'',init_dummy_sensor,'',0,6.953057050704956,444020.0,10524.0
+gssb_unlock_config,'549247607',rw_get_current,'',fp_set_cmd_dt,'1755777869 2087046948 -1474504900 '? )|Nt;x4',gssb_get_model,'',gssb_pwr,'-2054161542 633966759',-6,6.439913034439087,444020.0,10560.0
+help,'',tm_send_status,'-1176197695',tm_send_status,'256682336',gssb_msp_cal_temp,'-1654726606 -1588890855',gssb_pwr,'959133541 -2013924627',-6,6.341487646102905,444020.0,10660.0
+obc_set_pwm_freq,'17871290 267673774850403002330324461734956544277',gssb_msp_cal_temp,'1870676211 364289298',eps_hard_reset,'',com_set_node,'-1303212421',obc_set_tle,'948599314 ',0,7.17787766456604,444020.0,10832.0
+gssb_unlock_config,'1074103837',obc_set_pwm_freq,'-33616502 -299550692089146264760535729062976095673',drp_set_deployed,'-1297193709',gssb_scan,'1728970597 1401523931',fp_set_cmd,'1538692492 401245411 899246851 718466003 -84301145 1804675626 -440016360 921366249 =<8B8 9~',-11,6.594621181488037,444020.0,10584.0
+com_get_config,'7u1r',obc_get_sensors,'',gssb_fss_commit_config,'',init_dummy_sensor,'',obc_set_tle,'-725363857 a^ZcF',0,7.010173082351685,444020.0,10740.0
+gssb_msp_cal_temp,'-773652600 -1088888409',fp_test_params,'-1888509091 zs8 -1773355317',obc_ident,'',set_state,'12857566554050896429 16603831223466030983 1240658763',com_set_config,'1ZB. ol',0,7.005859375,444020.0,10748.0
+com_set_config,'+mzw $7)SEt',com_send_cmd,'-281570188 /1qvrPy',gssb_pwr,'-2072398142 1863939862',drp_get_vars,'',gssb_get_temp,'',0,7.409532785415649,444020.0,10672.0
+com_set_node,'565774171',fp_del_cmd_unix,'2083147363',com_get_node,'',obc_update_tle,'',com_update_status,'',-6,6.317635536193848,444020.0,10892.0
+help,'',drp_ebf,'-1668150524',tm_send_all,'15511958002555303117 3185716119756374072',obc_reset_wdt,'',gssb_get_temp,'',0,6.904932737350464,444020.0,10884.0
+com_set_config,' S/(e>.U|',gssb_get_sun,'',obc_get_mem,'',tm_send_status,'-1706487259',drp_test_system_vars,'',-6,6.479652643203735,444020.0,10492.0
+gssb_get_burn_config,'',eps_get_config,'',obc_update_status,'',com_set_node,'-2070077577',com_set_node,'-1684768332',0,6.941842079162598,444020.0,10892.0
+gssb_msp_cal_temp,'-709506230 1150893163',fp_set_cmd_dt,'-573265032 1323398784 -366280647 JzEhVv=q-b ',test,'\',com_send_data,'{>2@:ZI:C',gssb_fss_get_sun,'',-6,6.298686981201172,444020.0,10584.0
+gssb_get_status,'',gssb_get_burn_config,'',gssb_get_model,'',gssb_msp_get_temp,'',gssb_get_model,'',0,6.978061676025391,444020.0,10652.0
+gssb_get_burn_config,'',obc_get_sensors,'',gssb_get_burn_config,'',gssb_reset,'',gssb_antenna_release,'1372159086 -1231686465 1624702875 -581682591',0,6.934997320175171,444020.0,10612.0
+obc_update_status,'',tm_parse_status,'',drp_get_vars,'',gssb_arm_manual,'-1665235622',com_set_config,"'LtgA""+ y)}*7'Qq86'",0,6.953478097915649,444020.0,10700.0
+gssb_select,'449629122',drp_get_vars,'',gssb_antenna_release,'-1130435003 369246231 2018248378 1213709604',gssb_get_version,'',drp_set_deployed,'-1398691995',0,7.093459844589233,444020.0,10864.0
+drp_get_vars,'',com_get_config,'!*8w1R'',obc_set_pwm_duty,'-185464642 1895151562',com_send_tc,'-1514307908 ',gssb_get_status,'',-6,7.447317361831665,444020.0,10516.0
+gssb_fss_commit_config,'',fp_show,'',gssb_fss_get_temp,'',com_debug,'',drp_add_hrs_alive,'1259264873',0,6.896794557571411,444020.0,10656.0
+obc_pwm_pwr,'-2133211570',com_get_config,'?`\j=<;9',gssb_set_addr,'463613399',fp_set_cmd,"'-203426725 1681411828 -1718766549 2064448463 1190875615 999376189 -119616446 -282286587 JRrc -?,-PS?)'",eps_update_status,'',-6,6.392386436462402,444020.0,10488.0
+fp_reset,'',rw_get_current,'',obc_prop_tle,'-7179007581740507759',gssb_antenna_release,'193547730 -690438539 1745937325 1094499404',gssb_commit_addr,'',0,6.387916326522827,444020.0,10720.0
+gssb_arm_auto,'279926640',gssb_set_addr,'1038362144',drp_test_system_vars,'',obc_update_status,'',drp_set_deployed,'-1888395934',0,9.927978038787842,444020.0,10600.0
+rw_get_current,'',eps_hard_reset,'',tm_send_all,'651102214865564607 12727813683788107963',fp_del_cmd,'-1964970335 -1982581007 -1028317774 506781539 -503518638 -1736715724',set_state,'13562497304014323760 16667168298509822419 319272724',-6,6.425677299499512,444020.0,10848.0
+eps_hard_reset,'',fp_set_cmd,"'-622033936 39788072 -198518578 8752749 -369498735 2115404920 -1241462431 1868767022 XVR p`!,kc^~'",obc_pwm_pwr,'1791697533',com_send_tc,'-1968917916 iv@|P',drp_test_system_vars,'',-6,6.273151874542236,444020.0,10568.0
+gssb_msp_cal_temp,'1056490356 168327616',eps_get_config,'',eps_hard_reset,'',tm_send_from,'16225715154486415648 124381405783570275 6283101177790450436',rw_get_current,'',0,6.978384256362915,444020.0,10552.0
+obc_update_tle,'',fp_set_cmd_dt,'1191357354 2103701772 1889581201  W[^K!e',obc_debug,'1093094488',gssb_scan,'-1140555800 -83869507',gssb_pwr,'1788126602 -2029532541',-11,6.5677103996276855,444020.0,10752.0
+gssb_fss_commit_config,'',gssb_set_addr,'1577418473',obc_reset_wdt,'',gssb_arm_manual,'-1420792361',gssb_arm_manual,'-1461621268',0,6.926605939865112,444020.0,10664.0
+obc_get_mem,'',com_set_config,' Mw:XS\kHm',rw_get_current,'',fp_del_cmd,'-640472688 155763562 -2096899951 -946693980 235461342 -574186086',eps_update_status,'',-6,6.545527696609497,444020.0,10892.0
+gssb_get_model,'',com_update_status,'',tm_send_all,'14699734250046077333 16010542988400068182',gssb_reset,'',gssb_fss_set_config,'-915326688',0,6.963143825531006,444020.0,10660.0
+tm_send_all,'4535876241640151299 2865176418214607961',obc_get_mem,'',gssb_msp_cal_temp,'203981792 -657313706',gssb_fss_set_config,'1431636946',com_get_node,'',0,6.936357259750366,444020.0,10832.0
+obc_pwm_pwr,'-698961942',tm_get_last,'16597806045190949323',gssb_select,'-616506329',gssb_commit_addr,'',gssb_get_uuid,'',0,7.012609958648682,444020.0,10740.0
+gssb_get_temp_int,'',rw_get_current,'',gssb_get_burn_config,'',drp_test_system_vars,'',tm_send_last,'17995757351077813207 18157539390444941533',0,9.842745065689087,444020.0,10880.0
+com_set_node,'-1254311892',drp_set_deployed,'234355687',obc_update_status,'',gssb_pwr,'1295023955 -534022944',gssb_arm_manual,'1543492773',0,6.903871536254883,444020.0,10660.0
+eps_set_heater,'-967678177 108491815',gssb_msp_get_temp,'',drp_set_var,'631193131 1178354895',com_debug,'',drp_get_vars,'',0,7.02007794380188,444020.0,10612.0
+eps_hard_reset,'',gssb_arm_manual,'2139460890',gssb_scan,'-1068606601 -1861019706',init_dummy_sensor,'',obc_pwm_pwr,'918377040',0,7.016733884811401,444020.0,10836.0
+com_send_data,'\w5Nnsfj',tm_get_last,'2522635795658946678',drp_set_deployed,'125759317',com_set_config,'f?/QD? ',gssb_get_model,'',0,7.298380613327026,444020.0,10728.0
+fp_reset,'',gssb_update_status,'',obc_set_pwm_duty,'-7606673 -803825969',com_send_data,'jPV<X3{s%',obc_get_time,'1609490841',0,7.338770389556885,444020.0,10884.0
+com_reset_wdt,'-1160438030',drp_add_hrs_alive,'1262904468',obc_reset_wdt,'',eps_set_heater,'71781049 1649816574',gssb_msp_get_temp,'',0,7.0027642250061035,444020.0,10872.0
+fp_set_cmd,'58551832 -927557596 -580366659 -575841163 -1919931323 -271303384 -1818128198 -341942450  pJA-lVv[;',gssb_unlock_config,'1473003292',gssb_fss_commit_config,'',com_debug,'',gssb_update_status,'',-6,6.265417575836182,444020.0,10580.0
+tm_get_last,'16343978016553097476',obc_get_time,'416814883',obc_set_pwm_duty,'-702362247 -456717911',com_set_node,'-1819191120',gssb_get_version,'',0,6.954694032669067,444020.0,10728.0
+com_send_rpt,'-1036085687 '9:$Hd',obc_get_mem,'',gssb_fss_set_config,'-1011606225',com_set_node,'700861806',gssb_pwr,'1990415115 1972367618',0,7.018785715103149,444020.0,10884.0
+fp_set_cmd_unix,"'1950446784 -513086678 1629634024 3J""4B f?a+'",eps_update_status,'',tm_parse_status,'',gssb_commit_addr,'',eps_get_config,'',-6,6.589938163757324,444020.0,10656.0
+com_send_cmd,'-1962460174 yd',fp_test_params,'-61940273 7b{i`H -1597943732',gssb_arm_auto,'591390913',obc_get_sensors,'',gssb_scan,'383109270 -154440724',0,7.567166090011597,444020.0,10880.0
+fp_reset,'',gssb_update_status,'',gssb_msp_get_temp,'',rw_get_speed,'',drp_set_var,'-1368950253 1492416366',0,6.939287185668945,444020.0,10716.0
+drp_set_var,'1808329524 314303824',com_get_node,'',fp_show,'',fp_test_params,'2018481382  1786189688',rw_set_speed,'-1104394484 1746923514',0,7.013937473297119,444020.0,10716.0
+gssb_get_temp,'',gssb_msp_cal_temp,'-1748505345 -1826617264',obc_update_tle,'',com_send_cmd,'-1868645928 k<&qG&0<',obc_get_mem,'',0,7.3669304847717285,444020.0,10584.0
+gssb_select,'-67053898',gssb_commit_addr,'',com_send_cmd,'602625667 jMESh',com_update_status,'',set_state,'15155636827853517705 17323986829422630521 2108970292',0,7.170625925064087,444020.0,10848.0
+drp_clear_gnd_wdt,'',gssb_pwr,'-1624208680 -141647174',com_update_status,'',com_set_node,'-1172405618',com_get_node,'',0,6.934072256088257,444020.0,10664.0
+fp_set_cmd_dt,'1720622904 -144439347 -227928948 e)im N',drp_set_var,'-1488795400 1659060299',gssb_msp_get_temp,'',gssb_fss_set_config,'-407189803',rw_get_speed,'',-6,6.239248991012573,444020.0,10900.0
+eps_hard_reset,'',com_get_node,'',fp_set_cmd_dt,'-499421322 -455285369 -817711466 G+ gW=TwYXo84',obc_ident,'',gssb_arm_manual,'-996357339',-6,6.328471422195435,444020.0,10832.0
+fp_del_cmd_unix,'1941385461',obc_pwm_pwr,'1207332720',fp_del_cmd,'-363138500 -1154449331 88449013 -1240626968 1766444434 -973078227',init_dummy_sensor,'',gssb_get_version,'',-6,6.412402391433716,444020.0,10452.0
+set_state,'5826200535923370894 12328815501186426972 -2046416746',gssb_msp_cal_temp,'904288960 47524885',gssb_fss_set_config,'-446666342',help,'',gssb_get_uuid,'',0,6.932869911193848,444020.0,10884.0
+obc_update_status,'',obc_prop_tle,'-4433555408943515147',init_dummy_sensor,'',gssb_get_temp_int,'',gssb_burn,'',0,7.016868829727173,444020.0,10620.0
+obc_pwm_pwr,'-88049479',gssb_fss_get_temp,'',obc_get_tle,'',tm_send_last,'2736131136660559732 4683170548008737593',fp_set_cmd_dt,"'1789500610 -551937707 -1437842008 67 Ktdj""t'",-6,6.452008247375488,444020.0,10904.0
+obc_get_mem,'',com_send_rpt,'337239635 i',gssb_set_addr,'195152406',obc_ident,'',com_send_tc,'340899842 >p03Ib7',-6,7.45366358757019,444020.0,10716.0
+obc_reset_wdt,'',gssb_fss_set_config,'-842312640',drp_add_hrs_alive,'-1052710652',obc_pwm_pwr,'-2034064435',init_dummy_sensor,'',0,7.004973649978638,444020.0,10600.0
+com_send_cmd,'907171454 S+g:f'*v',obc_ident,'',fp_del_cmd_unix,'2066479790',tm_get_last,'1185994508393485931',tm_send_all,'17285240278530667152 12974136397657458874',-6,7.209479808807373,444020.0,10820.0
+gssb_arm_manual,'1504645200',gssb_fss_get_sun,'',gssb_set_addr,'-973195934',gssb_reset,'',gssb_get_sun,'',0,6.960986852645874,444020.0,10600.0
+com_debug,'',gssb_fss_get_sun,'',test,'lSA|x',gssb_msp_get_temp,'',obc_set_pwm_freq,'-1142096444 124094457853660864512948864499334924495',0,6.948001861572266,444020.0,10660.0
+gssb_set_burn_config,'-1682710771 1394348579 1154551531 420159878 -1329949220 2009472728 -108024123',gssb_get_version,'',gssb_get_status,'',gssb_get_version,'',drp_ebf,'-1366479757',0,6.911615610122681,444020.0,10852.0
+obc_get_tle,'',obc_ident,'',com_send_data,"'N,'",init_dummy_sensor,'',gssb_burn,'',0,7.32149863243103,444020.0,10648.0
+drp_test_system_vars,'',gssb_get_status,'',eps_update_status,'',fp_del_cmd_unix,'726805660',obc_get_mem,'',-6,10.235872507095337,444020.0,10660.0
+gssb_set_burn_config,'2116834782 1913014311 -2133058548 1220039818 -1170367204 1997794053 -182579865',obc_ident,'',gssb_fss_set_config,'-1348304502',drp_clear_gnd_wdt,'',obc_set_tle,'-167904916 3M-:`Vns',0,6.914451599121094,444020.0,10632.0
+com_send_cmd,'1046676547 33<w',com_ping,'-2266901',drp_clear_gnd_wdt,'',tm_send_from,'9493202254955149280 14818983017771041967 16019796622627733310',obc_get_time,'407144398',0,10.189939975738525,444020.0,10584.0
+tm_send_all,'958405956702087440 1997307356917453638',fp_test_params,'-213285631 &6 -1476851621',gssb_fss_commit_config,'',obc_get_mem,'',com_send_tc,'-1585620015 8Qg[x;',-6,7.461116313934326,444020.0,10612.0
+tm_send_last,'17604018941805018994 7255151308393209254',obc_debug,'-214677490',drp_ebf,'1741576419',fp_set_cmd_unix,'-2083752090 -1640077223 128338795 jv>V ~_~p',gssb_get_uuid,'',-6,6.425508737564087,444020.0,10580.0
+obc_get_mem,'',com_get_node,'',gssb_msp_get_temp,'',com_debug,'',tm_get_last,'1998204675700571765',0,6.889153003692627,444020.0,10840.0
+tm_set_ack,'12611584137415429678 1176738809307866630',gssb_get_version,'',eps_get_hk,'',drp_set_var,'-62013907 -550642861',gssb_select,'-1678716999',0,6.975365877151489,444020.0,10840.0
+gssb_select,'1417509207',tm_send_status,'-278183459',fp_set_cmd,'-2090305292 1965570733 -1851880426 -1784047244 487577549 515178137 1674699012 68587836 ?Q?H-WA 6',rw_get_current,'',com_update_status,'',-6,6.360772132873535,444020.0,10872.0
+gssb_get_temp_int,'',gssb_scan,'1435142266 -1746191950',gssb_set_addr,'1604836303',obc_set_pwm_freq,'1483954912 -131883950765216153165933725144516273533',gssb_get_model,'',0,7.088344573974609,444020.0,10572.0
+tm_send_all,'8138002715264999473 14753009812339199251',tm_set_ack,'6271315480767311843 6924842249638056379',fp_reset,'',gssb_commit_addr,'',com_send_data,'0s',0,7.340714454650879,444020.0,10772.0
+gssb_arm_auto,'1875083940',gssb_fss_get_sun,'',gssb_commit_addr,'',gssb_msp_cal_temp,'-1024207879 1912214065',obc_update_tle,'',0,6.891602993011475,444020.0,10884.0
+com_get_config,'ZR^I;dGZ',tm_send_last,'7628121713173059646 18053528469241665882',drp_clear_gnd_wdt,'',obc_reset_wdt,'',gssb_msp_get_temp,'',0,6.9529032707214355,444020.0,10596.0
+obc_debug,'16324712',fp_set_cmd_unix,'-217459543 1420133898 -770850520 6kfU@k.p TC{MN',gssb_set_burn_config,'-1790245858 1861502992 657849533 -689856559 1503973531 425186460 -2029859787',com_ping,'-1952607433',gssb_set_burn_config,'-212852072 200213882 -1663776975 -2099871351 -309288033 2027611096 -2046846095',-6,6.6326093673706055,444020.0,10560.0
+gssb_update_status,'',gssb_unlock_config,'2049190370',obc_pwm_pwr,'135273346',obc_ident,'',gssb_get_temp_int,'',0,6.9907472133636475,444020.0,10724.0
+com_send_tc,'223759886 {24',eps_get_config,'',com_send_rpt,'-1664935441 w',fp_set_cmd_unix,"'420082379 1128791505 1660961535 |"",!Yyu YN*U'",drp_set_var,'-138936731 822813377',-6,7.2745630741119385,444020.0,10836.0
+gssb_commit_addr,'',gssb_get_version,'',gssb_fss_set_config,'712692871',gssb_get_temp,'',obc_update_tle,'',0,6.877287864685059,444020.0,10676.0
+gssb_get_uuid,'',com_set_config,'s 8',com_update_status,'',gssb_get_model,'',gssb_update_status,'',0,6.956015110015869,444020.0,10596.0
+drp_add_hrs_alive,'728020628',drp_clear_gnd_wdt,'',gssb_fss_get_temp,'',test,"'H~VdYSz,'",gssb_fss_set_config,'1135651965',0,7.296365261077881,444020.0,10708.0
+com_get_config,'',obc_get_sensors,'',gssb_set_addr,'1931456704',com_get_config,'!CDj[6+*lF',obc_pwm_pwr,'-198984532',0,6.946765184402466,444020.0,10836.0
+fp_del_cmd,'-1259470739 -1969602963 1758289321 641808572 -261311721 -400913876',com_set_config,'T=;~b;0S |#oD@',fp_reset,'',fp_set_cmd_unix,'-1579260955 -835044635 1794969788 cMA/7qqi ^-l-e',tm_parse_status,'',-11,6.509889125823975,444020.0,10584.0
+gssb_get_temp,'',gssb_scan,'-197251962 -1626913142',gssb_get_burn_config,'',gssb_burn,'',obc_set_pwm_duty,'-732381636 2045613602',0,6.924904823303223,444020.0,10660.0
+gssb_antenna_release,'-208489739 4319055 -1419851460 -1516574594',tm_send_all,'11340958636077742434 3284723794919840592',obc_get_mem,'',drp_get_vars,'',com_set_config,'CGP\ EUdINAKx#',0,6.954251289367676,444020.0,10820.0
+fp_reset,'',gssb_scan,'1982456493 835140891',gssb_reset,'',fp_show,'',drp_get_vars,'',0,6.9380083084106445,444020.0,10844.0
+drp_set_deployed,'1165792778',fp_del_cmd,'-1128466019 -900840859 -1532770400 -256120161 913503526 -473135027',eps_hard_reset,'',com_update_status,'',help,'',-6,6.49807596206665,444020.0,10752.0
+eps_hard_reset,'',gssb_get_sun,'',obc_get_tle,'',gssb_reset,'',com_send_rpt,'1258041867 --wh',0,6.972254037857056,444020.0,10620.0
+fp_show,'',gssb_scan,'1513202083 170463507',gssb_update_status,'',gssb_fss_get_temp,'',help,'',0,7.210758447647095,444020.0,10628.0
+gssb_get_uuid,'',obc_prop_tle,'5720828694210750259',fp_reset,'',help,'',obc_get_sensors,'',0,6.861013412475586,444020.0,10904.0
+rw_get_current,'',gssb_reset,'',fp_set_cmd_unix,'836740861 1468658353 427869972 ?rx'AL[ H2',com_get_config,'UV(P$|q',obc_set_tle,"'836147758 \CE7k,*ZC'",-6,6.316214561462402,444020.0,10608.0
+tm_get_last,'1731608320259673687',com_update_status,'',eps_get_config,'',gssb_update_status,'',obc_get_sensors,'',0,6.892675876617432,444020.0,10892.0
+tm_send_from,'581239899946794541 5736718344506324370 15520403922977973337',gssb_set_burn_config,'-1353089214 -405455333 1560712227 -472657836 1178536501 -2147189300 838791679',gssb_arm_auto,'1955127812',fp_set_cmd,'100695966 -1056291042 229192689 1241964105 1882222668 1105765055 -886253190 2087613249 T)+P## 5'TN\^F-',fp_set_cmd,'921235606 -1579199428 1933008118 -1523994686 1149352373 706536309 -1401965740 645132648 F%`HA.~0} w..',-11,6.410083293914795,444020.0,10832.0
+obc_ident,'',gssb_reset,'',gssb_update_status,'',obc_set_pwm_freq,'-1224926297 207750603530652470993030128957687436316',obc_debug,'2126236566',0,6.927468299865723,444020.0,10660.0
+fp_set_cmd_unix,'973718915 -861909152 1917532960 o6%m2\u} ',com_ping,'17514858',gssb_get_model,'',gssb_select,'-1986212617',com_set_config,'2Bl Hsi',-6,6.211776256561279,444020.0,10728.0
+tm_send_from,'12341970251986354722 16854660625768955827 12646954028132242450',rw_get_current,'',rw_get_speed,'',obc_get_time,'1473185922',gssb_unlock_config,'-736710100',0,6.8962483406066895,444020.0,10664.0
+gssb_get_uuid,'',com_set_node,'758165182',init_dummy_sensor,'',obc_pwm_pwr,'-1913879750',drp_set_var,'-799204084 -1524942043',0,6.915158033370972,444020.0,10584.0
+gssb_msp_cal_temp,'1830609437 -1621402379',com_ping,'-451148878',rw_get_speed,'',gssb_commit_addr,'',com_set_node,'843266633',0,9.344787120819092,444020.0,10716.0
+obc_get_mem,'',drp_ebf,'1685479473',fp_del_cmd,'2026044747 573642405 244731915 -1903357812 1437057992 991427413',init_dummy_sensor,'',drp_ebf,'-336895345',-11,6.515495300292969,444020.0,10716.0
+com_update_status,'',com_get_config,'d]',com_get_config,'F1qjxB}6',gssb_fss_commit_config,'',gssb_unlock_config,'57888772',0,6.883437633514404,444020.0,10544.0
+test,'b%!s87\e',obc_get_tle,'',fp_reset,'',tm_parse_status,'',obc_update_tle,'',0,7.002134799957275,444020.0,10564.0
+fp_test_params,'160778273 c -1473482427',drp_ebf,'1213237507',fp_del_cmd_unix,'-790844966',fp_show,'',obc_set_pwm_freq,'-1486612375 -175224222486031189392463463838375420491',-6,6.599096059799194,444020.0,10728.0
+rw_get_speed,'',obc_update_status,'',tm_get_last,'308523176892111680',tm_set_ack,'11226214395092584591 15147558633970991298',com_send_rpt,'-880088669 2t'gs8x',0,6.948512077331543,444020.0,10660.0
+gssb_set_burn_config,'-320329019 -1491697172 1568138366 754594333 -1073175959 1359605617 -821993474',com_send_rpt,'-498633736 0XT_v',obc_pwm_pwr,'-2073972043',fp_del_cmd_unix,'280175731',eps_get_hk,'',-6,6.425576448440552,444020.0,10872.0
+obc_prop_tle,'4338896062898721806',obc_prop_tle,'5989931288339941808',com_reset_wdt,'143733597',gssb_fss_set_config,'-31793663',fp_show,'',0,6.8927388191223145,444020.0,10728.0
+obc_get_sensors,'',gssb_get_burn_config,'',fp_test_params,'87645215 3a0vuo?7V 1994294869',tm_send_last,'3597073285797182084 9849651144368433814',gssb_get_sun,'',0,7.065657138824463,444020.0,10636.0
+tm_parse_status,'',gssb_set_addr,'-665411556',gssb_arm_manual,'1111050628',eps_set_heater,'582123200 -1029074728',init_dummy_sensor,'',0,6.904295921325684,444020.0,10676.0
+gssb_fss_set_config,'-1269074720',obc_reset_wdt,'',fp_reset,'',gssb_get_model,'',obc_update_status,'',0,6.867183685302734,444020.0,10504.0
+init_dummy_sensor,'',tm_send_status,'-1366963144',obc_get_time,'-264932279',obc_get_sensors,'',tm_set_ack,'11061522634683064383 1993104530857367261',-6,6.5016865730285645,444020.0,10728.0
+obc_get_time,'-584964472',eps_get_hk,'',com_send_tc,'1717935432 ',gssb_reset,'',obc_debug,'1816049959',-6,7.398946523666382,444020.0,10660.0
+fp_show,'',set_state,'3288856451666996574 17757589315194766919 -1697593641',gssb_unlock_config,'1395109453',obc_set_pwm_duty,'1209269379 -1830799721',obc_update_tle,'',0,6.900943756103516,444020.0,10556.0
+init_dummy_sensor,'',init_dummy_sensor,'',rw_get_current,'',com_update_status,'',com_send_data,')X88y',0,7.364892959594727,444020.0,10652.0
+gssb_get_status,'',obc_set_pwm_duty,'-1374152313 1990614550',eps_get_config,'',drp_set_var,'353971192 -730303742',drp_clear_gnd_wdt,'',0,6.933488607406616,444020.0,10600.0
+gssb_fss_set_config,'611359077',tm_send_all,'15513098480707446315 13999318436295756879',obc_set_pwm_freq,'920824540 284731463034485892431129310915365669233',fp_del_cmd,'-1304822678 -1099311400 809917035 -170105650 2121898487 -341268658',gssb_antenna_release,'494239949 446845442 973782906 1578007331',-11,6.403409481048584,444020.0,10576.0
+gssb_scan,'-959839941 1735812044',drp_set_var,'437567484 -681919985',com_get_config,':E`8s>&lLU',com_set_config,'t v6P#~)',obc_get_time,'1980128745',0,7.033297300338745,444020.0,10840.0
+obc_set_pwm_freq,'-1309084753 43736137941503631736401806284713787017',gssb_update_status,'',gssb_antenna_release,'-2023349364 -1953082693 -595219081 228945826',rw_set_speed,'1106819773 1030625783',fp_set_cmd,'314973064 2126597878 1085010749 479736939 1212944065 -610098172 -770999184 1951403225 va8E sw02l',-11,6.672472953796387,444020.0,10596.0
+fp_show,'',tm_send_from,'11970092205268208129 12804613050923256288 10951020618291207594',tm_get_last,'9280889739222080603',tm_send_from,'13647039571971939477 10897511425352274539 945532640408798057',gssb_msp_get_temp,'',0,7.232812881469727,444020.0,10512.0
+tm_get_last,'12882207092556564990',gssb_msp_cal_temp,'413479975 -705623910',obc_set_tle,'415965523 KKSnPy',gssb_set_burn_config,'-1835265489 1744994101 750566129 1721172375 -1742010645 -316786457 -1638975437',help,'',0,7.051055669784546,444020.0,10896.0
+fp_show,'',com_reset_wdt,'-1305742480',obc_set_pwm_freq,'-1377973679 246275619382154527724808411384926311085',drp_clear_gnd_wdt,'',com_send_rpt,'318519911 |4.P',0,6.935490131378174,444020.0,10868.0
+drp_ebf,'-1225878799',obc_debug,'-265100388',obc_set_tle,"'155028421 #kR,w'",gssb_set_addr,'1440522637',gssb_scan,'188937532 -699625951',0,7.017224311828613,444020.0,10584.0
+eps_set_heater,'133584386 -1815732265',gssb_fss_get_temp,'',obc_debug,'-530774029',obc_set_tle,'454203422 DRJ9',com_debug,'',0,6.9932520389556885,444020.0,10724.0
+obc_get_time,'641291100',test,'#',init_dummy_sensor,'',gssb_fss_commit_config,'',obc_prop_tle,'307469731301235926',0,7.031364679336548,444020.0,10668.0
+gssb_get_uuid,'',obc_prop_tle,'-448402495628656251',gssb_get_model,'',gssb_select,'1103948577',gssb_get_model,'',0,6.901036500930786,444020.0,10848.0
+eps_update_status,'',fp_set_cmd_unix,'-1773565138 1405180575 643040412 1+ZvorSqq> `r)w}Y#(',drp_set_var,'964773101 -868287657',com_send_cmd,'-838524639 yxz]1O',obc_set_tle,'-102960708 JMVWxI^',-6,6.26356840133667,444020.0,10712.0
+tm_send_last,'7295360381322205728 13667753230639762485',com_debug,'',com_send_rpt,'2108835596 F$.AV|',gssb_get_sun,'',com_send_rpt,'-1746432848 3tFbE67}%t',0,6.927964925765991,444020.0,10608.0
+drp_ebf,'-1744596033',com_send_data,"'""'<&KRdvB#'",tm_parse_status,'',tm_get_last,'10694220902858704816',drp_set_deployed,'2070764323',0,7.124706983566284,444020.0,10840.0
+help,'',fp_set_cmd,"'-193412681 -384545818 -172789464 1366135273 1660659618 1722084890 -1872255321 490452760  ,q&w&'",fp_set_cmd_unix,'913145149 -1183803401 -129628075 @nT] <*nj',eps_update_status,'',eps_update_status,'',-6,6.382451057434082,444020.0,10456.0
+gssb_select,'380777782',com_set_config,"'vnCQ""m '",obc_get_mem,'',gssb_get_sun,'',test,']9LIW$',0,6.941572189331055,444020.0,10664.0
+gssb_set_burn_config,'189371098 1125505841 -2027822074 1391335936 -290532185 -642550878 -25497090',gssb_arm_manual,'2028107287',gssb_fss_commit_config,'',tm_get_last,'2967628122949742712',gssb_pwr,'-2034113315 -2044270748',0,6.9145355224609375,444020.0,10704.0
+com_get_node,'',tm_send_status,'1040635958',drp_ebf,'1901484812',drp_set_var,'1212170526 -1116702817',rw_get_speed,'',-6,6.475428104400635,444020.0,10584.0
+com_debug,'',gssb_update_status,'',gssb_get_temp,'',com_send_rpt,'117443693 wkp>^'EV-.',rw_get_current,'',0,6.962914943695068,444020.0,10644.0
+com_ping,'1860680466',gssb_arm_auto,'-446648291',gssb_scan,'-1753779456 878567917',gssb_fss_commit_config,'',gssb_set_addr,'1079758487',0,9.06018328666687,444020.0,10664.0
+obc_debug,'-2127877232',gssb_fss_get_temp,'',rw_get_speed,'',obc_get_time,'1482931485',gssb_select,'223275124',0,7.145920753479004,444020.0,10752.0
+gssb_get_sun,'',drp_test_system_vars,'',drp_test_system_vars,'',eps_update_status,'',gssb_scan,'490982156 -1141106686',0,13.439964771270752,444020.0,10664.0
+fp_del_cmd,'475583321 -1558257744 2014146994 -830204241 1166976988 -315412208',gssb_scan,'1331129275 982632406',rw_set_speed,'870076996 1769480217',gssb_arm_auto,'-543766703',com_send_cmd,'926637483 b~Pu@;W+`',-11,6.273534774780273,444020.0,10848.0
+drp_add_hrs_alive,'1661514612',gssb_select,'1933577331',gssb_fss_set_config,'-483912023',drp_set_deployed,'287380795',obc_get_time,'-1046051589',0,7.1116108894348145,444020.0,10548.0
+drp_test_system_vars,'',fp_set_cmd_unix,"'390743188 -15724613 -2067441134 I}v&y*@""M '",fp_set_cmd,'729726162 -34484453 1756371594 369173250 -1463133561 1338580546 -1248232995 -2074549015 tcvbDK-U) YlmBr',obc_debug,'721096301',fp_reset,'',-6,9.904026746749878,444020.0,10560.0
+gssb_pwr,'1723927337 1135496854',rw_set_speed,'-269896054 1783105946',init_dummy_sensor,'',fp_set_cmd_unix,'-763884557 -1284104407 795409411 I!EVX Sjzz',eps_update_status,'',-6,6.463631868362427,444020.0,10552.0
+com_get_node,'',init_dummy_sensor,'',com_set_config,'9c3 Q%zgq;}o',obc_get_sensors,'',drp_clear_gnd_wdt,'',0,6.902049541473389,444020.0,10584.0
+obc_update_status,'',gssb_msp_get_temp,'',eps_get_config,'',gssb_set_burn_config,'1299853503 167772991 -770237051 -1336022862 -44928727 -854550724 -892123237',gssb_burn,'',0,7.051360607147217,444020.0,10628.0
+gssb_reset,'',gssb_fss_get_temp,'',obc_set_tle,'-243630357 lKxB0&}{t?',gssb_fss_set_config,'673534626',fp_reset,'',0,6.900037527084351,444020.0,10588.0
+gssb_set_burn_config,'-2015954329 -36444484 159036841 -1063178342 959551313 -1049690763 -1492405080',com_get_node,'',eps_get_config,'',gssb_pwr,'-1638080767 -1984986059',gssb_burn,'',0,6.865432262420654,444020.0,10528.0
+com_set_node,'1580049142',set_state,'7026780875610115991 16285518964847751909 -1798017854',com_send_rpt,'1076465097 V*JFYM)O',com_set_config,'{v0Cp)BR^ -Nc)n',gssb_fss_commit_config,'',0,7.068137884140015,444020.0,10752.0
+tm_parse_status,'',tm_send_all,'15546789920631300502 17698611351535033611',com_set_node,'-349487847',fp_reset,'',obc_set_pwm_freq,'1919469238 -307254331150379746831607666232474496091',0,7.044341564178467,444020.0,10632.0
+rw_get_current,'',gssb_fss_commit_config,'',set_state,'997568768535663932 8426776890145144762 1693358068',gssb_get_status,'',tm_get_last,'14393580819426306832',0,6.918498277664185,444020.0,10588.0
+fp_test_params,'483394385  -748141639',com_reset_wdt,'120412596',gssb_msp_cal_temp,'1897096418 445034058',gssb_fss_set_config,'1602082342',obc_get_sensors,'',0,6.903207302093506,444020.0,10864.0
+com_debug,'',obc_prop_tle,'856156879738122919',tm_send_all,'14132011846577799443 12454039232455881604',gssb_select,'-569285764',obc_get_tle,'',0,6.945856809616089,444020.0,10724.0
+gssb_scan,'2090664113 1055481894',gssb_msp_cal_temp,'-338203476 -1584756766',fp_set_cmd_unix,'-892282588 415296149 1005698360  ',obc_prop_tle,'8544040147192129342',tm_send_from,'2764512147138299390 1962956187210548331 3340484069579318204',0,6.883661508560181,444020.0,10604.0
+gssb_fss_get_sun,'',gssb_fss_get_temp,'',drp_clear_gnd_wdt,'',help,'',fp_test_params,'-761994215 ;Y3{2 2133345921',0,7.015317440032959,444020.0,10696.0
+gssb_msp_cal_temp,'-256128437 -1364038177',obc_pwm_pwr,'1616440312',gssb_get_status,'',obc_get_tle,'',com_reset_wdt,'-666223195',0,6.9532952308654785,444020.0,10664.0
+obc_get_time,'-1225905863',rw_set_speed,'669833454 -340634961',gssb_set_addr,'1109958671',com_set_config,' S<}-e',gssb_antenna_release,'-1809676073 2033622662 1430603417 105048416',0,7.136920690536499,444020.0,10668.0
+gssb_fss_commit_config,'',drp_set_deployed,'-1331029574',com_send_data,'F00>otJ!I',drp_get_vars,'',obc_debug,'-559772044',0,7.4488561153411865,444020.0,10572.0
+drp_ebf,'1929705724',gssb_antenna_release,'-1170532045 -1486264110 1824029141 -1947397590',obc_get_sensors,'',obc_prop_tle,'3734212366652116600',drp_test_system_vars,'',0,10.949852228164673,444020.0,10600.0
+tm_send_last,'10756398177776799301 7202523652523716149',drp_add_hrs_alive,'-1085757153',gssb_get_temp,'',gssb_reset,'',tm_set_ack,'11615370446911785303 3488813704980348306',0,6.461028575897217,444020.0,10732.0
+eps_get_config,'',fp_show,'',gssb_fss_commit_config,'',gssb_update_status,'',drp_clear_gnd_wdt,'',0,6.946667671203613,444020.0,10892.0
+gssb_msp_cal_temp,'439827837 -568291642',obc_ident,'',gssb_get_uuid,'',gssb_scan,'599869096 -581386256',gssb_get_model,'',0,6.931740760803223,444020.0,10848.0
+gssb_get_sun,'',set_state,'2620739400525735987 2901333451514244059 682589826',gssb_antenna_release,'-12092933 1990746930 -1127248189 -62522271',init_dummy_sensor,'',gssb_get_version,'',0,6.903702974319458,444020.0,10832.0
+obc_get_tle,'',drp_add_hrs_alive,'2056698585',help,'',eps_get_hk,'',gssb_get_burn_config,'',0,7.134401798248291,444020.0,10896.0
+com_send_rpt,'96778240 QD<ySX&[I',rw_get_speed,'',tm_send_status,'-1688084784',com_ping,'290853531',fp_set_cmd_dt,'-223409381 -878850416 -729879154 `/ p)!5p=',-6,6.675801038742065,444020.0,10608.0
+gssb_get_uuid,'',eps_get_config,'',gssb_get_version,'',fp_show,'',gssb_get_version,'',0,6.899132251739502,444020.0,10912.0
+eps_hard_reset,'',gssb_commit_addr,'',fp_set_cmd_unix,'146703974 -422754748 101689595 $9dpY\q J;._j',test,'pF!#<',tm_parse_status,'',-6,6.362828493118286,444020.0,10888.0
+gssb_get_sun,'',fp_set_cmd,'147273080 -1977459599 95077816 -1372327665 146338286 378062254 -1943769994 -742724266 Q_(}fLH5 ]fr+N$`]',drp_test_system_vars,'',eps_get_hk,'',gssb_burn,'',-6,6.284813642501831,444020.0,10584.0
+obc_pwm_pwr,'-2083723060',obc_get_time,'682215594',gssb_get_model,'',gssb_get_temp_int,'',com_debug,'',0,6.896311283111572,444020.0,10656.0
+fp_set_cmd_unix,'1217409745 606399197 -1122771194 HTh#`MO': SW/CjW',fp_set_cmd,'-1745443007 524373198 2018123648 1461705510 -718400462 -483361202 -1724007894 -1789845791 L:~LUPqq ',fp_set_cmd_unix,'-91119963 -822480308 -1961112889  uh~(BZ`A}O',tm_send_all,'13504467740744861206 1025610478955975645',gssb_update_status,'',-6,6.345580339431763,444020.0,10872.0
+gssb_get_burn_config,'',drp_add_hrs_alive,'103058365',help,'',obc_ident,'',tm_send_all,'8063686878670231714 5441566198545199645',0,7.231562614440918,444020.0,10668.0
+fp_set_cmd_dt,"'-581340692 1164189263 1287439201 O05;, 9q9'",tm_get_last,'9113371542446487536',com_send_rpt,'-1689945240 ',gssb_select,'-1211272590',fp_show,'',-6,6.326472282409668,444020.0,10584.0
+gssb_fss_get_temp,'',gssb_fss_set_config,'-324560661',fp_set_cmd_unix,'1939634828 806176372 272203683 &8X0 ',gssb_commit_addr,'',obc_get_tle,'',-6,6.385739803314209,444020.0,10728.0
+fp_del_cmd,'-726614116 1641794494 918109362 1377904254 562301026 -1658192686',gssb_fss_get_temp,'',com_send_data,'PC',fp_set_cmd_unix,'377392248 2021360337 -70357218  %F~pp?',drp_add_hrs_alive,'-1017910960',-11,6.454025506973267,444020.0,10596.0
+drp_set_deployed,'-839622825',fp_set_cmd_unix,'719411561 -1080384919 -421721260 * i',com_send_data,'aEh',test,"',2'",gssb_get_version,'',-11,6.540348291397095,444020.0,10656.0
+gssb_msp_get_temp,'',gssb_select,'-1760716763',com_set_node,'-1823582074',obc_get_time,'-402146241',init_dummy_sensor,'',0,6.888490915298462,444020.0,10860.0
+obc_update_status,'',gssb_fss_set_config,'386082010',obc_get_tle,'',fp_reset,'',obc_get_tle,'',0,6.963704347610474,444020.0,10908.0
+drp_test_system_vars,'',tm_get_last,'10367846255097571849',gssb_update_status,'',gssb_antenna_release,'1813345565 1365037614 1183553418 -51637094',gssb_get_sun,'',0,10.421498775482178,444020.0,10524.0
+gssb_unlock_config,'1444784057',com_reset_wdt,'1516809886',com_debug,'',gssb_fss_set_config,'722889090',com_ping,'780821078',0,9.297122240066528,444020.0,10568.0
+tm_get_last,'11673807751880822806',gssb_unlock_config,'14933554',fp_set_cmd,'1856862104 -1947957384 1654078950 -668233617 -509988553 944907418 1653263086 -776317587 87]!\P !b>neH8f',obc_set_tle,'775335326 ',eps_get_hk,'',-11,6.341411828994751,444020.0,10908.0
+gssb_pwr,'-1286487102 1390851632',com_set_node,'1611987271',gssb_commit_addr,'',init_dummy_sensor,'',obc_get_time,'1846214345',0,6.951968669891357,444020.0,10760.0
+init_dummy_sensor,'',obc_update_status,'',obc_pwm_pwr,'-1152938476',gssb_set_addr,'-1369934111',tm_set_ack,'16327006740133011107 15129549292984321208',0,7.030665159225464,444020.0,10608.0
+gssb_antenna_release,'993161301 -1258735158 546847794 -1252852932',obc_set_tle,'-295387747 wwR]N\b1',gssb_get_version,'',gssb_reset,'',tm_send_last,'2616082416531446417 3193306209480579786',0,6.903313159942627,444020.0,10656.0
+rw_get_current,'',obc_update_tle,'',gssb_arm_auto,'1324841203',drp_ebf,'-1692198641',gssb_fss_get_sun,'',0,6.957195281982422,444020.0,10656.0
+eps_set_heater,'98025693 557201702',com_ping,'-527008708',fp_set_cmd_dt,'1949051731 -886176732 668362293 ftHN >U0~s}?.nq',eps_hard_reset,'',gssb_get_model,'',0,9.276624917984009,444020.0,10612.0
+obc_get_time,'-537846391',fp_set_cmd_dt,'607816647 1153128490 -490916961 1q7URJaB B*D)N[cw',obc_get_sensors,'',com_send_rpt,'1488281938 ^%D7',drp_test_system_vars,'',-6,6.518228054046631,444020.0,10664.0
+fp_show,'',rw_set_speed,'-855487048 1651937095',gssb_set_addr,'-1709045787',com_reset_wdt,'506688838',gssb_update_status,'',0,6.902318954467773,444020.0,10664.0
+com_set_node,'1835589062',com_get_config,'z9P',obc_update_status,'',eps_set_heater,'954773153 -997960146',gssb_fss_commit_config,'',0,6.9415905475616455,444020.0,10580.0
+gssb_get_status,'',tm_get_last,'3024418665748415924',gssb_update_status,'',com_ping,'110219635',fp_set_cmd,'-27525785 1936078338 -1035625191 1133542387 -1492326324 494321484 -2054733808 -419152334 X9kRr vYPcp',-6,9.413739919662476,444020.0,10832.0
+gssb_get_uuid,'',com_set_node,'-1013300203',gssb_arm_manual,'-944509767',com_send_rpt,'-1080996161 :',tm_set_ack,'13874398842851243063 14742553045600324975',0,7.056280136108398,444020.0,10664.0
+com_get_node,'',tm_send_last,'7654047906428929884 9975764981706282700',obc_get_sensors,'',drp_ebf,'542908375',gssb_commit_addr,'',0,6.878801107406616,444020.0,10488.0
+fp_del_cmd_unix,'-142809529',set_state,'11354109800346690012 2042300644914360929 -1603590455',obc_pwm_pwr,'-1913620600',gssb_select,'-293574147',tm_set_ack,'11275208076739692901 8521679861237907858',-6,6.68397855758667,444020.0,10852.0
+rw_get_speed,'',gssb_burn,'',tm_send_last,'5050375040749576054 140565010297727568',fp_del_cmd,'282904117 -982484645 1714726147 215698650 178750010 -2087561314',gssb_msp_get_temp,'',-11,6.485653877258301,444020.0,10892.0
+obc_ident,'',obc_update_status,'',tm_parse_status,'',gssb_fss_get_temp,'',tm_send_all,'16015275588986439255 16325122705662768195',0,6.924777507781982,444020.0,10884.0
+drp_add_hrs_alive,'-1554706556',drp_get_vars,'',eps_get_hk,'',gssb_get_uuid,'',drp_get_vars,'',0,6.989813804626465,444020.0,10708.0
+eps_update_status,'',tm_send_from,'12850423457288453839 2071473253736154035 514573983322610390',gssb_reset,'',init_dummy_sensor,'',drp_get_vars,'',0,6.906959295272827,444020.0,10720.0
+fp_del_cmd,'-520856613 775243986 -848007918 469989026 -2092193688 -700255869',com_ping,'-1490853755',eps_hard_reset,'',fp_show,'',com_send_cmd,"'2145498165 f(d""'",-6,6.411747217178345,444020.0,10864.0
+obc_update_tle,'',gssb_fss_set_config,'1273055868',eps_get_hk,'',eps_set_heater,'-1434064666 -1439939706',fp_set_cmd,"'-1756245975 1387752407 -816692736 -1453344188 -1314419152 256218477 103012877 -998527670 q""DK r#}'",-11,6.540839195251465,444020.0,10584.0
+gssb_fss_get_sun,'',rw_get_current,'',com_send_rpt,'-294041263 XRfsu1L!T;',eps_get_config,'',set_state,'16592921415630976279 9692979266255959241 -1029444103',0,7.098516225814819,444020.0,10904.0
+gssb_get_model,'',gssb_scan,'2095086793 525705828',fp_set_cmd_dt,'-1759518418 150366195 -568197981  aT:w',obc_get_time,'-1104302559',obc_update_tle,'',-6,6.321911096572876,444020.0,10636.0
+gssb_antenna_release,'-1538408346 -1786047565 -416897137 -1899255981',com_get_config,'UPt^',eps_get_config,'',gssb_fss_get_temp,'',gssb_set_burn_config,'1861377271 1699650974 1339094925 -2061947723 956817140 -87380681 -653225868',0,6.909913063049316,444020.0,10848.0
+eps_get_config,'',drp_add_hrs_alive,'1069443558',com_set_config,'L I3~`zlA',obc_get_mem,'',fp_show,'',0,6.701160192489624,444020.0,10852.0
+com_get_config,'qDg)&',fp_set_cmd_dt,"'268023133 979492021 -1824614355 oU IF6""c;+~pk'",com_send_data,'AM1_F',gssb_fss_get_temp,'',obc_prop_tle,'1398907494766221049',-6,6.442576885223389,444020.0,10644.0
+gssb_arm_manual,'-734578934',obc_get_tle,'',com_send_data,'-1]/A',com_reset_wdt,'1734874225',gssb_reset,'',0,7.215681791305542,444020.0,10884.0
+com_send_data,'ZB',obc_prop_tle,'4319292906529783914',drp_add_hrs_alive,'1453664962',gssb_get_sun,'',com_send_data,'i>k_)BFY[K',0,8.173882007598877,444020.0,10888.0
+com_send_data,"'H_STj,'",gssb_get_model,'',tm_get_last,'8710939799759277656',drp_set_deployed,'1585795339',help,'',0,7.413906574249268,444020.0,10876.0
+gssb_fss_get_temp,'',com_debug,'',eps_set_heater,'448023218 -827552746',eps_set_heater,'1035068290 1803570861',eps_hard_reset,'',0,6.871696472167969,444020.0,10640.0
+gssb_get_burn_config,'',gssb_fss_get_sun,'',gssb_burn,'',gssb_reset,'',com_set_config,'nx`r 0$&hn:8)_',0,6.989189863204956,444020.0,10592.0
+gssb_select,'30048101',com_ping,'1927427483',com_set_config,' ',com_set_config,'2x/LQ /)',gssb_antenna_release,'1959263211 733977699 1141223172 -976195584',0,9.164141416549683,444020.0,10684.0
+tm_send_all,'13096251606246754408 4193948489804190093',obc_update_status,'',com_set_node,'1379126137',gssb_set_addr,'1350958923',obc_debug,'1237650082',0,7.023375988006592,444020.0,10652.0
+obc_get_time,'-1583909501',gssb_pwr,'-1228408052 847293296',fp_test_params,'-1565494226 !P0` -2018772010',com_debug,'',fp_set_cmd,'-1347180703 -2049271396 -1743769923 -710701358 -2113458319 1159885802 597484150 -1989667137 qW6z_ \[lo{q)>',-11,6.428705930709839,444020.0,10716.0
+fp_test_params,'1656077028  -1321207623',obc_set_tle,'-794169415 ;',eps_update_status,'',obc_get_mem,'',com_set_node,'-1665186327',0,6.962815284729004,444020.0,10600.0
+gssb_fss_commit_config,'',com_send_data,'u^z%p#',drp_test_system_vars,'',fp_del_cmd_unix,'1413959402',obc_get_time,'-1320441051',-6,11.435659408569336,444020.0,10844.0
+eps_get_config,'',obc_get_mem,'',obc_update_status,'',drp_set_var,'514729714 -1674669949',gssb_fss_commit_config,'',0,6.857271432876587,444020.0,10664.0
+com_update_status,'',drp_set_var,'1797680024 -824597619',eps_get_config,'',gssb_get_sun,'',gssb_get_uuid,'',0,7.156766176223755,444020.0,10588.0
+fp_set_cmd_unix,'25943556 432231111 -1655887617 Vxj V>[wbsUE4S',com_get_config,'$Bpo/wV)',init_dummy_sensor,'',com_send_tc,'-159448318 5[k',fp_del_cmd_unix,'315186656',-6,6.374756336212158,444020.0,10900.0
+obc_get_sensors,'',init_dummy_sensor,'',fp_reset,'',gssb_get_version,'',gssb_get_temp_int,'',0,7.016171216964722,444020.0,10840.0
+gssb_get_temp,'',obc_pwm_pwr,'537226147',com_get_config,'*0FT%Cr<3`',gssb_msp_cal_temp,'122807690 683369106',obc_debug,'1428228432',0,6.987953186035156,444020.0,10648.0
+gssb_get_status,'',fp_test_params,'950053794 I/= 979726143',fp_set_cmd,'-15756330 1256992471 -2067178584 -555786780 1220958701 -837485672 963906438 -1005867586 ML 9ih^Nug',rw_get_speed,'',tm_get_last,'7043725482441960008',0,6.929188966751099,444020.0,10872.0
+obc_debug,'1876449018',gssb_commit_addr,'',help,'',fp_del_cmd_unix,'-519143751',gssb_get_sun,'',-6,6.3831682205200195,444020.0,10684.0
+obc_debug,'-676152524',gssb_pwr,'-548299799 1941506590',gssb_arm_manual,'1548315093',gssb_arm_auto,'1283384472',gssb_burn,'',0,7.115783452987671,444020.0,10612.0
+obc_update_status,'',drp_test_system_vars,'',drp_ebf,'-1239559337',gssb_get_model,'',fp_del_cmd_unix,'-1658932004',-6,10.158193111419678,444020.0,10608.0
+tm_send_status,'-370400960',gssb_reset,'',gssb_arm_auto,'23202944',gssb_get_sun,'',rw_get_current,'',-6,6.390920639038086,444020.0,10704.0
+gssb_antenna_release,'-202000676 63009254 1238064447 1211748974',com_get_node,'',obc_ident,'',gssb_get_model,'',tm_send_status,'-1700059969',-6,6.503247261047363,444020.0,10896.0
+gssb_arm_manual,'1882874972',fp_set_cmd,"'142835191 -1206459993 -1740112234 2056745950 -1983536077 -2114856136 893061944 1434543237 .U`4S{X{ D'"",~^7X'",fp_test_params,'2080433485 }mCK) -952856653',fp_del_cmd,'231151520 -639126541 1207712903 -106101841 -45613801 -450416244',gssb_arm_manual,'1342584664',-6,6.44816255569458,444020.0,10852.0
+eps_hard_reset,'',eps_get_config,'',fp_test_params,'-1234605146 }0K 1768873750',drp_clear_gnd_wdt,'',gssb_get_temp_int,'',0,6.897401332855225,444020.0,10660.0
+obc_get_mem,'',com_set_node,'-1851054742',rw_set_speed,'48901297 -694323297',fp_show,'',drp_clear_gnd_wdt,'',0,6.894389629364014,444020.0,10748.0
+gssb_commit_addr,'',test,'CR&>>W]Oo',obc_ident,'',com_debug,'',gssb_fss_set_config,'-991085701',0,6.924803256988525,444020.0,10884.0
+gssb_update_status,'',fp_set_cmd_unix,'-1174641565 -311533074 -521808085 AJU>><B C',drp_get_vars,'',tm_set_ack,'3591866416597530966 1523336785211678216',obc_set_tle,'174008726 uluGD%j',-6,6.245220899581909,444020.0,10728.0
+gssb_commit_addr,'',obc_get_time,'-541739638',gssb_fss_get_temp,'',eps_update_status,'',com_debug,'',0,6.951480865478516,444020.0,10736.0
+fp_show,'',com_get_config,'Yi5R',tm_send_from,'13882669615952276590 6199584487726440334 7698357408118122096',obc_set_pwm_duty,'-830455732 702382671',drp_set_deployed,'1242959804',0,6.462214469909668,444020.0,10656.0
+fp_set_cmd_dt,'215013718 1114170416 -738716845 O2N ',com_debug,'',com_send_tc,'-1614716843 ',com_send_rpt,'2019500205 :`6Of',gssb_fss_get_sun,'',-6,6.3724730014801025,444020.0,10860.0
+gssb_get_uuid,'',obc_get_mem,'',gssb_antenna_release,'-759629833 -2091643471 2138964144 -1853683270',gssb_fss_commit_config,'',gssb_set_burn_config,'-1021656829 802112596 -1971007674 1764474123 1370880619 -79450145 1215003587',0,7.238210678100586,444020.0,10728.0
+fp_set_cmd,'-1427809735 1232512844 -1849613775 -1064962581 1737361694 -219725113 -1094613788 1859014430 0YDeI^P8/ y+@&S',com_update_status,'',eps_update_status,'',eps_update_status,'',fp_set_cmd,'585241810 -1705448992 201721199 -1528960338 2056625063 1998671551 1287265619 -2047518413 XL4'Cx- -',-6,6.406019449234009,444020.0,10588.0
+test,'Ej',com_send_rpt,'384932258 K.v9e.8O',eps_get_hk,'',tm_send_status,'-879719829',com_send_rpt,'635486458 N',-6,6.485976219177246,444020.0,10644.0
+fp_set_cmd,"'-1577180653 -2068842662 1909456531 -1407498517 -2016892345 392637132 -1238158467 1495667503 W#""7bb^^~/ mAl)gQ-n!'",com_send_data,'5',com_send_rpt,'-1631729746 ZyI3kf@MZ@',drp_ebf,'957256965',gssb_scan,'1652132466 993910042',-11,6.191876649856567,444020.0,10580.0
+com_reset_wdt,'1860837265',gssb_pwr,'1903620387 1065305015',rw_get_speed,'',gssb_scan,'-981318501 728250856',gssb_get_model,'',0,6.954639434814453,444020.0,10596.0
+gssb_get_temp,'',gssb_antenna_release,'69996493 -1775848563 65044022 1467446915',com_set_node,'-169426637',eps_set_heater,'-1694645384 469509517',com_set_config,'Y!etSnl YkyT5Nv*',0,6.94084906578064,444020.0,10660.0
+obc_pwm_pwr,'-10747063',eps_hard_reset,'',rw_get_speed,'',drp_set_deployed,'-738596619',obc_ident,'',0,6.8917694091796875,444020.0,10812.0
+obc_update_status,'',eps_update_status,'',test,'ee1cVXoV:3',com_get_config,'h~lu+w',com_debug,'',0,6.966875791549683,444020.0,10752.0
+com_set_config,'.*TEZ }D',obc_get_time,'1102515109',com_debug,'',gssb_get_status,'',help,'',0,6.907670021057129,444020.0,10584.0
+fp_reset,'',gssb_get_uuid,'',obc_set_pwm_duty,'-972088460 -783022813',gssb_burn,'',gssb_reset,'',0,6.927846670150757,444020.0,10700.0
+drp_clear_gnd_wdt,'',com_send_tc,'1103961045 Ys6cYDaBp',drp_test_system_vars,'',drp_clear_gnd_wdt,'',drp_add_hrs_alive,'82165820',-6,7.323991775512695,444020.0,10844.0
+tm_parse_status,'',com_get_node,'',gssb_pwr,'-766674106 1152388196',gssb_set_addr,'1387082121',tm_send_last,'7044987530052908404 4112634956806459490',0,6.962180137634277,444020.0,10840.0
+gssb_get_status,'',test,"',#].'",fp_set_cmd_dt,'856665299 1400412188 -776073921 Dy0>q-i?^p jz',obc_prop_tle,'2285374959195137214',com_send_data,'Pe7^U',-6,6.449875831604004,444020.0,10588.0
+fp_del_cmd_unix,'674492350',fp_set_cmd_unix,'70287314 2035404988 -243461114 N3``.upJOT FT[Z9#FdB{',gssb_set_burn_config,'808068085 1309576489 306545224 1401130184 1654584542 1013220187 -135240039',obc_get_time,'-598054437',gssb_arm_manual,'-1574072959',-6,6.343162536621094,444020.0,10596.0
+eps_get_hk,'',drp_test_system_vars,'',drp_get_vars,'',drp_set_var,'591670885 -809594740',obc_get_time,'391129178',0,10.033177375793457,444020.0,10908.0
+obc_get_time,'-1159434967',gssb_commit_addr,'',obc_reset_wdt,'',obc_set_pwm_freq,'-549630369 276044010404937156093914720155877788008',gssb_burn,'',0,6.931033134460449,444020.0,10852.0
+com_ping,'-33490568',gssb_fss_commit_config,'',com_reset_wdt,'-824938724',obc_set_pwm_duty,'-707430272 389845649',gssb_fss_commit_config,'',0,9.0722177028656,444020.0,10844.0
+tm_parse_status,'',gssb_get_model,'',gssb_fss_get_temp,'',fp_set_cmd,'95377812 2128175835 191199938 1414099595 671796502 1976823884 -798230531 781722444 B ',obc_get_mem,'',-11,6.408494472503662,444020.0,10872.0
+com_get_node,'',obc_get_tle,'',gssb_set_burn_config,'1701970593 -1377459835 815511916 2038207363 -937414126 -6641580 1545214787',eps_get_hk,'',help,'',0,6.992186546325684,444020.0,10676.0
+gssb_scan,'1179196341 851841899',gssb_scan,'-855466772 -434276094',test,'[',com_get_config,'`bbI'BaP',obc_debug,'-1773724237',0,7.22475528717041,444020.0,10608.0
+fp_test_params,'-1874975525  1039195338',gssb_fss_get_sun,'',tm_send_all,'4502096923230311280 3308906071040886998',set_state,'9461487473722746914 8354488298188551565 -370874541',rw_get_speed,'',0,6.96276330947876,444020.0,10628.0
+gssb_arm_manual,'-300220332',fp_show,'',com_get_config,'J.aY|',obc_update_status,'',com_get_config,"'/c}U,<zVl~'",0,6.914588451385498,444020.0,10512.0
+gssb_get_sun,'',gssb_reset,'',gssb_reset,'',obc_pwm_pwr,'-260756908',obc_ident,'',0,7.043201446533203,444020.0,10920.0
+gssb_msp_cal_temp,'-1375527023 -530256839',rw_set_speed,'869971380 224142862',tm_send_status,'1604304023',obc_set_tle,'-224556370 JI@Y'',drp_test_system_vars,'',-6,6.498509168624878,444020.0,10728.0
+gssb_get_sun,'',com_reset_wdt,'1699235324',gssb_get_temp,'',tm_send_last,'12640947882271164910 3119757848062262588',obc_get_sensors,'',0,6.9065468311309814,444020.0,10616.0
+obc_pwm_pwr,'1777905527',rw_get_current,'',gssb_burn,'',fp_show,'',help,'',0,6.86994743347168,444020.0,10548.0
+gssb_get_version,'',eps_set_heater,'-109490026 1211027945',obc_prop_tle,'1927764322971707269',com_get_node,'',drp_test_system_vars,'',0,9.902202367782593,444020.0,10836.0
+obc_pwm_pwr,'-297941581',gssb_fss_get_sun,'',gssb_commit_addr,'',gssb_msp_get_temp,'',gssb_pwr,'1719363531 1503470281',0,6.992580890655518,444020.0,10608.0
+gssb_get_uuid,'',obc_get_tle,'',obc_get_sensors,'',gssb_update_status,'',gssb_fss_get_sun,'',0,6.816622972488403,444020.0,10848.0
+com_get_config,']M',obc_debug,'-1052455937',drp_ebf,'443176429',gssb_set_burn_config,'-344669662 -1414966558 -650862493 1981186549 -1996087738 -78638552 -1568304176',com_update_status,'',0,6.942021369934082,444020.0,10920.0
+gssb_arm_manual,'815023774',gssb_msp_get_temp,'',obc_set_pwm_duty,'694713790 788392946',gssb_get_burn_config,'',com_send_rpt,'-1113641705 u|3',0,6.920830249786377,444020.0,10864.0
+drp_clear_gnd_wdt,'',gssb_fss_get_temp,'',gssb_update_status,'',obc_prop_tle,'8210564996668087824',fp_set_cmd,'517340828 -1215025169 73697159 -2047398726 -1189391580 -1470695340 362360612 1837618444 00B2G Pdi7XP;{$',-6,6.479366064071655,444020.0,10492.0
+fp_test_params,'1657184453 $F$<4 1052989729',gssb_get_status,'',tm_set_ack,'7767973390557023063 15040967460570319371',com_get_node,'',gssb_get_status,'',0,6.4122633934021,444020.0,10844.0
+com_set_config,'&u\t9j MgTh*H.',gssb_arm_auto,'-1741652167',gssb_msp_cal_temp,'298727642 1232352085',rw_get_current,'',com_update_status,'',0,6.878812551498413,444020.0,10628.0
+com_debug,'',drp_clear_gnd_wdt,'',obc_set_pwm_freq,'-2114441716 156056705693885780977338871541731711877',drp_ebf,'-1710736216',gssb_fss_get_sun,'',0,7.007426500320435,444020.0,10636.0
+rw_get_speed,'',test,'o98',gssb_update_status,'',obc_get_mem,'',gssb_arm_auto,'121686203',0,7.069521188735962,444020.0,10576.0
+fp_set_cmd,'1439040907 606068684 -1344291550 -1971357141 -766439518 -1877742080 -1717194408 1656459833 (o9rPVP o>@J',com_reset_wdt,'102537106',gssb_fss_get_sun,'',drp_test_system_vars,'',gssb_fss_get_temp,'',-6,6.194767713546753,444020.0,10660.0
+gssb_fss_commit_config,'',gssb_get_burn_config,'',gssb_pwr,'-821918368 -933513343',eps_hard_reset,'',drp_ebf,'2006106399',0,7.108473777770996,444020.0,10900.0
+fp_show,'',obc_get_time,'1002022584',fp_set_cmd_unix,'-2027436951 -365446088 670620832  ',eps_get_config,'',gssb_arm_manual,'-1715724841',0,6.580714464187622,444020.0,10728.0
+obc_pwm_pwr,'-842877941',eps_hard_reset,'',com_get_node,'',gssb_get_sun,'',gssb_reset,'',0,6.9562668800354,444020.0,10860.0
+gssb_fss_commit_config,'',com_send_rpt,'-2070975102 v',set_state,'1152281564394258964 15305473612544592282 226681672',gssb_set_burn_config,'-1262746865 1644457912 -1190557016 1945492841 -1247269548 1379984 -1129270504',com_reset_wdt,'-1091982654',0,6.9518492221832275,444020.0,10724.0
+com_update_status,'',gssb_update_status,'',obc_get_mem,'',fp_test_params,'1638024789 wCZig -2058037527',gssb_get_model,'',0,7.0045342445373535,444020.0,10664.0
+obc_update_status,'',gssb_fss_set_config,'66384227',rw_set_speed,'-1222753887 2012567345',gssb_arm_auto,'1187111161',fp_reset,'',0,6.872820854187012,444020.0,10740.0
+gssb_set_addr,'508899504',obc_reset_wdt,'',rw_get_speed,'',com_set_node,'1768930174',tm_set_ack,'18011424500695631311 8722046989101840752',0,7.056889772415161,444020.0,10584.0
+gssb_fss_get_temp,'',gssb_msp_get_temp,'',drp_add_hrs_alive,'-313768645',test,'C0Ka=',tm_send_from,'10279480873232084425 8518269616688961820 10112412697518066738',0,6.980783462524414,444020.0,10592.0
+gssb_fss_set_config,'-1794314175',com_get_node,'',gssb_burn,'',drp_get_vars,'',tm_get_last,'15679162981320963925',0,6.914093017578125,444020.0,10612.0
+gssb_msp_get_temp,'',com_reset_wdt,'1839816930',com_ping,'-1114544157',test,'Ea<85]j(\',rw_set_speed,'-1212532934 430698060',0,9.168661117553711,444020.0,10888.0
+obc_get_time,'1898124570',com_get_config,'_',gssb_set_burn_config,'-389522945 -1449979853 1055190406 1906790607 -930528690 1850828623 1015738015',com_ping,'633741109',gssb_arm_manual,'598693601',0,9.246527910232544,444020.0,10664.0
+fp_set_cmd_dt,'670805169 617915102 142481637 9{ Z2hL5+t4!t',tm_get_last,'9946142130314222519',com_send_tc,'-713807103 iyS2L',fp_test_params,'-944833518 bT7^u 760590849',tm_parse_status,'',-6,6.357908010482788,444020.0,10628.0
+obc_set_tle,"'-36592361 ,G4>^g'",obc_get_mem,'',gssb_update_status,'',com_get_config,"'))x27*V>,'",com_debug,'',0,6.953683376312256,444020.0,10600.0
+fp_del_cmd,'-30925508 1885695418 -959432899 951818659 -293837529 -1330452444',fp_test_params,'308891922  1591969238',gssb_select,'1520737746',obc_get_time,'-1973159792',fp_show,'',-6,6.321153163909912,444020.0,10476.0
+fp_set_cmd,"'-1972150709 2130429414 -1250269236 -2083138924 712220847 2044289531 -1428669966 639680833 _F-e v/jAA,'",drp_set_var,'371371113 1935763442',obc_get_tle,'',drp_ebf,'101866993',fp_del_cmd_unix,'2109502057',-6,6.25580096244812,444020.0,10844.0
+obc_reset_wdt,'',drp_clear_gnd_wdt,'',obc_pwm_pwr,'-21782225',com_update_status,'',com_send_rpt,'1112454355 (7#|r&Lp',0,6.922436475753784,444020.0,10648.0
+eps_update_status,'',com_get_config,'3cAiH}<^',eps_get_config,'',obc_ident,'',obc_pwm_pwr,'-961517851',0,6.940755367279053,444020.0,10884.0
+gssb_msp_get_temp,'',drp_ebf,'-849228145',eps_update_status,'',gssb_scan,'-240305704 771086658',com_send_rpt,'-1333211339 YgPZvs2zn',0,7.016175746917725,444020.0,10880.0
+obc_set_pwm_freq,'-610243227 -312340172002823522199082265091410902470',fp_del_cmd,'-1267037341 1405909928 -1574543060 725082164 -604337659 379429236',gssb_fss_commit_config,'',init_dummy_sensor,'',gssb_update_status,'',-6,6.376465082168579,444020.0,10860.0
+gssb_msp_get_temp,'',gssb_arm_manual,'419584441',gssb_fss_get_temp,'',tm_send_last,'3542034991255566006 12882456621520588186',drp_test_system_vars,'',0,9.939068078994751,444020.0,10884.0
+gssb_set_addr,'1008881888',gssb_get_uuid,'',tm_parse_status,'',obc_ident,'',gssb_get_status,'',0,6.909993648529053,444020.0,10804.0
+gssb_get_temp,'',com_send_rpt,'-297812112 ',com_ping,'-638267809',gssb_burn,'',fp_del_cmd_unix,'391985557',-6,9.338791131973267,444020.0,10672.0
+gssb_get_sun,'',gssb_fss_set_config,'-228153985',tm_parse_status,'',gssb_get_version,'',com_get_node,'',0,6.881542205810547,444020.0,10852.0
+obc_update_tle,'',com_debug,'',gssb_get_temp_int,'',com_send_data,'',com_send_data,'{Ks',0,7.791163444519043,444020.0,10580.0
+tm_send_all,'6341913319264747625 5470595892955999289',gssb_set_burn_config,'1014777242 -1181255266 447038688 -132754570 1037507180 366184056 79152572',fp_set_cmd,'-255191637 -190006394 -86703737 1055700449 199822483 918430985 1537075057 -1734312408 u]hHc ?([1rR',test,'8>;',obc_prop_tle,'8867020942105217365',-6,6.338510274887085,444020.0,10652.0
+gssb_update_status,'',gssb_fss_commit_config,'',gssb_arm_auto,'1918459574',com_debug,'',help,'',0,6.98211669921875,444020.0,10872.0
+gssb_burn,'',gssb_get_status,'',set_state,'1436841746339838859 16692133779905326840 518639640',gssb_get_model,'',obc_update_status,'',0,6.9193434715271,444020.0,10464.0
+com_send_cmd,'-1176252104 ',obc_set_tle,'882850447 ;Auo',drp_set_deployed,'-625967174',obc_update_status,'',gssb_set_burn_config,'-2140108543 -981959121 1402098982 -1267424159 88678247 -1809801162 873333978',0,7.284009218215942,444020.0,10840.0
+obc_pwm_pwr,'-316897356',eps_update_status,'',drp_add_hrs_alive,'338618756',com_ping,'-1639907872',com_set_node,'-1517018372',0,9.534162521362305,444020.0,10888.0
+obc_ident,'',obc_set_pwm_duty,'-1426420468 1047340052',tm_parse_status,'',obc_pwm_pwr,'-1137877398',com_get_config,'p%i%xH?:H',0,7.181766748428345,444020.0,10800.0
+eps_hard_reset,'',fp_show,'',gssb_fss_get_temp,'',com_send_tc,'447183031 WfLb}NzSc',tm_parse_status,'',-6,7.360904216766357,444020.0,10540.0
+rw_set_speed,'1515169440 276520868',gssb_arm_manual,'1087226792',obc_set_pwm_duty,'-814371442 -1342874339',eps_hard_reset,'',gssb_scan,'1430185266 -1387994998',0,7.022934675216675,444020.0,10832.0
+gssb_fss_get_temp,'',gssb_get_status,'',obc_get_sensors,'',gssb_fss_get_sun,'',gssb_antenna_release,'-1283844902 1658536567 84388970 -177888504',0,6.982004880905151,444020.0,10828.0
+gssb_set_burn_config,'-1560528754 887691193 -968758403 -593850650 1355202013 -87823768 1387733357',gssb_get_model,'',obc_debug,'538001113',gssb_fss_get_temp,'',gssb_unlock_config,'-928431196',0,6.93748140335083,444020.0,10660.0
+gssb_get_temp,'',obc_set_pwm_freq,'-1229188635 169832013856461900961587171792345028801',drp_add_hrs_alive,'-1182264133',rw_get_speed,'',rw_set_speed,'-1206345014 -1763921557',0,7.021818399429321,444020.0,10884.0
+obc_reset_wdt,'',obc_get_tle,'',set_state,'17259184646819489006 8570410397166514353 252898963',gssb_pwr,'2106805530 -114575330',init_dummy_sensor,'',0,6.8820483684539795,444020.0,10824.0
+com_get_node,'',gssb_get_temp,'',fp_set_cmd,'1272891950 -1886583811 790969336 -171063118 -1659923251 -216339837 -567667972 -1011793975 iOs]i ',obc_set_pwm_freq,'991240024 -163290104762236614277112741951727361499',com_update_status,'',-11,6.45894455909729,444020.0,10892.0
+com_set_config,"'=O]K""z efEZ9rF~^'",rw_set_speed,'271451416 558282791',gssb_pwr,'-854031217 1670790194',test,"'&""6'JG#Y'",obc_get_sensors,'',0,6.8954339027404785,444020.0,10596.0
+obc_reset_wdt,'',gssb_fss_get_sun,'',fp_test_params,'-1034835497 TK|2aW~r -277877143',obc_get_sensors,'',obc_update_tle,'',0,6.572360992431641,444020.0,10840.0
+gssb_burn,'',eps_get_hk,'',com_send_cmd,'830565684 3b',fp_test_params,"'1114915639 h8.`t,b -2146146537'",tm_send_status,'-914832951',-6,7.4011101722717285,444020.0,10600.0
+com_update_status,'',com_set_node,'1251669942',gssb_fss_set_config,'1842047799',drp_add_hrs_alive,'-295379837',drp_set_deployed,'-982885443',0,6.910392999649048,444020.0,10580.0
+com_get_config,']$BLM_<xAq',fp_set_cmd_unix,'1302247742 593406096 1326765293 ^zo Fr:B%eg2',com_get_node,'',drp_get_vars,'',drp_set_deployed,'-1519005216',-6,6.269890069961548,444020.0,10588.0
+obc_pwm_pwr,'-874488464',com_get_config,'m&',obc_set_pwm_duty,'-587391797 865795360',obc_get_time,'835383791',set_state,'7130402191512049339 2814526111526599462 -881729791',0,6.361880779266357,444020.0,10660.0
+obc_set_pwm_freq,'1827329451 209154032569741934112148360746992270380',tm_send_from,'1664121551984674395 130373708339659977 13173335272359116224',gssb_msp_cal_temp,'589975391 1175866749',obc_set_tle,'1641525917 !*kc)C',set_state,'13551980385169588130 1398188445400578579 -623381663',0,6.977769136428833,444020.0,10564.0
+tm_set_ack,'6710733938113024960 14726499567970249364',gssb_get_burn_config,'',tm_send_status,'1535265374',gssb_unlock_config,'2044213635',tm_send_status,'-1071678808',-6,6.3788628578186035,444020.0,10584.0
+tm_send_all,'9103954767645983634 16452570627245087408',eps_get_hk,'',gssb_scan,'-614117164 -248507501',rw_set_speed,'-2055268302 1479924686',gssb_msp_get_temp,'',0,6.884151458740234,444020.0,10560.0
+obc_set_pwm_duty,'-1475867432 -1389946708',obc_set_tle,'-2119647044 3',rw_get_current,'',test,'q]dx+J-G#',com_debug,'',0,6.95872163772583,444020.0,10900.0
+gssb_commit_addr,'',gssb_pwr,'388485547 1805688255',gssb_msp_get_temp,'',fp_del_cmd,'-1762236033 -1169934419 -2089216736 823261184 -284941248 -767292794',fp_set_cmd,'717912078 -1068691917 58177867 1872366282 -1019659095 -66427847 62931490 1107892072 a#mKE 0mMk(b',-6,6.385630369186401,444020.0,10488.0
+com_send_data,'GN&(z',com_send_data,"'IlWhCG""x'",drp_get_vars,'',gssb_commit_addr,'',fp_show,'',0,8.338973999023438,444020.0,10748.0
+com_debug,'',tm_send_all,'8624343474473793880 10164728069694064545',obc_update_tle,'',tm_get_last,'9981032394118773308',drp_set_deployed,'-174375619',0,6.968832015991211,444020.0,10736.0
+gssb_get_model,'',drp_set_var,'-782255440 38151068',gssb_msp_cal_temp,'2125122860 -209225621',drp_test_system_vars,'',eps_hard_reset,'',0,9.964531898498535,444020.0,10864.0
+gssb_fss_get_sun,'',drp_test_system_vars,'',gssb_fss_get_temp,'',com_ping,'22343264',com_debug,'',0,12.682745695114136,444020.0,10656.0
+tm_set_ack,'1429709409114608502 7627739560777482311',test,'~',obc_prop_tle,'-3876212170537789500',gssb_fss_get_temp,'',gssb_set_addr,'378542392',0,6.952651500701904,444020.0,10884.0
+tm_parse_status,'',gssb_get_temp,'',init_dummy_sensor,'',gssb_burn,'',obc_set_tle,'-2047546264 &aWG<eF',0,6.926381826400757,444020.0,10736.0
+gssb_arm_auto,'-2042175853',fp_del_cmd_unix,'-860990023',tm_send_status,'1457929518',rw_get_speed,'',gssb_msp_cal_temp,'-1301741062 1942053885',-6,6.409034729003906,444020.0,10852.0
+obc_pwm_pwr,'1844233192',gssb_reset,'',rw_set_speed,'-1900196488 -1578272482',obc_set_pwm_duty,'-15617830 -870756692',obc_set_pwm_duty,'-915079828 1490560001',0,6.884661436080933,444020.0,10664.0
+obc_reset_wdt,'',gssb_get_version,'',rw_get_speed,'',obc_get_tle,'',tm_get_last,'14446566650210820548',0,7.14915132522583,444020.0,10816.0
+drp_test_system_vars,'',fp_del_cmd_unix,'960481143',gssb_fss_get_sun,'',fp_set_cmd,'-399826302 -833861344 -1770900143 -610715659 422282176 -343473801 253901098 -2021649467 $/ ?ic}HPH',eps_set_heater,'420324748 -273968543',-6,9.927279949188232,444020.0,10804.0
+help,'',gssb_get_temp,'',gssb_msp_cal_temp,'1381804542 558790001',eps_get_config,'',gssb_get_uuid,'',0,6.978692293167114,444020.0,10620.0
+fp_reset,'',gssb_get_version,'',obc_prop_tle,'6937222348130130330',gssb_fss_get_temp,'',com_get_config,'O7?',0,6.9193994998931885,444020.0,10564.0
+eps_hard_reset,'',obc_get_sensors,'',gssb_antenna_release,'1805988961 396664327 465067387 1263764300',obc_debug,'2127128344',fp_reset,'',0,6.925798416137695,444020.0,10752.0
+eps_get_config,'',fp_del_cmd,'-582288094 -1987386494 -1613408848 939843313 -397622164 1485165529',com_ping,'1279276421',gssb_unlock_config,'-173898648',gssb_reset,'',-6,6.310382843017578,444020.0,10604.0
+rw_get_speed,'',fp_del_cmd,'1178898562 242980758 1963992493 -580927965 -692655015 -254482207',obc_debug,'1430294714',gssb_fss_get_sun,'',com_reset_wdt,'1601105877',-11,6.2596611976623535,444020.0,10904.0
+fp_set_cmd,"'-1738985696 -1614981399 1797124100 289455241 -602655471 1073848374 -11088157 1203771237 ^9DfY znGL|;,'",rw_get_current,'',obc_debug,'-988317799',gssb_msp_cal_temp,'-1167612451 -1839073873',obc_set_pwm_freq,'-1017069657 300522098148118522172195897820914310792',-11,6.5307958126068115,444020.0,10596.0
+com_update_status,'',com_send_data,"'gLu.""'",gssb_commit_addr,'',eps_hard_reset,'',eps_set_heater,'-1558585612 -1197219546',0,7.555635929107666,444020.0,10472.0
+fp_del_cmd,'-968094990 2133036968 -1340948829 216717056 -411125896 1842755769',obc_get_time,'-14501933',obc_update_status,'',eps_hard_reset,'',gssb_fss_commit_config,'',-6,6.341953277587891,444020.0,10608.0
+tm_send_from,'14587813467528649981 13998852201596813191 16411354780810455283',fp_set_cmd_unix,'1303362180 1759528610 -976822876 3 o+L)c?U6*m',gssb_fss_set_config,'-955463617',tm_send_from,'17490062936787615799 12703702471905776322 7763893997801253619',fp_test_params,'-244979730 c/`n#Dtk< 1177941000',-6,6.330630302429199,444020.0,10580.0
+tm_send_last,'4586073845271878291 734273786175948507',rw_get_speed,'',fp_show,'',obc_reset_wdt,'',tm_send_from,'2214754663870126796 14426795881097061051 11736756947574450775',0,6.930854558944702,444020.0,10592.0
+gssb_burn,'',eps_get_config,'',eps_set_heater,'1952564370 -1716066661',gssb_arm_manual,'524441927',obc_get_mem,'',0,7.118377685546875,444020.0,10916.0
+rw_get_current,'',fp_del_cmd,'1585928782 -175337977 -777008617 126758859 -1205705704 16786784',obc_get_mem,'',obc_update_status,'',rw_get_current,'',-6,6.270118951797485,444020.0,10588.0
+com_update_status,'',gssb_arm_auto,'1365970368',obc_get_mem,'',gssb_reset,'',init_dummy_sensor,'',0,7.007935523986816,444020.0,10504.0
+gssb_get_sun,'',gssb_scan,'778288374 -1642495144',gssb_commit_addr,'',drp_ebf,'905981628',drp_add_hrs_alive,'-854311332',0,6.89620304107666,444020.0,10564.0
+fp_show,'',gssb_msp_cal_temp,'872125029 -948152796',eps_get_config,'',com_update_status,'',obc_update_status,'',0,6.912223815917969,444020.0,10900.0
+com_reset_wdt,'-2050118208',gssb_select,'182489549',gssb_get_temp,'',tm_parse_status,'',obc_pwm_pwr,'1983397988',0,6.888296365737915,444020.0,10716.0
+help,'',eps_set_heater,'1602109472 -1294051892',eps_update_status,'',obc_prop_tle,'-3592891558106759091',obc_get_tle,'',0,6.940515756607056,444020.0,10624.0
+com_set_node,'1221179302',gssb_set_burn_config,'-1079162310 -119559148 554806956 -1841779180 2112615875 1518927702 543267211',obc_get_tle,'',eps_get_config,'',fp_show,'',0,7.008000612258911,444020.0,10592.0
+fp_reset,'',obc_set_tle,'1684379994 g*`v+',tm_set_ack,'12826105913956939644 4561542490502269513',gssb_get_model,'',obc_set_tle,'-1820013547 Rc=44+4Ci4',0,6.383868455886841,444020.0,10596.0
+obc_debug,'-1083324980',drp_set_deployed,'-2113130333',eps_update_status,'',gssb_set_burn_config,'-78437155 -712919939 -1278645415 1286171734 -1702651348 -731791189 582707507',gssb_get_model,'',0,6.967883110046387,444020.0,10628.0
+gssb_fss_get_sun,'',fp_del_cmd,'-208897819 -1756142540 -193686818 745403143 -2046036454 42820115',com_update_status,'',gssb_get_burn_config,'',obc_ident,'',-6,6.319074630737305,444020.0,10664.0
+gssb_get_sun,'',gssb_pwr,'-394387749 -1993175791',gssb_fss_commit_config,'',set_state,'2693613378225808278 11735399507541744863 583338703',fp_del_cmd_unix,'445239359',-6,6.455816745758057,444020.0,10748.0
+set_state,'2207621244565984438 14459762704454345861 1764776907',help,'',gssb_fss_get_sun,'',drp_set_var,'596272450 1728612864',fp_reset,'',0,7.0584800243377686,444020.0,10852.0
+com_send_data,'znd?',gssb_fss_set_config,'-940737183',obc_set_pwm_duty,'-1681319298 -197416943',rw_set_speed,'744199025 -527386677',gssb_msp_get_temp,'',0,7.175597906112671,444020.0,10664.0
+gssb_fss_commit_config,'',obc_reset_wdt,'',com_set_config,'2*1bITJ rR',com_update_status,'',eps_set_heater,'-951505391 868429675',0,6.92632794380188,444020.0,10884.0
+eps_update_status,'',obc_debug,'19076069',com_ping,'-383018667',com_send_data,'',gssb_get_temp,'',0,9.258443832397461,444020.0,10844.0
+gssb_arm_manual,'1327353963',gssb_get_temp,'',rw_get_current,'',obc_pwm_pwr,'-1236857172',fp_del_cmd,'-2032259168 -135408425 -164378106 1749420750 -1397515200 1556337499',-6,6.56222128868103,444020.0,10880.0
+gssb_select,'797934696',obc_get_mem,'',test,'2n',gssb_commit_addr,'',gssb_fss_get_temp,'',0,6.9493536949157715,444020.0,10584.0
+com_send_data,'',gssb_msp_get_temp,'',gssb_get_sun,'',fp_test_params,"'900294054 `,Z~#*$ -38425676'",obc_get_mem,'',0,6.933185338973999,444020.0,10732.0

@@ -1,0 +1,422 @@
+[
+    {
+        "cmds": [
+            {
+                "cmd_name": "fp_set_cmd",
+                "params": "-1187295301 12589355829505121152 ^\"D5X7 10544161831944075512 142136886521987640386873717133615458550 1495475872283894058 ISTn#_m' 5640423474110726764 1805579273990144851 10798129327421558857"
+            },
+            {
+                "cmd_name": "obc_get_tle",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_get_mem",
+                "params": ""
+            },
+            {
+                "cmd_name": "fp_set_cmd_unix",
+                "params": "-398532880 -335918416655307340856488838247429625399 -307517450636530074924267479361976953650 25556934518967932198408969473666029298 18329611353857941813"
+            },
+            {
+                "cmd_name": "com_get_node",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.500492572784424,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10920.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "drp_set_deployed",
+                "params": "15874160036454074907"
+            },
+            {
+                "cmd_name": "obc_get_sensors",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_update_status",
+                "params": ""
+            },
+            {
+                "cmd_name": "fp_set_cmd",
+                "params": "6878278321506618465 1937142488 9532096359366955061 107972268190486662047459983920113388924 -6510339003360181664 7967005234562148723 -1199171453 6 -6343075317664271514 'bUz=Y;-6"
+            },
+            {
+                "cmd_name": "obc_pwm_pwr",
+                "params": "KiXmaE'Z"
+            }
+        ],
+        "exit code": -11,
+        "total time (s)": 6.65424656867981,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10956.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "com_send_tc",
+                "params": "314815001330460135681005319098784532695 SN"
+            },
+            {
+                "cmd_name": "tm_send_status",
+                "params": "24264215446405902404710774674980433740"
+            },
+            {
+                "cmd_name": "gssb_get_status",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_get_time",
+                "params": "-4558915602617047319"
+            },
+            {
+                "cmd_name": "tm_parse_status",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 7.1880412101745605,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10684.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "rw_get_speed",
+                "params": ""
+            },
+            {
+                "cmd_name": "fp_set_cmd_dt",
+                "params": "-38379645118273333550390398843863929042 -187042214865738227639103300589237626575 -3725826558865024610 189582332036989697446039141636368371518 iH0?1<6X"
+            },
+            {
+                "cmd_name": "obc_set_pwm_duty",
+                "params": "-203369249566046259785279300260021029557 259071289396743983041898431682755040355"
+            },
+            {
+                "cmd_name": "obc_debug",
+                "params": "4791668749607278698"
+            },
+            {
+                "cmd_name": "gssb_get_version",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.320440292358398,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10792.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "obc_prop_tle",
+                "params": "-549049783702988297"
+            },
+            {
+                "cmd_name": "obc_get_mem",
+                "params": ""
+            },
+            {
+                "cmd_name": "gssb_msp_cal_temp",
+                "params": "Di 14814531397202362069"
+            },
+            {
+                "cmd_name": "fp_del_cmd_unix",
+                "params": "-230422842365251338437988612627480799456"
+            },
+            {
+                "cmd_name": "drp_get_vars",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.496723651885986,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10960.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "drp_set_var",
+                "params": " 6706909812574891481"
+            },
+            {
+                "cmd_name": "tm_send_all",
+                "params": "B 138952702541824418499967392523111422002"
+            },
+            {
+                "cmd_name": "gssb_msp_cal_temp",
+                "params": "-248955404486779150723487388826509721854 4551843168957229899"
+            },
+            {
+                "cmd_name": "fp_del_cmd_unix",
+                "params": "-337420039585782325783586798437336330528"
+            },
+            {
+                "cmd_name": "gssb_get_model",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.465302467346191,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10692.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "obc_get_sensors",
+                "params": ""
+            },
+            {
+                "cmd_name": "com_ping",
+                "params": "-4320099082760853375"
+            },
+            {
+                "cmd_name": "fp_del_cmd_unix",
+                "params": "3136288000381310571"
+            },
+            {
+                "cmd_name": "gssb_get_temp",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_get_tle",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 7.923218727111816,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10816.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "gssb_get_temp_int",
+                "params": ""
+            },
+            {
+                "cmd_name": "gssb_fss_get_temp",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_update_tle",
+                "params": ""
+            },
+            {
+                "cmd_name": "drp_get_vars",
+                "params": ""
+            },
+            {
+                "cmd_name": "fp_set_cmd_dt",
+                "params": "262883495351701819316366027709762477917 6441867118407780805 4310344949441330135 S,# -312937775514410148848456151762536914227"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 7.1392717361450195,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10664.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "tm_send_status",
+                "params": "-706747083400342561"
+            },
+            {
+                "cmd_name": "rw_set_speed",
+                "params": "-867216553 "
+            },
+            {
+                "cmd_name": "drp_test_system_vars",
+                "params": ""
+            },
+            {
+                "cmd_name": "gssb_scan",
+                "params": "-1290939150 10596314651266894253"
+            },
+            {
+                "cmd_name": "tm_send_last",
+                "params": "-34341437807473821672223683915589593658 1009072392"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.362463712692261,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10676.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "gssb_antenna_release",
+                "params": "3431216617733504624 15069242326100972878 13588328549156527734 _B^lcz"
+            },
+            {
+                "cmd_name": "gssb_fss_set_config",
+                "params": "3720063733264054776"
+            },
+            {
+                "cmd_name": "gssb_fss_commit_config",
+                "params": ""
+            },
+            {
+                "cmd_name": "fp_del_cmd",
+                "params": "-1679277914293534530 485250725 9027663463781634387 -103440549324585368698624168583980490673 45512661608611221641682844068555875435 16090276973023395620309257645731474832"
+            },
+            {
+                "cmd_name": "eps_get_config",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.645689487457275,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10692.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "drp_add_hrs_alive",
+                "params": "dfq]'kZ"
+            },
+            {
+                "cmd_name": "gssb_get_temp_int",
+                "params": ""
+            },
+            {
+                "cmd_name": "fp_set_cmd_unix",
+                "params": "10307454496399484227 1854510826551178092 197268139453463787598093923227457449999 sfFL' m\"v2(_eX4"
+            },
+            {
+                "cmd_name": "fp_test_params",
+                "params": "-993630538 -7670685449919738369 13446984587566743726"
+            },
+            {
+                "cmd_name": "set_state",
+                "params": "16720056272527408841 JpqqA 3534221440553800376"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.436058521270752,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10656.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "drp_ebf",
+                "params": "319644846792057344265364898598605327527"
+            },
+            {
+                "cmd_name": "obc_get_tle",
+                "params": ""
+            },
+            {
+                "cmd_name": "drp_set_var",
+                "params": "-622034691 8399575537275379818"
+            },
+            {
+                "cmd_name": "fp_set_cmd_unix",
+                "params": "566236168185131912 8387138350565771460 12213740068864035758 -271226301247234156304797596912779781764 885846871"
+            },
+            {
+                "cmd_name": "gssb_arm_auto",
+                "params": "1141649087"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.433684825897217,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10916.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "com_update_status",
+                "params": ""
+            },
+            {
+                "cmd_name": "com_debug",
+                "params": ""
+            },
+            {
+                "cmd_name": "tm_send_status",
+                "params": "15954727216133739997"
+            },
+            {
+                "cmd_name": "com_set_config",
+                "params": "-1123203840 864993581"
+            },
+            {
+                "cmd_name": "gssb_get_model",
+                "params": ""
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.69942831993103,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10932.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "gssb_set_addr",
+                "params": "-1984423956438876164"
+            },
+            {
+                "cmd_name": "obc_reset_wdt",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_debug",
+                "params": "o"
+            },
+            {
+                "cmd_name": "eps_set_heater",
+                "params": "-2047979049 -18862593502693986202141477039788663951"
+            },
+            {
+                "cmd_name": "fp_set_cmd_dt",
+                "params": "450104295 2369899751644515301 -1825745521 ?ptuH=^;h| 4552759190595867508"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.53134560585022,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10800.0
+    },
+    {
+        "cmds": [
+            {
+                "cmd_name": "obc_get_mem",
+                "params": ""
+            },
+            {
+                "cmd_name": "obc_ident",
+                "params": ""
+            },
+            {
+                "cmd_name": "fp_set_cmd_dt",
+                "params": "85818103949515872069279174567386875897 4057816596482343270 -21165212580372315725602692984481056810 8221434663372685990 I"
+            },
+            {
+                "cmd_name": "fp_del_cmd_unix",
+                "params": "-854772518"
+            },
+            {
+                "cmd_name": "tm_send_status",
+                "params": "335546416630134017388910460515209289567"
+            }
+        ],
+        "exit code": -6,
+        "total time (s)": 6.326588869094849,
+        "virtual memory (kb)": 444020.0,
+        "real memory (kb)": 10724.0
+    }
+]

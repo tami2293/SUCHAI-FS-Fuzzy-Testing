@@ -36,7 +36,7 @@ class FlightSoftwareRunner(Runner):
         time.sleep(1)
         init_time = time.time()  # Start measuring execution time of the sequence
         suchai_process = Popen([self.exec_cmd], stdin=PIPE)
-        time.sleep(3)
+        time.sleep(4)
 
         # node.wait_init_ready()
 

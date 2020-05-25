@@ -1,0 +1,3 @@
+Command,Parameters,Command.1,Parameters.1,Command.2,Parameters.2,Command.3,Parameters.3,Command.4,Parameters.4,Exit Code,Total Time
+fp_set_cmd_unix,'75689912 1784313495 -2138098190 K6x~qN QpeKN-`&&',gssb_pwr,'-201673471 1311038611',obc_get_tle,'',gssb_reset,'',com_set_config,'v:J=Q 5~8',-6,6.453343868255615
+eps_hard_reset,'',gssb_get_temp_int,'',obc_get_time,'1823782138',com_send_tc,'-1923173009 C?a!;k',tm_send_all,'16348356865764171385 16046339175247927202',-6,7.432744026184082
