@@ -3,6 +3,7 @@ from subprocess import Popen, PIPE
 from fuzzcspzmqnode import *
 from proc_info import *
 import time
+import sys
 
 SCH_TRX_PORT_TM = 9               # ///< Telemetry port
 SCH_TRX_PORT_TC = 10               # ///< Telecommands port
@@ -29,7 +30,10 @@ class FlightSoftwareRunner(Runner):
         dest = "1"
         addr = "9"
         port = str(SCH_TRX_PORT_CMD)
-        node = FuzzCspZmqNode(addr, hub_ip="/tmp/suchaifs", proto="ipc")
+        #ipc
+        #node = FuzzCspZmqNode(addr, hub_ip="/tmp/suchaifs", proto="ipc")
+        #tcp
+        node = FuzzCspZmqNode(addr)
         node.start()
 
         # Execute flight software
@@ -63,9 +67,21 @@ class FlightSoftwareRunner(Runner):
         node.send_message("obc_reset", hdr)
 
         # Get SUCHAI process return code
+        """ while True:
+            output = suchai_process.stdout.readline()
+            print("out: ", output)
+            print("rc: ", suchai_process.poll())
+            if suchai_process.poll() is not None:
+                break
+            if output:
+                print(output)
+            return_code = suchai_process.poll()
+        end_time = time.time()  # End measuring execution time of the sequence
+        print("Return code:", return_code)
+        """
         return_code = suchai_process.wait()
         end_time = time.time()  # End measuring execution time of the sequence
-        print("Return code: ", return_code)  # For debugging purposes
+        print("Return code: ", return_code)  # For debugging purposes"""
 
         # Get commands, results, execution time and memory usage
         executed_cmds = node.filter_cmds_names()

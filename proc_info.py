@@ -20,6 +20,3 @@ def get_mem_info(pid):
     rss_kb = int(rss) * page_size_kb
 
     return vsize_kb, rss_kb
-
-
-# get_mem_info(26409)

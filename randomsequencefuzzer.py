@@ -74,6 +74,22 @@ class RandomSequenceFuzzer(RandomFuzzer):
             out += chr(chr_chosen)
         return str(out)"""
 
+    def generate_seqs(self, iterations):
+        self.fuzz_funcs = [self.fuzz_int, self.fuzz_float, self.fuzz_long, self.fuzz_unsigned_int, self.fuzz_string]
+        sequences = []
+        for iter in range(iterations):
+            seq = []
+            for i in range(0, self.n_cmds):
+                cmd = random.choice(self.fs_cmds)
+                n_params = random.randint(0, 11) # 11 is the max number of params that a cmd has
+                fuzz_to_apply = [random.choice(self.fuzz_funcs) for i in range(n_params)]
+                params = [fuzz_to_apply[i]() for i in range(n_params)]
+                params = " ".join(params)
+                seq.append(cmd + " " + params)
+            sequences.append(seq)
+        return sequences
+
+
     def run(self, runner=FlightSoftwareRunner()):
         """
         Run 'runner' with fuzzed parameters and random commands chosen from a list
