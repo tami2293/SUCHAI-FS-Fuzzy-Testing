@@ -157,24 +157,29 @@ def run_experiment(iterations=10, cmds_number=10, csv_path='', json_path=''):
 
 def get_parameters():
     """
-    Parse script arguments
+    Parse script arguments.
+    Every path argument must end with a "/".
     """
     parser = argparse.ArgumentParser(prog='run_experiment.py')
 
-    #parser.add_argument('--csv_path', type=str, default='CSV-reports/After-Fix-12/Strategy1/')
-    #parser.add_argument('--json_path', type=str, default='JSON-reports/After-Fix-12/Strategy1/')
-    #parser.add_argument('--time_path', type=str, default='Execution-time/After-Fix-12/Strategy1/')
-    parser.add_argument('--csv_path', type=str, default='CSV-reports/Commit-ba186c9a994af2564c55e3aaac4cb07b3619361d-GND/Strategy1/')
-    parser.add_argument('--json_path', type=str, default='JSON-reports/Commit-ba186c9a994af2564c55e3aaac4cb07b3619361d-GND/Strategy1/')
-    parser.add_argument('--time_path', type=str, default='Execution-time/Commit-ba186c9a994af2564c55e3aaac4cb07b3619361d-GND/Strategy1/')
+    parser.add_argument('--csv_path', type=str, default='Dummy-Folder/', help="Save CSV reports in this directory")
+    parser.add_argument('--json_path', type=str, default='Dummy-Folder/', help="Save JSON reports in this directory")
+    parser.add_argument('--time_path', type=str, default='Dummy-Folder/', help="Save time reports in this directory")
+    parser.add_argument('--iterations', nargs='+', type=int, default="10 100 500 1000", help="Number of sequences")
+    parser.add_argument('--commands_number', nargs='+', type=int, default="5 10 50 100", help="Number of commands in a sequence")
 
     return parser.parse_args()
 
 
-def main(time_path, csv_path, json_path):
-    iters_list = [1000]#[10, 100, 500, 1000]
-    n_cmds_list = [5]  #[5, 10, 50, 100]
-
+def main(time_path, csv_path, json_path, iterations, commands_number):
+    """
+    :param time_path: Directory for time reports. The directory must exist. Must end with a "/" character.
+    :param csv_path: Directory for CSV reports. The directory must exist. Must end with a "/" character.
+    :param json_path: Directory for JSON reports. The directory must exist. Must end with a "/" character.
+    :param iterations: List. Each element represents a sequences' number.
+    :param commands_number: List. Each element represents a commands' number in a sequence.
+    :return:
+    """
     # Create file to write execution time for each iteration
     curr_time = time.strftime("%Y%m%d-%H%M%S")
 
@@ -185,8 +190,8 @@ def main(time_path, csv_path, json_path):
     f.close()
 
     # Run iterations and add execution time to file
-    for num_cmds in n_cmds_list:
-        for iter in iters_list:
+    for num_cmds in commands_number:
+        for iter in iterations:
             exec_start_time = time.time()
             run_experiment(iter, num_cmds, csv_path, json_path)
             with open(time_path + 'exec_time-' + curr_time + '.txt', 'a') as f:
@@ -195,7 +200,7 @@ def main(time_path, csv_path, json_path):
 
 if __name__ == "__main__":
     args = get_parameters()
-    main(args.time_path, args.csv_path, args.json_path)
+    main(args.time_path, args.csv_path, args.json_path, args.iterations, args.commands_number)
 
 
 
