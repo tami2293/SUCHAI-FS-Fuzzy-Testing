@@ -15,12 +15,21 @@ MAX_STR = 126
 
 
 class RandomSequenceFuzzer(RandomFuzzer):
-    def __init__(self, min_length=10, max_length=100,
-                 char_start=32, char_range=32, n_cmds=1, fs_cmds=["help"]):
+    def __init__(self, commands_filename, min_length=10, max_length=100,
+                 char_start=32, char_range=32, n_cmds=1):
         RandomFuzzer.__init__(self, min_length, max_length, char_start, char_range)
         self.n_cmds = n_cmds
-        self.fs_cmds = fs_cmds
+        self.commands_file = commands_filename
+        self.fs_cmds = []
+        self.get_commands_names(self.commands_file)
         self.fuzz_funcs = {}
+
+    def get_commands_names(self, commands_list):
+        commands_names = []
+        with open(commands_list) as file_list:
+            for row in file_list:
+                commands_names.append(row.split(', ')[0])
+        self.fs_cmds = commands_names
 
     def fuzz_int(self):
         """

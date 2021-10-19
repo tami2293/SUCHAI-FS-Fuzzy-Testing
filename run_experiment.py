@@ -89,7 +89,7 @@ def to_csv_file(information, iterations, t, csv_path):
     information_df.to_csv(csv_path + filename, index=False)
 
 
-def run_experiment(iterations=10, cmds_number=10, csv_path='', json_path=''):
+def run_experiment(random_fuzzer, iterations=10, cmds_number=10, csv_path='', json_path=''):
     """
     Create a random fuzzer instance to execute flight software with random input.
     :param iterations: Int.
@@ -98,18 +98,6 @@ def run_experiment(iterations=10, cmds_number=10, csv_path='', json_path=''):
     """
     print("Commands number: " + str(cmds_number) + ", iteration: " + str(iterations))
 
-    # Get lists of all the flight software commands, and number of parameters that each one receives
-    fs_cmds = []
-    #params_type = []  # Fixed number of parameters and exact types
-    #number_of_params = [] # Fixed number of parameters
-    # with open("suchai_cmd_list_excluded_bugs.csv") as f:
-    #with open("suchai_cmd_list_all.csv") as f:  # in this file 4 commands were excluded (log_set obc_reset obc_set_time obc_system)
-    with open("suchai_cmd_list_ba186c9a994af2564c55e3aaac4cb07b3619361d-GND.csv") as f: # in this file 4 commands were excluded (log_set obc_reset obc_set_time obc_system) and unnecessary commands
-        for row in f:
-            fs_cmds.append(row.split(', ')[0])
-            #params_str_without_newline = row.rstrip('\n')  # Fixed number of parameters and exact types
-            #params_type.append(params_str_without_newline.split(', ')[2:])  # Fixed number of parameters and exact types
-            #number_of_params.append(int(row.split(', ')[1]))  # Fixed number of parameters
     # print(params_type)
     # Run zmqhub.py (ipc)
     # ex_zmqhub = Popen(["python3", "zmqhub.py", "--ip", "/tmp/suchaifs", "--proto", "ipc"], stdin=PIPE)
@@ -119,22 +107,6 @@ def run_experiment(iterations=10, cmds_number=10, csv_path='', json_path=''):
     # Set variables
     exec_dir = "../../Git/suchai-flight-software4/build_groundstation/"
     exec_cmd = "./SUCHAI_Flight_Software"
-    # Fixed number of parameters (Strategy 2)
-    #random_fuzzer = RandomSequenceFuzzerWithFixedParams(number_of_params=number_of_params, min_length=0,
-    #                                     max_length=10, char_start=33, char_range=93, n_cmds=cmds_number,
-    #                                                    fs_cmds=fs_cmds)
-
-    # Fixed number of parameters and exact types (Strategy 3)
-    #random_fuzzer = RandomSequenceFuzzerWithFixedParamsAndExactTypes(params_types=params_type, min_length=0,
-    #                                                                 max_length=10, char_start=33, char_range=93,
-    #                                                                 n_cmds=cmds_number, fs_cmds=fs_cmds)
-
-    #Random number of parameters and random types (Strategy 1)
-    random_fuzzer = RandomSequenceFuzzer(min_length=0, max_length=10, char_start=33, char_range=93, n_cmds=cmds_number,
-                                         fs_cmds=fs_cmds)
-
-    # Random commands (Strategy 0)
-    #random_fuzzer = RandomCommandsSequenceFuzzer(min_length=0, max_length=10, n_cmds=cmds_number)
 
     prev_dir = os.getcwd()
 
@@ -162,22 +134,38 @@ def get_parameters():
     """
     parser = argparse.ArgumentParser(prog='run_experiment.py')
 
-    parser.add_argument('--csv_path', type=str, default='Dummy-Folder/', help="Save CSV reports in this directory")
-    parser.add_argument('--json_path', type=str, default='Dummy-Folder/', help="Save JSON reports in this directory")
-    parser.add_argument('--time_path', type=str, default='Dummy-Folder/', help="Save time reports in this directory")
+    parser.add_argument('--csv_path', type=str, default='Dummy-Folder/CSV/', help="Save CSV reports in this directory")
+    parser.add_argument('--json_path', type=str, default='Dummy-Folder/JSON/', help="Save JSON reports in this directory")
+    parser.add_argument('--time_path', type=str, default='Dummy-Folder/Time/', help="Save time reports in this directory")
     parser.add_argument('--iterations', nargs='+', type=int, default="10 100 500 1000", help="Number of sequences")
-    parser.add_argument('--commands_number', nargs='+', type=int, default="5 10 50 100", help="Number of commands in a sequence")
+    parser.add_argument('--commands_number', nargs='+', type=int, default="5 10 50 100", help="Number of commands in a "
+                                                                                              "sequence")
+    parser.add_argument('--min_length', type=int, default=0, help="Minimum length of the random command names.")
+    parser.add_argument('--max_length', type=int, default=10, help="Maximum length of the random command names.")
+    parser.add_argument('--char_start', type=int, default=33, help="Index of the range that indicates where to start "
+                                                                   "producing random command names in ASCII code.")
+    parser.add_argument('--char_range', type=int, default=93, help="Length of the characters range in ASCII code.")
+    parser.add_argument('--strategy', type=int, default=0, help="Number of the strategy to be run")
+    parser.add_argument('--commands_file', type=str, default='suchai_cmd_list_all.csv', help="Filename with the SUCHAI "
+                                                                                             "Flight Software commands "
+                                                                                             "and parameters type.")
 
     return parser.parse_args()
 
 
-def main(time_path, csv_path, json_path, iterations, commands_number):
+def main(time_path, csv_path, json_path, iterations, commands_number, min_length, max_length, char_start, char_range, fuzz_class, commands_file):
     """
     :param time_path: Directory for time reports. The directory must exist. Must end with a "/" character.
     :param csv_path: Directory for CSV reports. The directory must exist. Must end with a "/" character.
     :param json_path: Directory for JSON reports. The directory must exist. Must end with a "/" character.
     :param iterations: List. Each element represents a sequences' number.
     :param commands_number: List. Each element represents a commands' number in a sequence.
+    :param min_length: Int. Minimum length of the random command names.
+    :param max_length: Int. Maximum length of the random command names.
+    :param char_start: Int. Index of the range that indicates where to start producing random command names in ASCII code.
+    :param char_range: Int. Length of the characters range in ASCII code.
+    :param fuzz_class: Class. Fuzzer class to be used.
+    :param commands_file: String. Filename with the SUCHAI Flight Software commands and parameters type.
     :return:
     """
     # Create file to write execution time for each iteration
@@ -189,18 +177,27 @@ def main(time_path, csv_path, json_path, iterations, commands_number):
     f = open(time_path + 'exec_time-' + curr_time + '.txt', '+w')
     f.close()
 
-    # Run iterations and add execution time to file
+    # Run experiment and add execution time of each iteration to time reports
     for num_cmds in commands_number:
+
+        # Create fuzzer instance
+        fuzzer = fuzz_class(commands_file, min_length=min_length, max_length=max_length, char_start=char_start,
+                            char_range=char_range, n_cmds=num_cmds)
+
         for iter in iterations:
             exec_start_time = time.time()
-            run_experiment(iter, num_cmds, csv_path, json_path)
+            run_experiment(fuzzer, int(iter), int(num_cmds), csv_path, json_path)
             with open(time_path + 'exec_time-' + curr_time + '.txt', 'a') as f:
                 f.write("%s\n" % (time.time() - exec_start_time))
 
 
 if __name__ == "__main__":
     args = get_parameters()
-    main(args.time_path, args.csv_path, args.json_path, args.iterations, args.commands_number)
+    strategies_fuzz_classes = {0: RandomCommandsSequenceFuzzer,
+                               1: RandomSequenceFuzzer,
+                               2: RandomSequenceFuzzerWithFixedParams,
+                               3: RandomSequenceFuzzerWithFixedParamsAndExactTypes}
+    main(args.time_path, args.csv_path, args.json_path, args.iterations, args.commands_number, args.min_length, args.max_length, args.char_start, args.char_range, strategies_fuzz_classes[args.strategy], args.commands_file)
 
 
 

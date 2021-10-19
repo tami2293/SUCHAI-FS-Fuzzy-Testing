@@ -3,9 +3,10 @@ from flightsoftwarerunner import *
 
 
 class RandomCommandsSequenceFuzzer(RandomFuzzer):
-    def __init__(self, min_length=10, max_length=100, n_cmds=1):
-        RandomFuzzer.__init__(self, min_length, max_length, 0, 127)
+    def __init__(self, commands_filename, min_length=10, max_length=100, char_start=0, char_range=127, n_cmds=1):
+        RandomFuzzer.__init__(self, min_length, max_length, char_start, char_range)
         self.n_cmds = n_cmds
+        self.commands_file = commands_filename
 
     def run(self, runner=FlightSoftwareRunner()):
         """

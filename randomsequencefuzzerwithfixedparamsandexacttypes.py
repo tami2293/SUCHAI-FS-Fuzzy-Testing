@@ -2,10 +2,19 @@ from randomsequencefuzzer import *
 
 
 class RandomSequenceFuzzerWithFixedParamsAndExactTypes(RandomSequenceFuzzer):
-    def __init__(self, params_types, min_length=10, max_length=100,
-                 char_start=32, char_range=32, n_cmds=1, fs_cmds=["help"]):
-        RandomSequenceFuzzer.__init__(self, min_length, max_length, char_start, char_range, n_cmds, fs_cmds)
-        self.params_types = params_types
+    def __init__(self, commands_filename, min_length=10, max_length=100,
+                 char_start=32, char_range=32, n_cmds=1):
+        RandomSequenceFuzzer.__init__(self, commands_filename, min_length, max_length, char_start, char_range, n_cmds)
+        self.params_types = []
+        self.get_parameters_types(self.commands_file)
+
+    def get_parameters_types(self, commands_list):
+        parameters_types = []
+        with open(commands_list) as file_list:
+            for row in file_list:
+                params_str_without_newline = row.rstrip('\n')
+                parameters_types.append(params_str_without_newline.split(', ')[2:])
+        self.params_types = parameters_types
 
     def run(self, runner=FlightSoftwareRunner()):
         """
