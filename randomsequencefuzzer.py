@@ -24,7 +24,7 @@ class RandomSequenceFuzzer(RandomFuzzer):
     def get_commands_names(self, commands_list):
         """
         Get command names list and set into the fs_cmds variable.
-        :param commands_list:
+        :param commands_list: String. File name of the SUCHAI flight software commands.
         :return:
         """
         commands_names = []

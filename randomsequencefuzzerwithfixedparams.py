@@ -12,7 +12,7 @@ class RandomSequenceFuzzerWithFixedParams(RandomSequenceFuzzer):
         """
         Get list of the number of parameters each command of the SUCHAI flight software receives and set into the
         variable "number_of_params"
-        :param commands_list: List.
+        :param commands_list: String. File name of the SUCHAI flight software commands.
         :return:
         """
         parameters_numbers = []

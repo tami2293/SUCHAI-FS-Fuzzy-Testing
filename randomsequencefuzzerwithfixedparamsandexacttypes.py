@@ -9,6 +9,12 @@ class RandomSequenceFuzzerWithFixedParamsAndExactTypes(RandomSequenceFuzzer):
         self.get_parameters_types(self.commands_file)
 
     def get_parameters_types(self, commands_list):
+        """
+        Get list of the types of parameters each command of the SUCHAI flight software receives and set into the
+        variable "params_types"
+        :param commands_list: String. File name of the SUCHAI flight software commands.
+        :return:
+        """
         parameters_types = []
         with open(commands_list) as file_list:
             for row in file_list:
@@ -19,7 +25,7 @@ class RandomSequenceFuzzerWithFixedParamsAndExactTypes(RandomSequenceFuzzer):
     def run(self, runner=FlightSoftwareRunner()):
         """
         Run 'runner' with fuzzed parameters and random commands chosen from a list
-        :param runner:
+        :param runner: Class. Runner.
         :return: Results obtained from running the program with fuzzed input
         """
         self.types_dic = {"% d": self.fuzz_int, "% i": self.fuzz_int, "% f": self.fuzz_float, "% ld": self.fuzz_long,
