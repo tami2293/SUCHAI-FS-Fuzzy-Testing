@@ -9,14 +9,11 @@ MAX_LONG = 9223372036854775807
 MAX_U_INT = 18446744073709551615
 MIN_FLOAT = -3.402823e+38
 MAX_FLOAT = 3.402823e+38
-MAX_CHR = 127
-MIN_STR = 33  # 32 as ' ' is not considered
-MAX_STR = 126
 
 
 class RandomSequenceFuzzer(RandomFuzzer):
     def __init__(self, commands_filename, min_length=10, max_length=100,
-                 char_start=32, char_range=32, n_cmds=1):
+                 char_start=33, char_range=93, n_cmds=1):
         RandomFuzzer.__init__(self, min_length, max_length, char_start, char_range)
         self.n_cmds = n_cmds
         self.commands_file = commands_filename
@@ -25,6 +22,11 @@ class RandomSequenceFuzzer(RandomFuzzer):
         self.fuzz_funcs = {}
 
     def get_commands_names(self, commands_list):
+        """
+        Get command names list and set into the fs_cmds variable.
+        :param commands_list:
+        :return:
+        """
         commands_names = []
         with open(commands_list) as file_list:
             for row in file_list:
@@ -61,7 +63,7 @@ class RandomSequenceFuzzer(RandomFuzzer):
         :return: String. Random float converted to string.
         """
         # Min. length and max. length are not considered
-        return str(random.randint(MIN_FLOAT, MAX_FLOAT))
+        return str(random.uniform(MIN_FLOAT, MAX_FLOAT))
 
     def fuzz_string(self):
         """
@@ -71,19 +73,15 @@ class RandomSequenceFuzzer(RandomFuzzer):
         string_length = random.randrange(self.min_length, self.max_length + 1)
         out = ""
         for i in range(0, string_length):
-            out += chr(random.randrange(MIN_STR, MAX_STR + 1))
+            out += chr(random.randrange(self.char_start, self.char_start + self.char_range))
         return out
 
-    """def fuzz_pointer(self):
-        buff_length = random.randrange(self.min_length, self.max_length + 1)
-        out = ""
-        for i in range(0, buff_length):
-            ind = random.randint(0, 1)  # Choose range
-            chr_chosen = (random.randrange(0, 32), random.randrange(33, MAX_CHR + 1))[ind]  # chr(32) is not considered
-            out += chr(chr_chosen)
-        return str(out)"""
-
     def generate_seqs(self, iterations):
+        """
+        Generate random sequences.
+        :param iterations:
+        :return: List. List of sequences created (commands and parameters).
+        """
         self.fuzz_funcs = [self.fuzz_int, self.fuzz_float, self.fuzz_long, self.fuzz_unsigned_int, self.fuzz_string]
         sequences = []
         for iter in range(iterations):
@@ -98,12 +96,11 @@ class RandomSequenceFuzzer(RandomFuzzer):
             sequences.append(seq)
         return sequences
 
-
     def run(self, runner=FlightSoftwareRunner()):
         """
-        Run 'runner' with fuzzed parameters and random commands chosen from a list
-        :param runner:
-        :return: Results obtained from running the program with fuzzed input
+        Run 'runner' with fuzzed parameters and random commands chosen from a list.
+        :param runner: Class. Runner.
+        :return: Results obtained from running the program with fuzzed input.
         """
         self.fuzz_funcs = [self.fuzz_int, self.fuzz_float, self.fuzz_long, self.fuzz_unsigned_int, self.fuzz_string]
         cmds_to_send = []
