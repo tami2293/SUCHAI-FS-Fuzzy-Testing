@@ -13,7 +13,7 @@ SCH_TRX_PORT_DBG = 13               # ///< Debug port, logs output
 
 
 class FlightSoftwareRunner(Runner):
-    def __init__(self, path="../../Git/SUCHAI-Memoria/build_x86/", exec_cmd="./SUCHAI_Flight_Software"):
+    def __init__(self, exec_cmd="./SUCHAI_Flight_Software"):
         self.exec_cmd = exec_cmd
 
     def run_process(self, cmds_list=[], params_list=[]):

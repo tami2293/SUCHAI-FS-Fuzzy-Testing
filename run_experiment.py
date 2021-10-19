@@ -101,8 +101,11 @@ def to_csv_file(information, iterations, t, csv_path):
 def run_experiment(random_fuzzer, iterations=10, cmds_number=10, csv_path='', json_path=''):
     """
     Create a random fuzzer instance to execute flight software with random input.
+    :param random_fuzzer: Class. Fuzzer.
     :param iterations: Int.
     :param cmds_number: Int. Number of commands to execute each iteration.
+    :param csv_path: String. Directory for CSV reports. The directory must exist. Must end with a "/" character.
+    :param json_path: String. Directory for JSON reports. The directory must exist. Must end with a "/" character.
     :return:
     """
     print("Commands number: " + str(cmds_number) + ", iteration: " + str(iterations))
@@ -117,13 +120,11 @@ def run_experiment(random_fuzzer, iterations=10, cmds_number=10, csv_path='', js
     exec_dir = "../../Git/suchai-flight-software4/build_groundstation/"
     exec_cmd = "./SUCHAI_Flight_Software"
 
-    prev_dir = os.getcwd()
-
     # Run flight software sending n_cmds random commands with 1 random parameter
+    prev_dir = os.getcwd()
     os.chdir(exec_dir)
     start_time = time.strftime("%Y%m%d-%H%M%S")  # Measure start time to include it in the report name
     outcomes = random_fuzzer.runs(FlightSoftwareRunner(exec_cmd=exec_cmd), iterations)
-
     os.chdir(prev_dir)
 
     # Kill zmqhub.py
