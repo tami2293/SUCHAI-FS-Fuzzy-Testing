@@ -14,24 +14,25 @@ import argparse
 def to_json(information, iterations, t, json_path):
     """
     Write information to JSON file.
-    :param information: Tuple with list of commands, list of parameters, executed commands, command results,
+    :param information: Tuple with: list of commands, list of parameters, executed commands, command results,
             commands execution time, exit code of the process, total execution time, real memory used and
-            virtual memory used
+            virtual memory used of each iteration.
     :param iterations: Int.
     :param t: String. Start date and time of the execution.
+    :param json_path: String. Directory where to write the JSON file.
     :return:
     """
     json_lst = []
-    for i in range(iterations):
+    for iteration in range(iterations):
         iter_dic = dict()
 
         # Add information of each command sent
         cmds_lst = []
-        results = information[i]
+        results = information[iteration]
         cmds_sent = results[0]
         params_sent = results[1]
-        for j in range(len(cmds_sent)):
-            cmds_lst.append({"cmd_name": cmds_sent[j], "params": params_sent[j]})
+        for cmd_idx in range(len(cmds_sent)):
+            cmds_lst.append({"cmd_name": cmds_sent[cmd_idx], "params": params_sent[cmd_idx]})
         iter_dic['cmds'] = cmds_lst
 
         # Add general information of the sequence
@@ -52,29 +53,36 @@ def to_json(information, iterations, t, json_path):
 def to_csv_file(information, iterations, t, csv_path):
     """
     Write information to CSV file.
-    :param information: Tuple with list of commands, list of parameters, executed commands, command results,
+    :param information: Tuple with: list of commands, list of parameters, executed commands, command results,
             commands execution time, exit code of the process, total execution time, real memory used and
-            virtual memory used
+            virtual memory used of each iteration.
     :param iterations: Int.
     :param t: String. Start date and time of the execution.
+    :param csv_path: String. Directory where to write the CSV file.
     :return:
     """
-    information_list = []
-    for i in range(iterations):
-        information_list.append([])
-        results = information[i]
+    csv_lst = []
+    for iteration in range(iterations):
+        # Add information of each command sent
+        csv_lst.append([])
+        results = information[iteration]
         cmds_sent = results[0]
         params_sent = results[1]
         for j in range(len(cmds_sent)):
-            information_list[i].append(cmds_sent[j])
-            information_list[i].append("'" + params_sent[j] + "'")
-        information_list[i].append(results[5])
-        information_list[i].append(results[6])
-        information_list[i].append(results[8])
-        information_list[i].append(results[7])
+            csv_lst[iteration].append(cmds_sent[j])
+            csv_lst[iteration].append("'" + params_sent[j] + "'")
+
+        # Add general information of the sequence
+        csv_lst[iteration].append(results[5])
+        csv_lst[iteration].append(results[6])
+        csv_lst[iteration].append(results[8])
+        csv_lst[iteration].append(results[7])
 
     cols = []
-    for k in range(len(information[0][0])):
+    number_of_commands = len(information[0][0])
+
+    # Add columns
+    for cmd_idx in range(number_of_commands):
         cols.append("Command")
         cols.append("Parameters")
     cols.append("Exit Code")
@@ -82,7 +90,8 @@ def to_csv_file(information, iterations, t, csv_path):
     cols.append("Virtual Memory (kB)")
     cols.append("Real Memory (kB)")
 
-    information_df = pd.DataFrame(information_list, columns=cols)
+    # Create dataframe and write to CSV file
+    information_df = pd.DataFrame(csv_lst, columns=cols)
     filename = 'data-' + t + '.csv'
     if not os.path.exists(csv_path):
         os.mkdir(csv_path)
