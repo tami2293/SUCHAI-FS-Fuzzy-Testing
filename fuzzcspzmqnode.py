@@ -19,14 +19,10 @@ class FuzzCspZmqNode(CspZmqNode):
     def read_message(self, message, header=None):
         """
         Put all received messages on a queue. This method is called from the _reader thread.
-        :param message:
-        :param header:
+        :param message: Str. Message received.
+        :param header: CspHeader. CSP header.
         :return:
         """
-        """ This method is called from the _reader thread"""
-        """print(message, header)
-        if header.dst_port == 14:  
-            self.init_ready_queue.put([message.decode('ASCII', 'ignore')])"""
         self.all_messages_queue.put([message.decode('ASCII', 'ignore')])
 
     def messages_queue_to_list(self):
@@ -86,7 +82,3 @@ class FuzzCspZmqNode(CspZmqNode):
         print(cmds_time)  # For debugging purposes
 
         return cmds_time
-
-    """def wait_init_ready(self):
-        msg = self.init_ready_queue.get()
-        print("WAIT INIT:", msg)"""
