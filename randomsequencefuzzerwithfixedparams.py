@@ -9,6 +9,12 @@ class RandomSequenceFuzzerWithFixedParams(RandomSequenceFuzzer):
         self.get_parameters_numbers(self.commands_file)
 
     def get_parameters_numbers(self, commands_list):
+        """
+        Get list of the number of parameters each command of the SUCHAI flight software receives and set into the
+        variable "number_of_params"
+        :param commands_list: List.
+        :return:
+        """
         parameters_numbers = []
         with open(commands_list) as file_list:
             for row in file_list:
@@ -18,7 +24,7 @@ class RandomSequenceFuzzerWithFixedParams(RandomSequenceFuzzer):
     def run(self, runner=FlightSoftwareRunner()):
         """
         Run 'runner' with fuzzed parameters and random commands chosen from a list
-        :param runner:
+        :param runner: Class. Runner.
         :return: Results obtained from running the program with fuzzed input
         """
         self.fuzz_funcs = [self.fuzz_int, self.fuzz_float, self.fuzz_long, self.fuzz_unsigned_int, self.fuzz_string]
