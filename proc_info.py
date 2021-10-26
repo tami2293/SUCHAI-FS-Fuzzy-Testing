@@ -9,7 +9,6 @@ def get_mem_info(pid):
     :return: Int pair. Virtual memory and real memory used in kb size.
     """
     proc_res = subprocess.run(["cat", "/proc/" + str(pid) + "/stat"], stdout=subprocess.PIPE)
-    print(proc_res)
     values = proc_res.stdout.decode('utf-8').split()
     print(values)
     vsize = values[22]
