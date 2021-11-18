@@ -114,27 +114,29 @@ def run_experiment(random_fuzzer, iterations=10, cmds_number=10, csv_path='', js
     # Run zmqhub.py (ipc)
     # ex_zmqhub = Popen(["python3", "zmqhub.py", "--ip", "/tmp/suchaifs", "--proto", "ipc"], stdin=PIPE)
     # Run zmqhub.py (tcp)
-    ex_zmqhub = Popen(["python3", "zmqhub.py", "--mon"], stdin=PIPE)
-
-    # Set variables
-    exec_dir = "../../Git/suchai-flight-software4/build_groundstation/"
-    exec_cmd = "./SUCHAI_Flight_Software"
-
+    
+    ex_zmqhub = Popen(["python3", "zmqhub.py", "--mon", "-i", "80000", "-o", "80001","-m", "80002"], stdin=PIPE)
+    print(os.path)
+    exec_dir = "../SUCHAI-Flight-Software/build/apps/simple/"
+    exec_cmd = "./suchai-app"  #aca le doy el nombre del ejecutable
     # Run flight software sending n_cmds random commands with 1 random parameter
     prev_dir = os.getcwd()
     os.chdir(exec_dir)
     start_time = time.strftime("%Y%m%d-%H%M%S")  # Measure start time to include it in the report name
     outcomes = random_fuzzer.runs(FlightSoftwareRunner(exec_cmd=exec_cmd), iterations)
     os.chdir(prev_dir)
-
-    # Kill zmqhub.py
     ex_zmqhub.kill()
-
     # Write outcome information report
     to_json(outcomes, iterations, start_time, json_path)
 
     # Write report to csv file
     to_csv_file(outcomes, iterations, start_time, csv_path)
+    # Set variables
+        
+
+     
+
+    
 
 
 def get_parameters():
